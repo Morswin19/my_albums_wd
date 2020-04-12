@@ -6,21 +6,30 @@ import { faDice } from '@fortawesome/free-solid-svg-icons'
 
 class AlbumList extends Component {
     state = {
-        albums: []
+        albums: [],
+        amount: 0
     }
 
-    // getAlbumsList = () => {
+    handleRandomButtonClick = () => {
+        let albums = [...this.props.albums];
+        let index = Math.floor(Math.random() * albums.length);
+        let todaysAlbum = albums[index];
+        const today = <Album key={1} artist={todaysAlbum.artist} title={todaysAlbum.title} year={todaysAlbum.year} cover={todaysAlbum.cover} />;
 
+        this.setState({
+            albums: today,
+            amount: 1
+        })
+    }
+
+    // albumSelector = (time) => {
+    //     let album = albums.filter(album => album.year >= '1970' && album.year < '1980').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
     // }
 
-    render() {
+    componentDidMount = () => {
         const { albums, time } = this.props
-
-        let album = 'Hellog Guinea Pig';
-        let amount = ''
-
-        // const albumMap = <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} />
-
+        let album = [];
+        let amount = album.length
         if (time === 'all') {
             album = albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
             amount = album.length
@@ -44,18 +53,35 @@ class AlbumList extends Component {
             amount = album.length
         }
 
+        amount = album.length
+
+        this.setState({
+            albums: [...album],
+            amount
+        })
+    }
+
+    render() {
+        const { albums } = this.props
+
+        let album = 'Hellog Guinea Pig';
+        let amount = ''
+
+        album = this.props.albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+        amount = album.length
+
         return (
             <div>
                 <div className='randomAmount'>
-                    <div className='amount'>
-                        Number: {amount}
+                    <div className='amount info'>
+                        Number: {this.state.amount !== 0 ? this.state.amount : amount}
                     </div>
-                    <div className='random'>
-                        Today You will listen: <button><FontAwesomeIcon icon={faDice} /></button>
+                    <div className='random info' onClick={this.handleRandomButtonClick}>
+                        Today You will listen: <span><FontAwesomeIcon icon={faDice} /></span>
                     </div>
                 </div>
                 <div className='albumList'>
-                    {album}
+                    {this.state.albums.length !== 0 ? this.state.albums : album}
                 </div>
             </div>
         );

@@ -90,7 +90,7 @@
         "tags": "20  "
     },
     {
-        "artist": "Ritchie Blackmo…ow",
+        "artist": "Ritchie Blackmore's Rainbow",
         "title": "Ritchie Blackmore's Rainbow",
         "year": "1975",
         "coverAlt": "Ritchie Blackmore's Rainbow ",
@@ -343,10 +343,10 @@
     },
     {
         "artist": "Dead Can Dance ",
-        "title": "ealm of a Dying Sun",
+        "title": "Within the Realm of a Dying Sun",
         "year": "1987",
         "coverAlt": "Within the Realm of a Dying Sun ",
-        "cover": "e.snmc.io/i/75/w/d4079af0e203f3aba52999fbe7095ce2/2369620",
+        "cover": "e.snmc.io/i/fullres/w/a7415fee9ccbce914dfde29fc9dea766/2369620",
         "type": "\tCD\t",
         "tags": "0  25  cassette  "
     },
@@ -355,7 +355,7 @@
         "title": "Toward the Within",
         "year": "1994",
         "coverAlt": "Toward the Within ",
-        "cover": "e.snmc.io/i/75/w/09944bde4786da7c6e8e7cf8a5cc6aea/2276834",
+        "cover": "e.snmc.io/i/fullres/w/132b8962df4483675be72f48e1cfcd62/2276834",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -476,11 +476,11 @@
         "tags": "25  "
     },
     {
-        "artist": "Dream Theater -",
-        "title": "olis Pt. 2: Scenes From a Memory",
+        "artist": "Dream Theater",
+        "title": "Metropolis Pt. 2: Scenes From a Memory",
         "year": "1999",
         "coverAlt": "Metropolis Pt. 2: Scenes From a Memory ",
-        "cover": "e.s…o/i/75/w/05c38c0edca1602f30e171a8b5b3a7d6/1215276",
+        "cover": "e.snmc.io/i/fullres/w/e97d4dad25e6d7169039b9931ea8fef3/1215276",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -835,8 +835,8 @@
         "tags": "25  "
     },
     {
-        "artist": "Manic Street Pr",
-        "title": "- This Is My Truth Tell Me Yours",
+        "artist": "Manic Street Preachers",
+        "title": "This Is My Truth Tell Me Yours",
         "year": "1998",
         "coverAlt": "This Is My Truth Tell Me Yours ",
         "cover": "e.snmc.io/i/75/w/e902b5b54a2b782ecf4a6a07ccc3c1c0/2341864",
@@ -887,15 +887,6 @@
         "cover": "e.snmc.io/i/75/w/bed4393844a5553be03851f6cc103a98/6626831",
         "type": "\tCD\t",
         "tags": "25  "
-    },
-    {
-        "artist": "Marillion",
-        "title": "Made Again",
-        "year": "1996",
-        "coverAlt": "Made Again ",
-        "cover": "e.snmc.io/i/75/w/577bf39c40f42d1a6094d763445204ab/1749558",
-        "type": "\tCD\t",
-        "tags": "20  "
     },
     {
         "artist": "Marillion",
@@ -1302,7 +1293,7 @@
         "tags": "14  "
     },
     {
-        "artist": "Rage Against th…chine",
+        "artist": "Rage Against the Machine",
         "title": "Rage Against the Machine",
         "year": "1992",
         "coverAlt": "Rage Against the Machine ",
@@ -1320,7 +1311,7 @@
         "tags": "20  "
     },
     {
-        "artist": "Rage Against th…hine",
+        "artist": "Rage Against the Machine",
         "title": "The Battle of Los Angeles",
         "year": "1999",
         "coverAlt": "The Battle of Los Angeles ",
@@ -1354,15 +1345,6 @@
         "cover": "e.snmc.io/i/75/w/562f8a0c410c56ccbfc1ad94702651b7/6610101",
         "type": "\tCD\t",
         "tags": "15  "
-    },
-    {
-        "artist": "Red Hot Chili Peppers",
-        "title": "Greatest Hits",
-        "year": "2003",
-        "coverAlt": "Greatest Hits ",
-        "cover": "e.snmc.io/i/75/w/02a89d5772694bed6aba5628cbadbfc4/1234070",
-        "type": "\tCD\t",
-        "tags": "5  "
     },
     {
         "artist": "R.E.M.",
@@ -1567,7 +1549,7 @@
         "title": "A Street Between Sunrise and Sunset",
         "year": "2003",
         "coverAlt": "A Street Between Sunrise and Sunset ",
-        "cover": "e.snmc…o/i/75/w/4c43c3c3d372e1398d4908e692cb0d4e/1706945",
+        "cover": "e.snmc.io/i/fullres/w/338994a2d9e0b1a69e89767857e9cafa/1706945",
         "type": "\tCD\t",
         "tags": "20  "
     },
@@ -1986,8 +1968,9 @@
         "artist": "Hans Zimmer /",
         "title": "re Music From the Motion Picture",
         "year": "2001",
-        "coverAlt": "Gladiator: More Music From the Motion Picture http…o/i/75/w/87b6834ce667e77dd829727895200321/2291114",
-        "cover": "\tCD\t",
-        "type": "20  "
+        "coverAlt": "Gladiator: More Music From the Motion Picture",
+        "cover": "e.snmc.io/i/fullres/w/0c9f6216421666c29cfbdde2feb55bfb/2291110",
+        "type": "\tCD\t",
+        "tags": "20  "
     }
 ]
