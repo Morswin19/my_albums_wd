@@ -1,5 +1,5 @@
 import React from 'react';
-import './Album.sass'
+import '../styles/Album.sass'
 
 const Album = props => (
     <div className='album'>
@@ -8,7 +8,9 @@ const Album = props => (
             <li><h5>title: </h5> <h4> {props.title}</h4></li>
             <li><h5>year: </h5> <h4> {props.year}</h4></li>
         </ul>
-        <div className='img'></div>
+        <div className='img'>
+            <img src={'https:' + props.cover} alt="" />
+        </div>
     </div>
 )
 
