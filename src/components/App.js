@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Navigation from './Navigation'
 import AlbumList from './AlbumList'
 import Footer from './Footer'
@@ -30,6 +30,10 @@ class App extends Component {
             <h1>My Albums</h1>
             <Navigation />
           </header>
+          {/* <div className='random info'><Link to='/today'>
+            Today You will listen: <span><FontAwesomeIcon icon={faDice} /></span>
+          </Link>
+          </div> */}
           <section>
             <Route
               path='/' exact

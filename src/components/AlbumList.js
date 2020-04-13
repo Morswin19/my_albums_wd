@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Album from './Album';
 import '../styles/AlbumList.sass';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -22,35 +23,27 @@ class AlbumList extends Component {
         })
     }
 
-    // albumSelector = (time) => {
-    //     let album = albums.filter(album => album.year >= '1970' && album.year < '1980').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
-    // }
-
     componentDidMount = () => {
         const { albums, time } = this.props
         let album = [];
         let amount = album.length
         if (time === 'all') {
             album = albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
         } else if (time === '60') {
             album = albums.filter(album => album.year < '1970').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
         } else if (time === '70') {
             album = albums.filter(album => album.year >= '1970' && album.year < '1980').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
         } else if (time === '80') {
             album = albums.filter(album => album.year >= '1980' && album.year < '1990').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
         } else if (time === '90') {
             album = albums.filter(album => album.year >= '1990' && album.year < '2000').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
         } else if (time === '00') {
             album = albums.filter(album => album.year >= '2000' && album.year < '2010').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
         } else if (time === '10') {
             album = albums.filter(album => album.year >= '2010').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
-            amount = album.length
+        } else if (time === 'today') {
+            let index = Math.floor(Math.random() * albums.length);
+            album = albums.filter(album => albums.indexOf(album) === index).map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
         }
 
         amount = album.length
@@ -75,8 +68,9 @@ class AlbumList extends Component {
                     <div className='amount info'>
                         Number: {this.state.amount !== 0 ? this.state.amount : amount}
                     </div>
-                    <div className='random info' onClick={this.handleRandomButtonClick}>
+                    <div className='random info' onClick={this.state.amount === 1 ? this.handleRandomButtonClick : null}><Link to='/today'>
                         Today You will listen: <span><FontAwesomeIcon icon={faDice} /></span>
+                    </Link>
                     </div>
                 </div>
                 <div className='albumList'>
