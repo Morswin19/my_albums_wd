@@ -14,7 +14,7 @@ class AlbumList extends Component {
         let albums = [...this.props.albums];
         let index = Math.floor(Math.random() * albums.length);
         let todaysAlbum = albums[index];
-        const today = <Album key={1} artist={todaysAlbum.artist} title={todaysAlbum.title} year={todaysAlbum.year} cover={todaysAlbum.cover} />;
+        const today = <Album key={1} artist={todaysAlbum.artist} title={todaysAlbum.title} year={todaysAlbum.year} cover={todaysAlbum.cover} cover={todaysAlbum.cover} rymLink={todaysAlbum.rymLink} />;
 
         this.setState({
             albums: today,
@@ -31,25 +31,25 @@ class AlbumList extends Component {
         let album = [];
         let amount = album.length
         if (time === 'all') {
-            album = albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         } else if (time === '60') {
-            album = albums.filter(album => album.year < '1970').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.filter(album => album.year < '1970').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         } else if (time === '70') {
-            album = albums.filter(album => album.year >= '1970' && album.year < '1980').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.filter(album => album.year >= '1970' && album.year < '1980').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         } else if (time === '80') {
-            album = albums.filter(album => album.year >= '1980' && album.year < '1990').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.filter(album => album.year >= '1980' && album.year < '1990').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         } else if (time === '90') {
-            album = albums.filter(album => album.year >= '1990' && album.year < '2000').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.filter(album => album.year >= '1990' && album.year < '2000').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         } else if (time === '00') {
-            album = albums.filter(album => album.year >= '2000' && album.year < '2010').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.filter(album => album.year >= '2000' && album.year < '2010').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         } else if (time === '10') {
-            album = albums.filter(album => album.year >= '2010').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+            album = albums.filter(album => album.year >= '2010').map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
             amount = album.length
         }
 
@@ -69,7 +69,6 @@ class AlbumList extends Component {
 
         album = this.props.albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
         amount = album.length
-
         return (
             <div>
                 <div className='randomAmount'>
