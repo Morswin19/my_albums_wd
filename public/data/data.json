@@ -13,7 +13,7 @@
         "title": "Lifeline",
         "year": "2019",
         "coverAlt": "Lifeline ",
-        "cover": "https://e.snmc.io/i/75/w/53dcd1bf7329f9d8989d2e7279a872ce/7375752",
+        "cover": "https://e.snmc.io/i/fullres/w/ce51a7435dd24837e6573375ff1e9aa7/7375752",
         "type": "\tCD\t",
         "tags": "0  "
     },
@@ -22,16 +22,7 @@
         "title": "Facelift",
         "year": "1990",
         "coverAlt": "Facelift ",
-        "cover": "//e.snmc.io/i/75/w/d0796e78726bb2947466bfff63c6963f/1891941",
-        "type": "\tCD\t",
-        "tags": "25  "
-    },
-    {
-        "artist": "Tori Amos",
-        "title": "From the Choirgirl Hotel",
-        "year": "1998",
-        "coverAlt": "From the Choirgirl Hotel ",
-        "cover": "//e.snmc.io/i/75/w/cd681e6336e9dc495f289e725998ccb5/7768056",
+        "cover": "https://e.snmc.io/i/fullres/w/0490b655dece0eec093e3d09cdd84c2c/1891941",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -45,11 +36,20 @@
         "tags": "20  "
     },
     {
+        "artist": "Tori Amos",
+        "title": "From the Choirgirl Hotel",
+        "year": "1998",
+        "coverAlt": "From the Choirgirl Hotel ",
+        "cover": "https://e.snmc.io/i/fullres/w/7e41d6bfe11b3952c2a8bb86d44ca2f6/7768056",
+        "type": "\tCD\t",
+        "tags": "25  "
+    },
+    {
         "artist": "Anathema",
         "title": "Judgement",
         "year": "1999",
         "coverAlt": "Judgement ",
-        "cover": "//e.snmc.io/i/75/w/b6faf79d3761e72a0ce106d363367073/2494906",
+        "cover": "https://e.snmc.io/i/fullres/w/413ad3208983b2e4d4f7ce3de5ec439f/2494906",
         "type": "\tCD\t",
         "tags": "0  25  cassette  "
     },
@@ -58,7 +58,7 @@
         "title": "A Natural Disaster",
         "year": "2003",
         "coverAlt": "A Natural Disaster ",
-        "cover": "//e.snmc.io/i/75/w/3fb6be244c81cc3a4b2ae36c265b0ef8/4873477",
+        "cover": "https://e.snmc.io/i/fullres/w/5f3df370ddd633e9875a8f1f29e7f794/4873477",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -67,7 +67,7 @@
         "title": "Persistence of Time",
         "year": "1990",
         "coverAlt": "Persistence of Time ",
-        "cover": "https://e.snmc.io/i/75/w/5cd632a47645fd522ac912023f397d99/4959696",
+        "cover": "https://e.snmc.io/i/fullres/w/18934b1ec49b71a43b791503abb142d7/4959696",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -76,7 +76,7 @@
         "title": "Silent Nation",
         "year": "2004",
         "coverAlt": "Silent Nation ",
-        "cover": "https://e.snmc.io/i/75/w/c892003323110bdc11390b5bef9ea6ef/1285239",
+        "cover": "https://e.snmc.io/i/fullres/w/cf0e6cf4f88e321f7830aa1c42912158/1285239",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -85,7 +85,7 @@
         "title": "Audioslave",
         "year": "2002",
         "coverAlt": "Audioslave ",
-        "cover": "https://e.snmc.io/i/75/w/c666dd977ecdcdc9bf331221faa6d865/1324011",
+        "cover": "https://e.snmc.io/i/fullres/w/cf7c3718725380033ab9a9c7b418ac4a/1324011",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -94,7 +94,7 @@
         "title": "Debut",
         "year": "1993",
         "coverAlt": "Debut ",
-        "cover": "https://e.snmc.io/i/75/w/a242f639c43ce3c5888af0c59b02e0a4/3163896",
+        "cover": "https://e.snmc.io/i/fullres/w/d869fe6eaceb4f32b06a93ea7dcef014/3163896",
         "type": "\tCD\t",
         "tags": "14  "
     },
@@ -103,7 +103,7 @@
         "title": "Holy Rain",
         "year": "2011",
         "coverAlt": "Holy Rain ",
-        "cover": "//e.snmc.io/i/75/w/57df7b87be79274e3ebf77ebff705007/3895490",
+        "cover": "https://e.snmc.io/i/fullres/w/f1d9f0e83aa19abcc648d180b0ee864b/3895490",
         "type": "\tCD\t",
         "tags": "20  "
     },
@@ -112,7 +112,7 @@
         "title": "Ritchie Blackmore's Rainbow",
         "year": "1975",
         "coverAlt": "Ritchie Blackmore's Rainbow ",
-        "cover": "//e.snmc.io/i/75/w/c432a1892be1c72d8a70214df2bc456b/1867499",
+        "cover": "https://e.snmc.io/i/fullres/w/12bdeb76d19aef80891901e46ead325c/1867499",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -121,7 +121,7 @@
         "title": "The Next Day",
         "year": "2013",
         "coverAlt": "The Next Day ",
-        "cover": "//e.snmc.io/i/75/w/eebc2f20d6914369404a6dd073c85ce4/5110597",
+        "cover": "https://e.snmc.io/i/fullres/w/7631ebf0a91da9ef9d40c33444be78e8/5110597",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -130,7 +130,7 @@
         "title": "Za ostatni grosz",
         "year": "1982",
         "coverAlt": "Za ostatni grosz ",
-        "cover": "//e.snmc.io/i/75/w/b32630b55ead4c65edf3a3100cf6a09c/1985938",
+        "cover": "https://e.snmc.io/i/fullres/w/bee92c8b70127ff0472275d2831e4a08/1985938",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -139,7 +139,7 @@
         "title": "The Kick Inside",
         "year": "1978",
         "coverAlt": "The Kick Inside ",
-        "cover": "//e.snmc.io/i/75/w/f0439dcefe2e6a417cea6082f895ae36/8014001",
+        "cover": "https://e.snmc.io/i/fullres/w/e29d932e4488992bb72721e06dffddd3/8014001",
         "type": "\tCD\t",
         "tags": "20  "
     },
@@ -148,7 +148,7 @@
         "title": "Lionheart",
         "year": "1978",
         "coverAlt": "Lionheart ",
-        "cover": "//e.snmc.io/i/75/w/e9a5c6ff7b93965445b207157171625a/1281950",
+        "cover": "https://e.snmc.io/i/fullres/w/e14eafd9ca45e4ab9a8c18a694e75100/1281950",
         "type": "\tCD\t",
         "tags": "20  "
     },
@@ -157,7 +157,7 @@
         "title": "Never for Ever",
         "year": "1980",
         "coverAlt": "Never for Ever ",
-        "cover": "//e.snmc.io/i/75/w/82cf5932bede611ac27a2e69906f653e/1329380",
+        "cover": "https://e.snmc.io/i/fullres/w/b67a5c9afc44ba2cb16177d2907ab853/1329380",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -166,7 +166,7 @@
         "title": "The Dreaming",
         "year": "1982",
         "coverAlt": "The Dreaming ",
-        "cover": "//e.snmc.io/i/75/w/2d050515c9502b8f610f9a96b36f6600/2340663",
+        "cover": "https://e.snmc.io/i/fullres/w/3dc51cb6c56da7b8caa7660d97fb846e/2340663",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -175,7 +175,7 @@
         "title": "The Sensual World",
         "year": "1989",
         "coverAlt": "The Sensual World ",
-        "cover": "//e.snmc.io/i/75/w/2ac0d6991d649dc3e8c26164b4c41645/1329859",
+        "cover": "https://e.snmc.io/i/fullres/w/4ee5697d3631b757e2a0f95c62ab7543/1329859",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -184,7 +184,7 @@
         "title": "Camel",
         "year": "1973",
         "coverAlt": "Camel ",
-        "cover": "//e.snmc.io/i/75/w/6dfc811aed8e7254202edac8a3419128/1632704",
+        "cover": "https://e.snmc.io/i/fullres/w/30d751198705380649a0ad854b331d6f/1632704",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -193,7 +193,7 @@
         "title": "Mirage",
         "year": "1974",
         "coverAlt": "Mirage ",
-        "cover": "//e.snmc.io/i/75/w/734712ad037b87a2b650a9293d7a8773/4160723",
+        "cover": "https://e.snmc.io/i/fullres/w/f74e1713c30beecc7ea4d892faf2264f/4160723",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -202,7 +202,7 @@
         "title": "The Snow Goose",
         "year": "1975",
         "coverAlt": "The Snow Goose ",
-        "cover": "//e.snmc.io/i/75/w/144e143ed6fedaedf9e60b8be48eeaac/6235559",
+        "cover": "https://e.snmc.io/i/fullres/w/950401c4326708a06bd1617883c7e961/6235559",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -211,7 +211,7 @@
         "title": "Moonmadness",
         "year": "1976",
         "coverAlt": "Moonmadness ",
-        "cover": "//e.snmc.io/i/75/w/b69891c22269541241c4826da66ea6fd/1352884",
+        "cover": "https://e.snmc.io/i/fullres/w/5e5dec1c9a86b78cf82fe20dc25443ff/1352884",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -220,7 +220,7 @@
         "title": "Rain Dances",
         "year": "1977",
         "coverAlt": "Rain Dances ",
-        "cover": "//e.snmc.io/i/75/w/30320b0615d440be0a14b5f36d731af8/1958472",
+        "cover": "https://e.snmc.io/i/fullres/w/dd417a3ead6df543e0be836abe9a753b/1958472",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -229,7 +229,7 @@
         "title": "Breathless",
         "year": "1978",
         "coverAlt": "Breathless ",
-        "cover": "//e.snmc.io/i/75/w/f578cea95a3c1be118a70e7287586324/2119974",
+        "cover": "https://www.progarchives.com/progressive_rock_discography_covers/50/cover_03162542016_r.jpg",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -238,7 +238,7 @@
         "title": "I Can See Your House From Here",
         "year": "1979",
         "coverAlt": "I Can See Your House From Here ",
-        "cover": "//e.snmc.io/i/75/w/97e6fc288945b1fb2e043e231da0b7eb/2103158",
+        "cover": "https://e.snmc.io/i/fullres/w/37bf430e991902c4a1987e121a8444b3/2103158",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -247,7 +247,7 @@
         "title": "Nude",
         "year": "1981",
         "coverAlt": "Nude ",
-        "cover": "//e.snmc.io/i/75/w/b4cb21e29505ffd24634683ef375d5a4/5712565",
+        "cover": "https://e.snmc.io/i/fullres/w/f486d79b8cd78663ddcb0a19e8347777/5712565",
         "type": "\tCD\t",
         "tags": "0  "
     },
@@ -256,7 +256,7 @@
         "title": "Stationary Traveller",
         "year": "1984",
         "coverAlt": "Stationary Traveller ",
-        "cover": "//e.snmc.io/i/75/w/9d01e4a5bc95a1414ebf3da2459aa714/1474362",
+        "cover": "https://e.snmc.io/i/fullres/w/8c3e0d3b28ebf44e273fbed056ef8c3f/1474362",
         "type": "\tCD\t",
         "tags": "25  "
     },
