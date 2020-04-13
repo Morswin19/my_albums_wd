@@ -1,5 +1,14 @@
 [
     {
+        "artist": "Aerosmith",
+        "title": "Rocks",
+        "year": "1976",
+        "coverAlt": "Rocks ",
+        "cover": "https://e.snmc.io/i/fullres/w/47fb95ec796eba0e435feb55918133b3/1597908",
+        "type": "\tCD\t",
+        "tags": "0  "
+    },
+    {
         "artist": "Afterload",
         "title": "Lifeline",
         "year": "2019",
@@ -25,6 +34,15 @@
         "cover": "//e.snmc.io/i/75/w/cd681e6336e9dc495f289e725998ccb5/7768056",
         "type": "\tCD\t",
         "tags": "25  "
+    },
+    {
+        "artist": "Tori Amos",
+        "title": "Little Earthquakes",
+        "year": "1992",
+        "coverAlt": "Little Earthquakes",
+        "cover": "//e.snmc.io/i/fullres/w/662ca08b34c5e05b8b051d4d38c72d0d/3136916",
+        "type": "\tCD\t",
+        "tags": "20  "
     },
     {
         "artist": "Anathema",
@@ -331,6 +349,15 @@
         "cover": "//e.snmc.io/i/75/w/72fbfa5b9bfaed09ccbaf74f15bc3e48/2479394",
         "type": "\tCD\t",
         "tags": "25  "
+    },
+    {
+        "artist": "The Cure",
+        "title": "Desintegration",
+        "year": "1989",
+        "coverAlt": "Desintegration",
+        "cover": "//e.snmc.io/i/fullres/w/96bbb7286bd889cac96512b9048ba733/7272164",
+        "type": "\tCD\t",
+        "tags": "20  "
     },
     {
         "artist": "The Cure",
@@ -752,6 +779,15 @@
         "cover": "//e.snmc.io/i/75/w/eea990247e1fe6416d9306ac4131673a/7373648",
         "type": "\tCD\t",
         "tags": "25  "
+    },
+    {
+        "artist": "Judas Priest",
+        "title": "Stained Class",
+        "year": "1978",
+        "coverAlt": "Stained Class",
+        "cover": "//e.snmc.io/i/fullres/w/874b5f05bc9f38d87d2358b256ea94b6/2898552",
+        "type": "\tCD\t",
+        "tags": "20  "
     },
     {
         "artist": "Grace Jones",
@@ -1257,11 +1293,20 @@
         "tags": "25  "
     },
     {
-        "artist": "Porcupine Tree ",
-        "title": "ma Divine: Recorded Live in Rome",
+        "artist": "Porcupine Tree",
+        "title": "Coma Divine: Recorded Live in Rome",
         "year": "1997",
         "coverAlt": "Coma Divine: Recorded Live in Rome ",
         "cover": "//e.snmc.io/i/75/w/bb4882bd6703c11591c19964e20b8198/3190664",
+        "type": "\tCD\t",
+        "tags": "25  "
+    },
+    {
+        "artist": "Porcupine Tree",
+        "title": "In Absentia",
+        "year": "2002",
+        "coverAlt": "In Absentia",
+        "cover": "//e.snmc.io/i/fullres/w/e54030b727ca8d064c1ea705035c634c/3494945",
         "type": "\tCD\t",
         "tags": "25  "
     },
@@ -1363,6 +1408,15 @@
         "cover": "//e.snmc.io/i/75/w/d46bfef3ee9c5d827da2c216a7726f19/6798773",
         "type": "\tCD\t",
         "tags": "25  "
+    },
+    {
+        "artist": "R.E.M.",
+        "title": "Out Of Time",
+        "year": "1991",
+        "coverAlt": "Out Of Time",
+        "cover": "//e.snmc.io/i/fullres/w/4ae302f686a73b80961b3b54cc5ec126/6816900",
+        "type": "\tCD\t",
+        "tags": "25"
     },
     {
         "artist": "R.E.M.",
@@ -1966,7 +2020,7 @@
     },
     {
         "artist": "Hans Zimmer /",
-        "title": "re Music From the Motion Picture",
+        "title": "Gladiator: More Music From the Motion Picture",
         "year": "2001",
         "coverAlt": "Gladiator: More Music From the Motion Picture",
         "cover": "//e.snmc.io/i/fullres/w/0c9f6216421666c29cfbdde2feb55bfb/2291110",
