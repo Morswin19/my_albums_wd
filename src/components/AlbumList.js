@@ -67,7 +67,7 @@ class AlbumList extends Component {
         let album = 'Hellog Guinea Pig';
         let amount = ''
 
-        album = this.props.albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} />)
+        album = this.props.albums.map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.cover} rymLink={album.rymLink} />)
         amount = album.length
 
         return (
