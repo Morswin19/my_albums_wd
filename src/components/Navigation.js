@@ -1,18 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => (
-
     <>
         <nav>
             <ul className='naviList'>
-                <li><Link to='/'>all albums</Link></li>
-                <li><Link to='/60s'>60s</Link></li>
-                <li><Link to='/70s'>70s</Link></li>
-                <li><Link to='/80s'>80s</Link></li>
-                <li><Link to='/90s'>90s</Link></li>
-                <li><Link to='/00s'>00s</Link></li>
-                <li><Link to='/10s'>10s</Link></li>
+                <li><NavLink to='/' exact>all albums</NavLink></li>
+                <li><NavLink to='/60s'>60s</NavLink></li>
+                <li><NavLink to='/70s'>70s</NavLink></li>
+                <li><NavLink to='/80s'>80s</NavLink></li>
+                <li><NavLink to='/90s'>90s</NavLink></li>
+                <li><NavLink to='/00s'>00s</NavLink></li>
+                <li><NavLink to='/10s'>10s</NavLink></li>
             </ul>
         </nav>
     </>
