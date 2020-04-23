@@ -469,6 +469,16 @@
         "rymLink": "https://rateyourmusic.com/release/album/deep-purple/infinite/"
     },
     {
+        "artist": "Def Leppard",
+        "title": "Hysteria",
+        "year": "1987",
+        "coverAlt": "Hysteria",
+        "cover": "https://e.snmc.io/i/fullres/w/8e41beb74a67b49d80172223475cd001/1537955",
+        "type": "\tCD\t",
+        "tags": "20  ",
+        "rymLink": "https://rateyourmusic.com/release/album/def-leppard/hysteria/"
+    },
+    {
         "artist": "Lana Del Rey",
         "title": "Lust for Life",
         "year": "2017",
@@ -1765,6 +1775,16 @@
         "type": "\tCD\t",
         "tags": "25  ",
         "rymLink": "https://rateyourmusic.com/release/album/rush/counterparts/"
+    },
+    {
+        "artist": "Samaya",
+        "title": "Samaya",
+        "year": "2017",
+        "coverAlt": "Samaya ",
+        "cover": "https://e.snmc.io/i/fullres/w/23614853398060e2be00dbc6c0ae7eeb/8131670",
+        "type": "\tCD\t",
+        "tags": "0",
+        "rymLink": "https://rateyourmusic.com/release/ep/samaya/samaya/"
     },
     {
         "artist": "Santana",
