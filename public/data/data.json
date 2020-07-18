@@ -120,6 +120,26 @@
         "rymLink": "https://rateyourmusic.com/release/album/black_glass/holy_rain/"
     },
     {
+        "artist": "Black Sabbath",
+        "title": "Heaven & Hell",
+        "year": "1980",
+        "coverAlt": "Heaven & Hell",
+        "cover": "//e.snmc.io/i/fullres/w/5a94d542e08dbf91eeac9b7268446cd8/3655494",
+        "type": "\tCD\t",
+        "tags": "25",
+        "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/heaven-and-hell/"
+    },
+    {
+        "artist": "Black Sabbath",
+        "title": "Dehumanizer",
+        "year": "1992",
+        "coverAlt": "Dehumanizer",
+        "cover": "//e.snmc.io/i/fullres/w/979a942ac84fc35a4a21a97d07cbcc6f/2919080",
+        "type": "\tCD\t",
+        "tags": "20",
+        "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/dehumanizer-2/"
+    },
+    {
         "artist": "Ritchie Blackmore's Rainbow",
         "title": "Ritchie Blackmore's Rainbow",
         "year": "1975",
@@ -1277,6 +1297,16 @@
         "rymLink": "https://rateyourmusic.com/release/album/o_n_a/mrok-1/"
     },
     {
+        "artist": "Obywatel G.C.",
+        "title": "Obywatel G.C.",
+        "year": "1986",
+        "coverAlt": "Obywatel G.C.",
+        "cover": "//e.snmc.io/i/fullres/w/7aa23880eedc1815929a6eecd565ecb0/1605567",
+        "type": "\tCD\t",
+        "tags": "20  ",
+        "rymLink": "https://rateyourmusic.com/release/album/obywatel-g_c/obywatel-g_c/"
+    },
+    {
         "artist": "Opeth",
         "title": "Blackwater Park",
         "year": "2001",
@@ -1335,6 +1365,16 @@
         "type": "\tCD\t",
         "tags": "25  ",
         "rymLink": "https://rateyourmusic.com/release/album/paradise-lost/shades-of-god/"
+    },
+    {
+        "artist": "Paradise Lost",
+        "title": "Icon",
+        "year": "1993",
+        "coverAlt": "Icon",
+        "cover": "//e.snmc.io/i/fullres/w/891e9f370ca3b09690e8d5fed0baa14b/1350305",
+        "type": "\tCD\t",
+        "tags": "20 ",
+        "rymLink": "https://rateyourmusic.com/release/album/paradise-lost/icon/"
     },
     {
         "artist": "Paradise Lost",
@@ -2137,6 +2177,16 @@
     },
     {
         "artist": "Uriah Heep",
+        "title": "...Very 'eavy...Very 'umble",
+        "year": "1970",
+        "coverAlt": "...Very 'eavy...Very 'umble",
+        "cover": "//e.snmc.io/i/fullres/w/1776cc28ce9da7add4ac1c8ebcabd30e/1768941",
+        "type": "\tCD\t",
+        "tags": "25",
+        "rymLink": "https://rateyourmusic.com/release/album/uriah-heep/_very-eavy_very-umble-1/"
+    },
+    {
+        "artist": "Uriah Heep",
         "title": "Look at Yourself",
         "year": "1971",
         "coverAlt": "Look at Yourself ",
@@ -2272,55 +2322,5 @@
         "type": "\tCD\t",
         "tags": "20  ",
         "rymLink": "https://rateyourmusic.com/release/album/hans-zimme…d/gladiator-more-music-from-the-motion-picture-1/"
-    },
-    {
-        "artist": "Black Sabbath",
-        "title": "Heaven & Hell",
-        "year": "1980",
-        "coverAlt": "Heaven & Hell",
-        "cover": "//e.snmc.io/i/fullres/w/5a94d542e08dbf91eeac9b7268446cd8/3655494",
-        "type": "\tCD\t",
-        "tags": "25",
-        "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/heaven-and-hell/"
-    },
-    {
-        "artist": "Black Sabbath",
-        "title": "Dehumanizer",
-        "year": "1992",
-        "coverAlt": "Dehumanizer",
-        "cover": "//e.snmc.io/i/fullres/w/979a942ac84fc35a4a21a97d07cbcc6f/2919080",
-        "type": "\tCD\t",
-        "tags": "20",
-        "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/dehumanizer-2/"
-    },
-    {
-        "artist": "Uriah Heep",
-        "title": "...Very 'eavy...Very 'umble",
-        "year": "1970",
-        "coverAlt": "...Very 'eavy...Very 'umble",
-        "cover": "//e.snmc.io/i/fullres/w/1776cc28ce9da7add4ac1c8ebcabd30e/1768941",
-        "type": "\tCD\t",
-        "tags": "25",
-        "rymLink": "https://rateyourmusic.com/release/album/uriah-heep/_very-eavy_very-umble-1/"
-    },
-    {
-        "artist": "Paradise Lost",
-        "title": "Icon",
-        "year": "1993",
-        "coverAlt": "Icon",
-        "cover": "//e.snmc.io/i/fullres/w/891e9f370ca3b09690e8d5fed0baa14b/1350305",
-        "type": "\tCD\t",
-        "tags": "20 ",
-        "rymLink": "https://rateyourmusic.com/release/album/paradise-lost/icon/"
-    },
-    {
-        "artist": "Obywatel G.C.",
-        "title": "Obywatel G.C.",
-        "year": "1986",
-        "coverAlt": "Obywatel G.C.",
-        "cover": "//e.snmc.io/i/fullres/w/7aa23880eedc1815929a6eecd565ecb0/1605567",
-        "type": "\tCD\t",
-        "tags": "20  ",
-        "rymLink": "https://rateyourmusic.com/release/album/obywatel-g_c/obywatel-g_c/"
     }
 ]
