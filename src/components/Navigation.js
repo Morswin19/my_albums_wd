@@ -5,7 +5,7 @@ const Navigation = () => (
     <>
         <nav>
             <ul className='naviList'>
-                <li><NavLink to='/' exact>all albums</NavLink></li>
+                <li><NavLink to='/' exact>show all</NavLink></li>
                 <li><NavLink to='/60s'>60s</NavLink></li>
                 <li><NavLink to='/70s'>70s</NavLink></li>
                 <li><NavLink to='/80s'>80s</NavLink></li>

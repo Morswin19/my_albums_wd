@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom'
-import Navigation from './Navigation'
+import Header from './Header'
 import AlbumList from './AlbumList'
 import Footer from './Footer'
 import '../styles/App.sass'
@@ -25,10 +25,7 @@ class App extends Component {
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <header>
-            <h1>My Albums</h1>
-            <Navigation />
-          </header>
+          <Header />
           <section>
             <Switch>
               <Route path="/60s">
