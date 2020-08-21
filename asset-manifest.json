@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my_albums_wd/static/css/main.d12e9b5e.chunk.css",
+    "main.js": "/my_albums_wd/static/js/main.43ff3e49.chunk.js",
+    "main.js.map": "/my_albums_wd/static/js/main.43ff3e49.chunk.js.map",
+    "runtime-main.js": "/my_albums_wd/static/js/runtime-main.05e1dec4.js",
+    "runtime-main.js.map": "/my_albums_wd/static/js/runtime-main.05e1dec4.js.map",
+    "static/js/2.090d4d50.chunk.js": "/my_albums_wd/static/js/2.090d4d50.chunk.js",
+    "static/js/2.090d4d50.chunk.js.map": "/my_albums_wd/static/js/2.090d4d50.chunk.js.map",
+    "index.html": "/my_albums_wd/index.html",
+    "precache-manifest.122ba582a1741cb268ff2ec79de75a23.js": "/my_albums_wd/precache-manifest.122ba582a1741cb268ff2ec79de75a23.js",
+    "service-worker.js": "/my_albums_wd/service-worker.js",
+    "static/css/main.d12e9b5e.chunk.css.map": "/my_albums_wd/static/css/main.d12e9b5e.chunk.css.map",
+    "static/js/2.090d4d50.chunk.js.LICENSE.txt": "/my_albums_wd/static/js/2.090d4d50.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e1dec4.js",
+    "static/js/2.090d4d50.chunk.js",
+    "static/css/main.d12e9b5e.chunk.css",
+    "static/js/main.43ff3e49.chunk.js"
+  ]
+}
