@@ -1,5 +1,8 @@
 import React from 'react';
+
 import Navigation from './Navigation';
+import AlbumSliderItem from './AlbumSliderItem';
+
 import '../styles/header.sass'
 
 const Header = (props) => {
@@ -11,8 +14,15 @@ const Header = (props) => {
             <div id="headerTextContainer">
                 <Navigation />
                 <h1>My<br />music</h1>
-                <p>albums from my jukebox</p>
+                <h3>albums from my jukebox</h3>
+                <div id="albumSlider">
+                    <span className='sliderArrow'>v</span>
+                    <AlbumSliderItem />
+                    <AlbumSliderItem />
+                    <span className='sliderArrow'>v</span>
+                </div>
             </div>
+
         </div>
     );
 }

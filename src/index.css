@@ -4,9 +4,15 @@ html {
   /* background-color: yellow */
 }
 
+* {
+  box-sizing: border-box
+}
+
 body {
   margin: 0;
   font-family: 'Manrope', sans-serif;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     background-size: 100%;
