@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/my_albums_wd/static/css/main.085a1cc1.chunk.css",
-    "main.js": "/my_albums_wd/static/js/main.cf5723d8.chunk.js",
-    "main.js.map": "/my_albums_wd/static/js/main.cf5723d8.chunk.js.map",
+    "main.css": "/my_albums_wd/static/css/main.760eab3b.chunk.css",
+    "main.js": "/my_albums_wd/static/js/main.1fdd266a.chunk.js",
+    "main.js.map": "/my_albums_wd/static/js/main.1fdd266a.chunk.js.map",
     "runtime-main.js": "/my_albums_wd/static/js/runtime-main.05e1dec4.js",
     "runtime-main.js.map": "/my_albums_wd/static/js/runtime-main.05e1dec4.js.map",
-    "static/js/2.c6016067.chunk.js": "/my_albums_wd/static/js/2.c6016067.chunk.js",
-    "static/js/2.c6016067.chunk.js.map": "/my_albums_wd/static/js/2.c6016067.chunk.js.map",
+    "static/js/2.40fcaa4b.chunk.js": "/my_albums_wd/static/js/2.40fcaa4b.chunk.js",
+    "static/js/2.40fcaa4b.chunk.js.map": "/my_albums_wd/static/js/2.40fcaa4b.chunk.js.map",
     "index.html": "/my_albums_wd/index.html",
-    "precache-manifest.3adad389ee8b4e0f70ea4243da05d62e.js": "/my_albums_wd/precache-manifest.3adad389ee8b4e0f70ea4243da05d62e.js",
+    "precache-manifest.3815bbcb7554ae80ccde17514a176643.js": "/my_albums_wd/precache-manifest.3815bbcb7554ae80ccde17514a176643.js",
     "service-worker.js": "/my_albums_wd/service-worker.js",
-    "static/css/main.085a1cc1.chunk.css.map": "/my_albums_wd/static/css/main.085a1cc1.chunk.css.map",
-    "static/js/2.c6016067.chunk.js.LICENSE.txt": "/my_albums_wd/static/js/2.c6016067.chunk.js.LICENSE.txt",
+    "static/css/main.760eab3b.chunk.css.map": "/my_albums_wd/static/css/main.760eab3b.chunk.css.map",
+    "static/js/2.40fcaa4b.chunk.js.LICENSE.txt": "/my_albums_wd/static/js/2.40fcaa4b.chunk.js.LICENSE.txt",
     "static/media/Group 20.svg": "/my_albums_wd/static/media/Group 20.b59ac174.svg",
+    "static/media/Group 30.svg": "/my_albums_wd/static/media/Group 30.92e3302d.svg",
     "static/media/Path 2.svg": "/my_albums_wd/static/media/Path 2.d93632bc.svg",
+    "static/media/kostkiniebieskie.svg": "/my_albums_wd/static/media/kostkiniebieskie.0e6df351.svg",
     "static/media/play.png": "/my_albums_wd/static/media/play.060efb9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.05e1dec4.js",
-    "static/js/2.c6016067.chunk.js",
-    "static/css/main.085a1cc1.chunk.css",
-    "static/js/main.cf5723d8.chunk.js"
+    "static/js/2.40fcaa4b.chunk.js",
+    "static/css/main.760eab3b.chunk.css",
+    "static/js/main.1fdd266a.chunk.js"
   ]
 }
