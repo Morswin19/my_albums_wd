@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+
 import Album from './Album';
+import DecadeSlider from './DecadeSlider.js';
+
 import '../styles/AlbumList.sass';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDice } from '@fortawesome/free-solid-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+
+const timeLine = ['90s', '00s', '10s', 'show all', '60s', '70s', '80s', '90s', '00s', '10s', 'show all']
 
 class AlbumList extends Component {
     state = {
@@ -48,7 +54,7 @@ class AlbumList extends Component {
                 album = albums.filter(album => album.year >= time && album.year < parseInt(time) + 10).map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.photoLink} rymLink={album.rymLink} />)
             }
         } else {
-            const reg = new RegExp(this.state.search, "gim")
+            // const reg = new RegExp(this.state.search, "gim")
             album = albums.filter(album => album.artist.toLowerCase().includes(this.state.search.toLowerCase()) || album.title.toLowerCase().includes(this.state.search.toLowerCase()) || album.year.toLowerCase().includes(this.state.search.toLowerCase())).map(album => <Album key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.photoLink} rymLink={album.rymLink} />)
         }
         amount = album.length
@@ -67,6 +73,7 @@ class AlbumList extends Component {
                     </NavLink>
                     </div>
                 </div>
+                <DecadeSlider timeArray={timeLine} />
                 <div className='albumList'>
                     {album}
                 </div>
