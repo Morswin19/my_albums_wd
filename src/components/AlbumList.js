@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Album from './Album';
-import DecadeSlider from './DecadeSlider.js';
+import DecadeSlider from './DecadeSlider';
+import RandomSection from './RandomSection';
 
 import '../styles/AlbumList.sass';
 
@@ -60,7 +61,7 @@ class AlbumList extends Component {
         amount = album.length
         return (
             <div>
-                <div className='randomAmount'>
+                {/* <div className='randomAmount'>
                     <div className='amount info'>
                         Number: {amount}
                     </div>
@@ -72,11 +73,20 @@ class AlbumList extends Component {
                         Today You will listen: <span><FontAwesomeIcon icon={faDice} /></span>
                     </NavLink>
                     </div>
-                </div>
+                </div> */}
                 <DecadeSlider timeArray={timeLine} />
                 <div className='albumList'>
                     {album}
                 </div>
+                <div id="albumSites">
+                    <span>{'<'}</span>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                    <span>{'>'}</span>
+                </div>
+                <RandomSection />
             </div >
         );
     }

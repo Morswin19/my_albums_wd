@@ -57,9 +57,9 @@ class App extends Component {
               </Route>
             </Switch>
           </section>
-          <footer>
+          {/* <footer>
             <Footer />
-          </footer>
+          </footer> */}
         </div >
       </HashRouter >
     )

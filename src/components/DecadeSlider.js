@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styles/DecadeSlider.sass'
+
 class DecadeSlider extends React.Component {
     state = {}
     render() {

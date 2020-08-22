@@ -12,6 +12,7 @@
         color: #003399
 
 .albumList
+    position: relative
     display: flex
     flex-direction: column
     flex-wrap: wrap
@@ -19,6 +20,7 @@
     width: 80%
     margin: auto
     margin-top: 45px
+    z-index: 2
 
 .info
     color: #003399
@@ -64,3 +66,28 @@
             background-color: white
             font-size: 30px
             outline: none
+
+#albumSites
+    display: flex
+    place-items: center
+    justify-content: center
+    width: 100%
+    margin-top: 45px
+    span
+        margin: 0 25px
+        color: $clight
+        font-size: 60px
+        font-weight: 800
+        -webkit-text-stroke-width: 1px
+        -webkit-text-stroke-color: $cfourth
+        cursor: pointer
+    ul
+        display: flex
+        margin: 0px
+        padding: 0px
+        list-style: none
+        li
+            margin: 0 25px
+            color: $csix
+            font-size: 24px
+            cursor: pointer
