@@ -2,13 +2,18 @@ import React, { Component } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import Header from './Header'
 import AlbumList from './AlbumList'
-import Footer from './Footer'
+// import Footer from './Footer'
 import '../styles/App.sass'
 
 class App extends Component {
 
   state = {
-    albums: []
+    albums: [],
+  }
+
+  handleDecadeClick = () => {
+    this.setState({
+    })
   }
 
   componentDidMount() {

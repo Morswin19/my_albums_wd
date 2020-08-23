@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import kostkiNiebieskie from '../img/kostkiniebieskie.svg'
 import blob from '../img/Path 2.svg';
@@ -7,12 +8,14 @@ import wave2 from '../img/Group 30.svg';
 
 import "../styles/RandomSection.sass"
 
-const RandomSection = () => {
+const RandomSection = (props) => {
     return (
         <div id="randomSection">
             <div id='randomSectionText'>
                 <h2>Random pick?</h2>
-                <button>click to choose</button>
+                <NavLink to='/today'>
+                    <button onClick={props.btnClickFunc}>click to choose</button>
+                </NavLink>
                 <img src={kostkiNiebieskie} alt="" id="kostkiNiebieskie" />
                 <img src={blob} alt="" id="blob1" className="blob" />
                 <img src={blob} alt="" id="blob2" className="blob" />
@@ -23,7 +26,9 @@ const RandomSection = () => {
                 <img src={wave} alt="" id="randomWave5" className="wave" />
                 <img src={wave} alt="" id="randomWave6" className="wave" />
             </div>
-        </div>
+            {/* <div className='random info' onClick={amount === 1 ? this.handleRandomButtonClick : null}>
+            </NavLink></div> */}
+        </div >
     );
 }
 

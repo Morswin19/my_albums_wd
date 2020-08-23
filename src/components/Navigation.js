@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navigation = () => (
+const Navigation = (props) => (
     <>
         <nav>
             <ul className='naviList'>

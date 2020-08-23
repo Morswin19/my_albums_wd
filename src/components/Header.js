@@ -21,7 +21,7 @@ const Header = (props) => {
                 <img className="wave" id="wave4" src={wave} alt="" />
             </div>
             <div id="headerTextContainer">
-                <Navigation />
+                <Navigation props={props} />
                 <h1>My<br />music</h1>
                 <h3>albums from my jukebox</h3>
                 <div id="albumSlider">

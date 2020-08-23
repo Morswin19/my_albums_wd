@@ -9,7 +9,7 @@ const AlbumSliderItem = () => {
                 <img src='https://e.snmc.io/i/fullres/w/4a3362886ae63678bc15d93b029db149/1553033' alt="" />
             </div>
             <span className="sliderYear">1986</span>
-            <p><span>The Colour Of Spring</span><span> // Talk Talk</span></p>
+            <p><span>The Colour Of Spring</span><span> {'//'} Talk Talk</span></p>
         </div>
     );
 }

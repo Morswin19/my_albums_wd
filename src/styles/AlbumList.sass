@@ -68,11 +68,13 @@
             outline: none
 
 #albumSites
+    position: relative
     display: flex
     place-items: center
     justify-content: center
     width: 100%
     margin-top: 45px
+    z-index: 5
     span
         margin: 0 25px
         color: $clight
@@ -88,6 +90,8 @@
         list-style: none
         li
             margin: 0 25px
-            color: $csix
+            color: rgba($csix, 0.5)
             font-size: 24px
             cursor: pointer
+            &:hover
+                color: rgba($csix, 1)
