@@ -17,7 +17,7 @@
         margin: 0
         padding: 0
         list-style: none
-        
+        z-index: 2
         li
             min-width: 250px
             height: 87px
@@ -30,7 +30,35 @@
             line-height: 87px
 
         .active
-            background-color: $clight
+            // background-color: $clight
             color: $csecond
-            
+    #activeContainer
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        display: flex
+        align-items: center
+        z-index: 1
+        div
+            height: 87px
+            width: 200px
+            background-color: $clight
+    #decadeArrows
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        display: flex
+        align-items: center
+        z-index: 3
+        span
+            margin: 0 120px
+            color: rgba($cfifth, 0.48)
+            font-size: 60px
+            font-weight: 800
+            -webkit-text-stroke-width: 1px
+            -webkit-text-stroke-color: $cfourth
+            line-height: 87px
+            cursor: pointer
+            &:hover
+                color: $clight
 

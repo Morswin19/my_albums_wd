@@ -25,10 +25,13 @@ const Header = (props) => {
                 <h1>My<br />music</h1>
                 <h3>albums from my jukebox</h3>
                 <div id="albumSlider">
-                    <span className='sliderArrow'>{'<'}</span>
                     <AlbumSliderItem />
                     <AlbumSliderItem />
-                    <span className='sliderArrow'>{'>'}</span>
+                    <div id="sliderArrows">
+                        <span className='sliderArrow'>{'<'}</span>
+                        <span className='sliderArrow'>{'>'}</span>
+                    </div>
+
                 </div>
             </div>
 

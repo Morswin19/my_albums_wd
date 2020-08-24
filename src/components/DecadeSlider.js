@@ -15,6 +15,13 @@ class DecadeSlider extends React.Component {
                 <ul>
                     {decadeList}
                 </ul>
+                <div id="activeContainer">
+                    <div></div>
+                </div>
+                <div id="decadeArrows">
+                    <span>{'<'}</span>
+                    <span>{'>'}</span>
+                </div>
             </div >
         );
     }
