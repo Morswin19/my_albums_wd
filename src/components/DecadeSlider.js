@@ -4,23 +4,33 @@ import '../styles/DecadeSlider.sass'
 
 class DecadeSlider extends React.Component {
     state = {
-        active: 'show all'
+        activeNumber: 3
+    }
+    handleDecadeClick = (a) => {
+        if ((a === -1 && this.state.activeNumber > 0) || (a === 1 && this.state.activeNumber < 6)) {
+            this.setState({
+                activeNumber: this.state.activeNumber + a
+            })
+        }
+        console.log(this.state.activeNumber)
     }
     render() {
-        const { active } = this.state
+        const { activeNumber } = this.state
         const { timeArray } = this.props
-        let decadeList = timeArray.map((item, index) => <li className={item === active ? 'decade active' : 'decade'} key={index} > {item}</li>)
+        let decadeList = timeArray.map((item, index) => <li className={index === activeNumber ? 'decade active' : 'decade'} key={index} > {item}</li>)
         return (
             < div id="decadeSlider" >
-                <ul>
-                    {decadeList}
-                </ul>
+                <div id="decadeListContainer">
+                    <ul style={{ transform: `translateX(${-1225 - (activeNumber - 3) * 350}px)` }}>
+                        {decadeList}
+                    </ul>
+                </div>
                 <div id="activeContainer">
                     <div></div>
                 </div>
                 <div id="decadeArrows">
-                    <span>{'<'}</span>
-                    <span>{'>'}</span>
+                    <span onClick={() => this.handleDecadeClick(-1)}>{'<'}</span>
+                    <span onClick={() => this.handleDecadeClick(1)}>{'>'}</span>
                 </div>
             </div >
         );
