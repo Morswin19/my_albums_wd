@@ -1,17 +1,18 @@
 import React from 'react';
 
 import '../styles/AlbumSliderItem.sass'
+import Album from './Album';
 
-const AlbumSliderItem = () => {
+const AlbumsSliderItem = (props) => {
     return (
         <div className="albumSliderItem">
             <div className='img'>
-                <img src='https://e.snmc.io/i/fullres/w/4a3362886ae63678bc15d93b029db149/1553033' alt="" />
+                <img src={props.cover} alt="" />
             </div>
-            <span className="sliderYear">1986</span>
-            <p><span>The Colour Of Spring</span><span> {'//'} Talk Talk</span></p>
+            <span className="sliderYear">{props.year}</span>
+            <p><span>{props.title}</span><span> {'//'} {props.artist}</span></p>
         </div>
     );
 }
 
-export default AlbumSliderItem;
+export default AlbumsSliderItem;

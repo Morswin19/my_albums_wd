@@ -30,7 +30,7 @@ class App extends Component {
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <Header />
+          <Header albums={this.state.albums} />
           <section>
             <Switch>
               <Route path="/60s">

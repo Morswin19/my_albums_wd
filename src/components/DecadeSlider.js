@@ -1,21 +1,40 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import '../styles/DecadeSlider.sass'
 
 class DecadeSlider extends React.Component {
     state = {
-        activeNumber: 3
+        activeNumber: 3,
+        decadeLeftLink: '80s',
+        decadeRightLink: '90s',
+        lexact: false,
+        rexact: false
     }
+
     handleDecadeClick = (a) => {
         if ((a === -1 && this.state.activeNumber > 0) || (a === 1 && this.state.activeNumber < 6)) {
+            let activeNumber = this.state.activeNumber + a
+            const decadeLinks = ['60s', '70s', '80s', '', '90s', '00s', '10s']
+            if (activeNumber === 0) { this.setState({ decadeLeftLink: decadeLinks[0], decadeRightLink: decadeLinks[1] }) };
+            if (activeNumber === 1) { this.setState({ decadeLeftLink: decadeLinks[0], decadeRightLink: decadeLinks[2] }) };
+            if (activeNumber === 2) { this.setState({ decadeLeftLink: decadeLinks[1], decadeRightLink: decadeLinks[3] }) };
+            if (activeNumber === 3) { this.setState({ decadeLeftLink: decadeLinks[2], decadeRightLink: decadeLinks[4] }) };
+            if (activeNumber === 4) { this.setState({ decadeLeftLink: decadeLinks[3], decadeRightLink: decadeLinks[5] }) };
+            if (activeNumber === 5) { this.setState({ decadeLeftLink: decadeLinks[4], decadeRightLink: decadeLinks[6] }) };
+            if (activeNumber === 6) { this.setState({ decadeLeftLink: decadeLinks[5], decadeRightLink: decadeLinks[6] }) };
             this.setState({
-                activeNumber: this.state.activeNumber + a
+                activeNumber: this.state.activeNumber + a,
+
             })
         }
-        console.log(this.state.activeNumber)
+        // this.decadeArrowClick()
+    }
+    componentDidUpdate() {
+        console.log('hello')
     }
     render() {
-        const { activeNumber } = this.state
+        const { activeNumber, decadeLeftLink, decadeRightLink, lexact, rexact } = this.state
         const { timeArray } = this.props
         let decadeList = timeArray.map((item, index) => <li className={index === activeNumber ? 'decade active' : 'decade'} key={index} > {item}</li>)
         return (
@@ -29,9 +48,10 @@ class DecadeSlider extends React.Component {
                     <div></div>
                 </div>
                 <div id="decadeArrows">
-                    <span onClick={() => this.handleDecadeClick(-1)}>{'<'}</span>
-                    <span onClick={() => this.handleDecadeClick(1)}>{'>'}</span>
+                    <span onClick={() => this.handleDecadeClick(-1)}><NavLink to={decadeLeftLink} exact={lexact}>{'<'}</NavLink></span>
+                    <span onClick={() => this.handleDecadeClick(1)}><NavLink to={decadeRightLink} exact={rexact}>{'>'}</NavLink></span>
                 </div>
+                {/* '/60s' */}
             </div >
         );
     }
