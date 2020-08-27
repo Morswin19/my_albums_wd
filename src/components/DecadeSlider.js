@@ -28,10 +28,6 @@ class DecadeSlider extends React.Component {
 
             })
         }
-        // this.decadeArrowClick()
-    }
-    componentDidUpdate() {
-        console.log('hello')
     }
     render() {
         const { activeNumber, decadeLeftLink, decadeRightLink, lexact, rexact } = this.state

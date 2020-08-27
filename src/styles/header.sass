@@ -73,6 +73,12 @@
             color: $cthird
             font-size: 28px
             font-weight: 300
+        form
+            width: 500px
+            margin: 0
+            background: rgba($clight,0.21)
+            border: 1px solid rgba($cfourth, 0.21)
+            border-radius: 0
         #albumSliderContainer
             position: relative
             display: flex
@@ -87,7 +93,7 @@
                 // border: 4px solid red
                 #albumSliderItems
                     position: absolute
-                    // overflow: hidden
+                    overflow: hidden
                     display: flex
                     top: 10px
                     left: -40px
@@ -98,8 +104,9 @@
                     #items
                         position: absolute
                         top: 10px
-                        left: 40px
+                        left: -2530px
                         display: flex
+                        transition: 0.5s ease-in-out
 
                     
             #sliderArrows

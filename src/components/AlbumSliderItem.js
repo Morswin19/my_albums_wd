@@ -1,7 +1,6 @@
 import React from 'react';
 
 import '../styles/AlbumSliderItem.sass'
-import Album from './Album';
 
 const AlbumsSliderItem = (props) => {
     return (

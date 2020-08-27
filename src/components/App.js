@@ -9,6 +9,7 @@ class App extends Component {
 
   state = {
     albums: [],
+    randomAlbums: []
   }
 
   handleDecadeClick = () => {
@@ -20,17 +21,40 @@ class App extends Component {
     fetch('https://raw.githubusercontent.com/Morswin19/my-albums-react-app/master/public/data/data.json')
       .then(response => response.json())
       .then(data => {
+        let random = [...data]
         this.setState({
-          albums: data
+          albums: data,
+          randomAlbums: this.randomiseAlbums(random)
         })
       })
+  }
+
+  randomiseAlbums = (array) => {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    // this.setState() = [...array];
+
+    return array;
   }
 
   allRoutes = () => {
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <Header albums={this.state.albums} />
+          <Header albums={this.state.randomAlbums} />
           <section>
             <Switch>
               <Route path="/60s">

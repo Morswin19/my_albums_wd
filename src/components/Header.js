@@ -10,32 +10,55 @@ import wave from '../img/Group 20.svg'
 import '../styles/header.sass'
 
 class Header extends React.Component {
-    state = {}
+    state = {
+        sliderShift: 0,
+        albums: this.props.albums
+    }
 
-    randomiseAlbums = (array) => {
-        var currentIndex = array.length, temporaryValue, randomIndex;
+    handleSliderArrowClick = (e) => {
+        // console.log(e.target.innerText)
+        e.target.innerText === '<' ? (this.state.sliderShift < 2574 &&
+            this.setState({
+                sliderShift: this.state.sliderShift + 286
+            })
+        ) : (this.state.sliderShift > -2574 &&
+            this.setState({
+                sliderShift: this.state.sliderShift - 286
+            })
+            )
+        console.log(this.props)
+    }
 
-        // While there remain elements to shuffle...
-        while (0 !== currentIndex) {
+    // randomiseAlbums = (array) => {
+    //     var currentIndex = array.length, temporaryValue, randomIndex;
 
-            // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
+    //     // While there remain elements to shuffle...
+    //     while (0 !== currentIndex) {
 
-            // And swap it with the current element.
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-        }
+    //         // Pick a remaining element...
+    //         randomIndex = Math.floor(Math.random() * currentIndex);
+    //         currentIndex -= 1;
 
-        return array;
+    //         // And swap it with the current element.
+    //         temporaryValue = array[currentIndex];
+    //         array[currentIndex] = array[randomIndex];
+    //         array[randomIndex] = temporaryValue;
+    //     }
+
+    //     let newAlbumsArray = [...array];
+
+    //     return array;
+    // }
+    componentDidMount() {
+        console.log(this.props)
     }
 
     render() {
-        let albumSliderArray = this.randomiseAlbums(this.props.albums);
         const AlbumSliderItems = this.props.albums.filter((album, index) => index < 20).map((album, index) => <AlbumSliderItem key={index} title={album.title} artist={album.artist} cover={album.photoLink} year={album.year} />)
-
-        console.log(albumSliderArray)
+        // console.log(this.state.sliderShift)
+        // console.log(albumSliderArray)
+        console.log(this.props)
+        console.log(this.state)
         return (
             <div id="header">
                 <div id="headerImageContainer">
@@ -50,17 +73,21 @@ class Header extends React.Component {
                     <Navigation props={this.props} />
                     <h1>My<br />music</h1>
                     <h3>albums from my jukebox</h3>
+                    <form className="search info">
+                        <input type="text" name="search" onChange={this.handleSearchChange} placeholder="search"></input>
+                        {/* <span><FontAwesomeIcon icon={faSearch} /></span> */}
+                    </form>
                     <div id="albumSliderContainer">
                         <div id="albumSliderItemsContainer">
                             <div id="albumSliderItems">
-                                <div id="items">
+                                <div id="items" style={{ transform: `translateX(${this.state.sliderShift}px)` }}>
                                     {AlbumSliderItems}
                                 </div>
                             </div>
                         </div>
                         <div id="sliderArrows">
-                            <span className='sliderArrow'>{'<'}</span>
-                            <span className='sliderArrow'>{'>'}</span>
+                            <span className='sliderArrow' onClick={(e) => this.handleSliderArrowClick(e)}>{'<'}</span>
+                            <span className='sliderArrow' onClick={(e) => this.handleSliderArrowClick(e)}>{'>'}</span>
                         </div>
 
                     </div>
