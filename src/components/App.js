@@ -24,37 +24,37 @@ class App extends Component {
         let random = [...data]
         this.setState({
           albums: data,
-          randomAlbums: this.randomiseAlbums(random)
+          // randomAlbums: this.randomiseAlbums(random)
         })
       })
   }
 
-  randomiseAlbums = (array) => {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+  // randomiseAlbums = (array) => {
+  //   var currentIndex = array.length, temporaryValue, randomIndex;
 
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
+  //   // While there remain elements to shuffle...
+  //   while (0 !== currentIndex) {
 
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
+  //     // Pick a remaining element...
+  //     randomIndex = Math.floor(Math.random() * currentIndex);
+  //     currentIndex -= 1;
 
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
+  //     // And swap it with the current element.
+  //     temporaryValue = array[currentIndex];
+  //     array[currentIndex] = array[randomIndex];
+  //     array[randomIndex] = temporaryValue;
+  //   }
 
-    // this.setState() = [...array];
+  // this.setState() = [...array];
 
-    return array;
-  }
+  //   return array;
+  // }
 
   allRoutes = () => {
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <Header albums={this.state.randomAlbums} />
+          <Header albums={this.state.albums} />
           <section>
             <Switch>
               <Route path="/60s">

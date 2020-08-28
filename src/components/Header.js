@@ -12,53 +12,56 @@ import '../styles/header.sass'
 class Header extends React.Component {
     state = {
         sliderShift: 0,
-        albums: this.props.albums
+        albums: this.props.albums,
+        search: '',
+        random: Math.floor(Math.random() * (240))
+    }
+
+    handleSearchChange = (e) => {
+        let val = e.target.value;
+        this.setState({
+            search: val,
+            sliderShift: 0
+        })
     }
 
     handleSliderArrowClick = (e) => {
-        // console.log(e.target.innerText)
-        e.target.innerText === '<' ? (this.state.sliderShift < 2574 &&
+        console.log(e.target.parentElement.className)
+        const sliderItems = parseInt(e.target.parentElement.className)
+
+        console.log(typeof (sliderItems))
+
+        e.target.innerText === '<' ? (this.state.sliderShift < 0 &&
             this.setState({
                 sliderShift: this.state.sliderShift + 286
             })
-        ) : (this.state.sliderShift > -2574 &&
+        ) : (this.state.sliderShift > -(286 * (sliderItems - 2)) &&
             this.setState({
                 sliderShift: this.state.sliderShift - 286
             })
             )
-        console.log(this.props)
-    }
-
-    // randomiseAlbums = (array) => {
-    //     var currentIndex = array.length, temporaryValue, randomIndex;
-
-    //     // While there remain elements to shuffle...
-    //     while (0 !== currentIndex) {
-
-    //         // Pick a remaining element...
-    //         randomIndex = Math.floor(Math.random() * currentIndex);
-    //         currentIndex -= 1;
-
-    //         // And swap it with the current element.
-    //         temporaryValue = array[currentIndex];
-    //         array[currentIndex] = array[randomIndex];
-    //         array[randomIndex] = temporaryValue;
-    //     }
-
-    //     let newAlbumsArray = [...array];
-
-    //     return array;
-    // }
-    componentDidMount() {
-        console.log(this.props)
+        console.log(this.state.albums)
     }
 
     render() {
-        const AlbumSliderItems = this.props.albums.filter((album, index) => index < 20).map((album, index) => <AlbumSliderItem key={index} title={album.title} artist={album.artist} cover={album.photoLink} year={album.year} />)
-        // console.log(this.state.sliderShift)
-        // console.log(albumSliderArray)
-        console.log(this.props)
-        console.log(this.state)
+        const { albums } = this.props
+        let Album = []
+        let amount;
+        if (this.state.search !== '') {
+            Album = albums
+                .filter(album => album.artist.toLowerCase().includes(this.state.search.toLowerCase()) ||
+                    album.title.toLowerCase().includes(this.state.search.toLowerCase()) ||
+                    album.year.toLowerCase().includes(this.state.search.toLowerCase()))
+                .map(album => <AlbumSliderItem key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.photoLink} rymLink={album.rymLink} />)
+            amount = Album.length
+        } else {
+            let number = Math.floor(Math.random() * (albums.length - 20))
+            Album = albums
+                .filter((album, index) => index >= this.state.random && index < this.state.random + 20)
+                .map(album => <AlbumSliderItem key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.photoLink} rymLink={album.rymLink} />)
+            amount = Album.length
+        }
+
         return (
             <div id="header">
                 <div id="headerImageContainer">
@@ -74,18 +77,22 @@ class Header extends React.Component {
                     <h1>My<br />music</h1>
                     <h3>albums from my jukebox</h3>
                     <form className="search info">
-                        <input type="text" name="search" onChange={this.handleSearchChange} placeholder="search"></input>
-                        {/* <span><FontAwesomeIcon icon={faSearch} /></span> */}
+                        <input type="text" name="search" onChange={this.handleSearchChange} placeholder="search: eg. title, band"></input>
+                        <div>
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
                     </form>
                     <div id="albumSliderContainer">
                         <div id="albumSliderItemsContainer">
                             <div id="albumSliderItems">
                                 <div id="items" style={{ transform: `translateX(${this.state.sliderShift}px)` }}>
-                                    {AlbumSliderItems}
+                                    {Album}
                                 </div>
                             </div>
                         </div>
-                        <div id="sliderArrows">
+                        <div className={amount} id="sliderArrows">
                             <span className='sliderArrow' onClick={(e) => this.handleSliderArrowClick(e)}>{'<'}</span>
                             <span className='sliderArrow' onClick={(e) => this.handleSliderArrowClick(e)}>{'>'}</span>
                         </div>

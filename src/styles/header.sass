@@ -74,16 +74,51 @@
             font-size: 28px
             font-weight: 300
         form
-            width: 500px
+            width: 479px
+            height: 39px
             margin: 0
+            margin-top: 30px
+            padding: 0
             background: rgba($clight,0.21)
             border: 1px solid rgba($cfourth, 0.21)
             border-radius: 0
+            input
+                width: 440px
+                height: 39px
+                padding-left: 20px
+                border: none
+                background: none
+                &::placeholder
+                    font-family: 'Titillium Web', sans-serif
+                    color: rgba($cfourth, 0.41)
+                    font-size: 20px
+                    font-weight: 200
+            & > div
+                position: relative
+                width: 39px
+                height: 39px
+                background: $cthird
+                & > div
+                    position: absolute
+                    top: 9px
+                    left: 7px
+                    width: 17.59px
+                    height: 17.59px
+                    background-color: $clight
+                    border-radius: 50%
+                    & > div
+                        position: absolute
+                        top: 11px
+                        left: 16px
+                        transform: rotate(125deg)
+                        width: 5.41px
+                        height: 12.18px
+                        background-color: $clight
         #albumSliderContainer
             position: relative
             display: flex
             align-items: center
-            margin-top: 95px
+            margin-top: 70px
             #albumSliderItemsContainer
                 position: relative
                 
@@ -104,7 +139,7 @@
                     #items
                         position: absolute
                         top: 10px
-                        left: -2530px
+                        left: 45px
                         display: flex
                         transition: 0.5s ease-in-out
 
