@@ -14,8 +14,15 @@ div.album
     background-color: rgba($clight, 0.21)
     color: $csecond
     font-size: 20px
-    box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.16)
+    box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.08)
+    transition: 0.1s
     // border: 5px solid blue
+    &:hover
+        background-color: rgba($clight, 1)
+        box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.16)
+        a
+            background-color: rgba($cthird, 1)
+            box-shadow: 5px 5px 10px 0px rgba($cshadow, 0)
 
     .albumInfoContainer
         display: flex
@@ -35,7 +42,7 @@ div.album
                     // width: 350px
                     margin: 5px
                     text-align: left
-                    font-size: 33px
+                    font-size: 24px
                     font-weight: 500
             
                 h2
