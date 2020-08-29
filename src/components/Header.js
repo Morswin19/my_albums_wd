@@ -33,11 +33,11 @@ class Header extends React.Component {
 
         e.target.innerText === '<' ? (this.state.sliderShift < 0 &&
             this.setState({
-                sliderShift: this.state.sliderShift + 286
+                sliderShift: this.state.sliderShift + 285
             })
-        ) : (this.state.sliderShift > -(286 * (sliderItems - 2)) &&
+        ) : (this.state.sliderShift > - (285 * (sliderItems - (window.innerWidth > 650 ? 2 : 1))) &&
             this.setState({
-                sliderShift: this.state.sliderShift - 286
+                sliderShift: this.state.sliderShift - 285
             })
             )
         console.log(this.state.albums)

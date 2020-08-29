@@ -9,7 +9,7 @@ const AlbumsSliderItem = (props) => {
                 <img src={props.cover} alt="" />
             </div>
             <span className="sliderYear">{props.year}</span>
-            <p><span>{props.title}</span><span> {'//'} {props.artist}</span></p>
+            <a href={props.rymLink} target='_blank' rel="noopener noreferrer"><p><span>{props.title}</span><span> {'//'} {props.artist}</span></p></a>
         </div>
     );
 }

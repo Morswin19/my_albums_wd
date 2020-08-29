@@ -11,6 +11,7 @@
     padding: 0
     margin-top: 90px
     // border: 3px solid pink
+    z-index: 3
     #decadeListContainer
         position: relative
         overflow: hidden
@@ -76,3 +77,157 @@
             &:hover
                 color: $clight
 
+@media(max-width: 1100px)
+    #decadeSlider
+        // box-sizing: border-box
+        // position: relative
+        // display: flex
+        // justify-content: center
+        // width: 100%
+        height: 70px
+        // margin: 0
+        // padding: 0
+        margin-top: 80px
+        #decadeListContainer
+            // position: relative
+            // overflow: visible
+            width: 630px
+            height: 80px
+            // border: 5px solid black
+            ul
+                // position: absolute
+                // left: 50%
+                // transform: translateX(-50%)
+                // display: flex
+                // margin: 0
+                // padding: 0
+                // list-style: none
+                // z-index: 2
+                // transition: 0.5s ease
+                // border: 5px solid red
+                li
+                    min-width: 150px
+                    height: 60px
+                    margin-left: 50px
+                    margin-right: 50px
+                    // color: rgba($csix, 0.5)
+                    font-size: 35px
+                    // font-weight: 700
+                    // text-align: center
+                    // line-height: 87px
+
+                .active
+                    // background-color: $clight
+                    // color: $csecond
+        #activeContainer
+            // position: absolute
+            // left: 50%
+            // transform: translateX(-50%)
+            // display: flex
+            // align-items: center
+            // z-index: 1
+            div
+                height: 87px
+                width: 200px
+                // background-color: $clight
+                // border: 1px solid $cborder
+        #decadeArrows
+            // position: absolute
+            // left: 50%
+            top: -5px
+            // transform: translateX(-50%)
+            // display: flex
+            // justify-content: space-between
+            // align-items: center
+            width: 300px
+            // z-index: 3
+            a
+                // margin: 0px
+                // color: rgba($cfifth, 0.48)
+                // font-size: 60px
+                // font-weight: 700
+                // text-decoration: none
+                // -webkit-text-stroke-width: 1px
+                // -webkit-text-stroke-color: $cfourth
+                // line-height: 87px
+                // cursor: pointer
+                &:hover
+                    // color: $clight
+
+@media(max-width: 650px)
+    #decadeSlider
+        // box-sizing: border-box
+        // position: relative
+        // display: flex
+        // justify-content: center
+        // width: 100%
+        // height: 70px
+        // margin: 0
+        // padding: 0
+        margin-top: 45px
+        #decadeListContainer
+            // position: relative
+            // overflow: visible
+            // width: 630px
+            // height: 80px
+            // border: 5px solid black
+            ul
+                // position: absolute
+                // left: 50%
+                // transform: translateX(-50%)
+                // display: flex
+                // margin: 0
+                // padding: 0
+                // list-style: none
+                // z-index: 2
+                // transition: 0.5s ease
+                // border: 5px solid red
+                li
+                    min-width: 100px
+                    // height: 60px
+                    margin-left: 40px
+                    margin-right: 40px
+                    // color: rgba($csix, 0.5)
+                    font-size: 25px
+                    // font-weight: 700
+                    // text-align: center
+                    // line-height: 87px
+
+                .active
+                    // background-color: $clight
+                    // color: $csecond
+        #activeContainer
+            // position: absolute
+            top: 10px
+            // left: 50%
+            // transform: translateX(-50%)
+            // display: flex
+            // align-items: center
+            // z-index: 1
+            div
+                height: 65px
+                width: 150px
+                // background-color: $clight
+                // border: 1px solid $cborder
+        #decadeArrows
+            // position: absolute
+            // left: 50%
+            // top: -5px
+            // transform: translateX(-50%)
+            // display: flex
+            // justify-content: space-between
+            // align-items: center
+            width: 250px
+            // z-index: 3
+            a
+                // margin: 0px
+                // color: rgba($cfifth, 0.48)
+                // font-size: 60px
+                // font-weight: 700
+                // text-decoration: none
+                // -webkit-text-stroke-width: 1px
+                // -webkit-text-stroke-color: $cfourth
+                // line-height: 87px
+                // cursor: pointer
+                &:hover
+                    // color: $clight

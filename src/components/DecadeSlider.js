@@ -36,7 +36,7 @@ class DecadeSlider extends React.Component {
         return (
             < div id="decadeSlider" >
                 <div id="decadeListContainer">
-                    <ul style={{ transform: `translateX(${-1225 - (activeNumber - 3) * 350}px)` }}>
+                    <ul style={window.innerWidth > 1100 ? { transform: `translateX(${-1225 - (activeNumber - 3) * 350}px)` } : (window.innerWidth > 650 ? { transform: `translateX(${-875 - (activeNumber - 3) * 250}px)` } : { transform: `translateX(${- 630 - (activeNumber - 3) * 180}px)` })}>
                         {decadeList}
                     </ul>
                 </div>
