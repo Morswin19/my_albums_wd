@@ -21,7 +21,24 @@
     margin: auto
     margin-top: 95px
     z-index: 2
-
+    .blob
+        position: absolute
+    .wave
+        position: absolute
+    .wave2
+        position: absolute
+    #blob5
+        top: 120px
+        right: -500px
+    #albumListWave1
+        top: -150px
+        left: -200px
+    #albumListWave2
+        top: 235px
+        left: 70px
+    #albumListWave3
+        top: 380px
+        left: -280px
 .info
     color: #003399
     font-size: 20px
@@ -86,6 +103,7 @@
         cursor: pointer
         &:hover
             color: $clight
+        
     ul
         display: flex
         margin: 0px
@@ -98,3 +116,7 @@
             cursor: pointer
             &:hover
                 color: rgba($csix, 1)
+        .active
+            cursor: default
+            pointer-events: none
+            color: rgba($csix, 1)
