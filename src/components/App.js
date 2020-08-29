@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://raw.githubusercontent.com/Morswin19/my-albums-react-app/master/public/data/data.json')
+    fetch('https://raw.githubusercontent.com/Morswin19/my_albums_wd/master/public/data/data.json')
       .then(response => response.json())
       .then(data => {
         let random = [...data]
