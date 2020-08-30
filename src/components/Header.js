@@ -72,13 +72,13 @@ class Header extends React.Component {
                     <img className="wave" id="wave4" src={wave} alt="" />
                 </div>
                 <div id="headerTextContainer">
-                    <Navigation props={this.props} />
+                    <Navigation />
                     <h1>My<br />music</h1>
                     <h3>albums from my jukebox</h3>
                     <form className="search info">
                         <input
                             type="text"
-                            autocomplete="off"
+                            autoComplete="off"
                             name="search"
                             onChange={this.handleSearchChange}
                             placeholder="search: eg. title, band, year"></input>
