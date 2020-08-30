@@ -55,7 +55,6 @@ class Header extends React.Component {
                 .map(album => <AlbumSliderItem key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.photoLink} rymLink={album.rymLink} />)
             amount = Album.length
         } else {
-            let number = Math.floor(Math.random() * (albums.length - 20))
             Album = albums
                 .filter((album, index) => index >= this.state.random && index < this.state.random + 20)
                 .map(album => <AlbumSliderItem key={albums.indexOf(album)} artist={album.artist} title={album.title} year={album.year} cover={album.photoLink} rymLink={album.rymLink} />)
@@ -77,7 +76,12 @@ class Header extends React.Component {
                     <h1>My<br />music</h1>
                     <h3>albums from my jukebox</h3>
                     <form className="search info">
-                        <input type="text" name="search" onChange={this.handleSearchChange} placeholder="search: eg. title, band"></input>
+                        <input
+                            type="text"
+                            autocomplete="off"
+                            name="search"
+                            onChange={this.handleSearchChange}
+                            placeholder="search: eg. title, band, year"></input>
                         <div>
                             <div>
                                 <div></div>

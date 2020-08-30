@@ -21,7 +21,6 @@ class App extends Component {
     fetch('https://raw.githubusercontent.com/Morswin19/my_albums_wd/master/public/data/data.json')
       .then(response => response.json())
       .then(data => {
-        let random = [...data]
         this.setState({
           albums: data,
           // randomAlbums: this.randomiseAlbums(random)
