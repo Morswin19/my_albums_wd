@@ -29,6 +29,7 @@ class AlbumList extends Component {
         let index = Math.floor(Math.random() * albums.length);
         let todaysAlbum = albums[index];
         const today = <Album key={1} artist={todaysAlbum.artist} title={todaysAlbum.title} year={todaysAlbum.year} cover={todaysAlbum.cover} rymLink={todaysAlbum.rymLink} />;
+        window.scrollTo(window.scrollX, 920)
 
         this.setState({
             albums: today,
@@ -53,7 +54,6 @@ class AlbumList extends Component {
     }
 
     handlePaginationArrowClick = (a) => {
-
         if (this.state.albumsSite > 1 && a === (-1)) {
             this.setState({
                 albumsSite: this.state.albumsSite + a

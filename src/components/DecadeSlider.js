@@ -10,7 +10,7 @@ class DecadeSlider extends React.Component {
         decadeRightLink: '90s',
         lexact: false,
         rexact: false,
-        resizeBool: true
+        resizeBool: false
     }
 
     handleDecadeClick = (a) => {
@@ -46,6 +46,7 @@ class DecadeSlider extends React.Component {
 
     componentDidMount() {
         window.addEventListener('resize', this.handleResize)
+        this.handleResize()
     }
 
     render() {
