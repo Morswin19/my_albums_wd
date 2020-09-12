@@ -74,7 +74,7 @@ class Header extends React.Component {
                 <div id="headerTextContainer">
                     <Navigation />
                     <h1>My<br />music</h1>
-                    <h3>albums from my jukebox</h3>
+                    <h2>albums from my jukebox</h2>
                     <form className="search info">
                         <input
                             type="text"

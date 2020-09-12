@@ -25,6 +25,7 @@ const RandomSection = (props) => {
                 <img src={wave} alt="" id="randomWave4" className="wave" />
                 <img src={wave} alt="" id="randomWave5" className="wave" />
                 <img src={wave} alt="" id="randomWave6" className="wave" />
+                {/* <p>© P. Kalman</p> */}
             </div>
             {/* <div className='random info' onClick={amount === 1 ? this.handleRandomButtonClick : null}>
             </NavLink></div> */}
