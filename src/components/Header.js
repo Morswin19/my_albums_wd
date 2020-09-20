@@ -26,10 +26,7 @@ class Header extends React.Component {
     }
 
     handleSliderArrowClick = (e) => {
-        console.log(e.target.parentElement.className)
         const sliderItems = parseInt(e.target.parentElement.className)
-
-        console.log(typeof (sliderItems))
 
         e.target.innerText === '<' ? (this.state.sliderShift < 0 &&
             this.setState({
