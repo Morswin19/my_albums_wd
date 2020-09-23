@@ -12,6 +12,7 @@ class App extends Component {
     randomAlbums: [],
   }
 
+  //fetch data from json file which is on github server
   componentDidMount() {
     fetch('https://raw.githubusercontent.com/Morswin19/my_albums_wd/master/public/data/data.json')
       .then(response => response.json())
@@ -22,6 +23,7 @@ class App extends Component {
       })
   }
 
+  //function with routes
   allRoutes = () => {
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>

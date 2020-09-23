@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { NavLink } from 'react-router-dom';
 
 import Album from './Album';
 import DecadeSlider from './DecadeSlider';
@@ -11,10 +10,6 @@ import wave2 from '../img/Group 30.svg';
 
 import '../styles/AlbumList.sass';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faDice } from '@fortawesome/free-solid-svg-icons'
-// import { faSearch } from '@fortawesome/free-solid-svg-icons'
-
 class AlbumList extends Component {
     state = {
         search: '',
@@ -22,8 +17,10 @@ class AlbumList extends Component {
         albumSiteListAmount: ''
     }
 
+    //array of decades
     timeLine = ['60s', '70s', '80s', 'show all', '90s', '00s', '10s']
 
+    //function for choose random album to listen
     handleRandomButtonClick = () => {
         let albums = [...this.props.albums];
         let index = Math.floor(Math.random() * albums.length);
@@ -39,13 +36,7 @@ class AlbumList extends Component {
         console.log('helloGuineaPig')
     }
 
-    handleSearchChange = (e) => {
-        let val = e.target.value;
-        this.setState({
-            search: val
-        })
-    }
-
+    //function after site number click, there is 25 albums on one site
     handlePaginationClick = (e) => {
         window.scrollTo(window.scrollX, 920);
         this.setState({
@@ -53,6 +44,7 @@ class AlbumList extends Component {
         })
     }
 
+    //function after arrow click in pagination, next site or earlier site
     handlePaginationArrowClick = (a) => {
         if (this.state.albumsSite > 1 && a === (-1)) {
             this.setState({
@@ -78,6 +70,7 @@ class AlbumList extends Component {
         }
     }
 
+    //function for go to first site of albums list
     resetPagination = () => {
         this.setState({
             time: this.props.time,
@@ -85,6 +78,7 @@ class AlbumList extends Component {
         })
     }
 
+    //when we click on every decade, we reste pagination
     componentDidUpdate() {
         if (this.props.time !== this.state.time) {
             this.resetPagination()
@@ -133,15 +127,6 @@ class AlbumList extends Component {
         albumSiteList = albumSiteList.map(item => <li key={item} className={item === albumsSite ? 'active' : ''} onClick={this.handlePaginationClick}>{item}</li>);
         return (
             <div>
-                {/* 
-                    <div className='amount info'>
-                        Number: {amount}
-                    </div>
-                    <form className="search info">
-                        <input type="text" name="search" onChange={this.handleSearchChange} placeholder="search"></input>
-                        <span><FontAwesomeIcon icon={faSearch} /></span>
-                    </form>
-                </div> */}
                 <DecadeSlider timeArray={this.timeLine} />
                 <div id="albumList" className='albumList'>
                     {album}
