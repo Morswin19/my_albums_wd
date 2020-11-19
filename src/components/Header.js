@@ -3,18 +3,15 @@ import React from 'react';
 import Navigation from './Navigation';
 import AlbumSliderItem from './AlbumSliderItem';
 
-import blob from '../img/Path 2.svg';
-import play from '../img/play.png';
-import wave from '../img/Group 20.svg';
-
 import '../styles/header.sass';
+import HeaderAssets from '../imageAssets/HeaderAssets';
 
 class Header extends React.Component {
   state = {
     sliderShift: 0,
     albums: this.props.albums,
     search: '',
-    random: Math.floor(Math.random() * 240)
+    random: Math.floor(Math.random() * 270)
   };
 
   handleSearchChange = e => {
@@ -62,7 +59,9 @@ class Header extends React.Component {
             artist={album.artist}
             title={album.title}
             year={album.year}
-            cover={album.photoLinkSmall}
+            cover={
+              album.photoLinkBig ? album.photoLinkBig : album.photoLinkSmall
+            }
             rymLink={album.rymLink}
           />
         ));
@@ -79,7 +78,9 @@ class Header extends React.Component {
             artist={album.artist}
             title={album.title}
             year={album.year}
-            cover={album.photoLinkSmall}
+            cover={
+              album.photoLinkBig ? album.photoLinkBig : album.photoLinkSmall
+            }
             rymLink={album.rymLink}
           />
         ));
@@ -88,14 +89,7 @@ class Header extends React.Component {
 
     return (
       <div id='header'>
-        <div id='headerImageContainer'>
-          <img className='blob' src={blob} alt='' />
-          <img id='play' src={play} alt='' />
-          <img className='wave' id='wave1' src={wave} alt='' />
-          <img className='wave' id='wave2' src={wave} alt='' />
-          <img className='wave' id='wave3' src={wave} alt='' />
-          <img className='wave' id='wave4' src={wave} alt='' />
-        </div>
+        <HeaderAssets />
         <div id='headerTextContainer'>
           <Navigation />
           <h1>
