@@ -1,2081 +1,2378 @@
 [
-    {
-       "artist":"Aerosmith",
-       "title":"Rocks",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/aerosmith/rocks/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ebb27ef713196c3fd7f6e3a8b8cf2249/1597908"
-    },
-    {
-       "artist":"Aerosmith",
-       "title":"Permanent Vacation",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/aerosmith/permanent-vacation/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/7193a628684dcc3bc319d27a1b104f9c/1213406"
-    },
-    {
-       "artist":"Aerosmith",
-       "title":"Pump",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/aerosmith/pump/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/aee077d6fd17bd67f2e91ea5656359e4/2524370"
-    },
-    {
-       "artist":"Aerosmith",
-       "title":"Get a Grip",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/aerosmith/get-a-grip/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/30ce9b795df199e69e7b5983bc6ab59a/7803345"
-    },
-    {
-       "artist":"Aerosmith",
-       "title":"Nine Lives",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/aerosmith/nine-lives/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/bd4cd27f698328a1a116e2513116e8f7/6546702"
-    },
-    {
-       "artist":"Afterload",
-       "title":"Lifeline",
-       "year":"2019",
-       "rymLink":"https://rateyourmusic.com/release/album/afterload/lifeline/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/53dcd1bf7329f9d8989d2e7279a872ce/7375752"
-    },
-    {
-       "artist":"Alice in Chains",
-       "title":"Facelift",
-       "year":"1990",
-       "rymLink":"https://rateyourmusic.com/release/album/alice-in-chains/facelift/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d0796e78726bb2947466bfff63c6963f/1891941"
-    },
-    {
-       "artist":"Tori Amos",
-       "title":"Little Earthquakes",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/tori-amos/little-earthquakes/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fa638f8d0331c64175fbad878a25213b/8205286"
-    },
-    {
-       "artist":"Tori Amos",
-       "title":"Boys for Pele",
-       "year":"1996",
-       "rymLink":"https://rateyourmusic.com/release/album/tori-amos/boys-for-pele/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/24e531a3db3877d788eb192a81dff660/4404890"
-    },
-    {
-       "artist":"Tori Amos",
-       "title":"From the Choirgirl Hotel",
-       "year":"1998",
-       "rymLink":"https://rateyourmusic.com/release/album/tori-amos/from-the-choirgirl-hotel/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cd681e6336e9dc495f289e725998ccb5/7768056"
-    },
-    {
-       "artist":"Tori Amos",
-       "title":"The Beekeeper",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/tori-amos/the-beekeeper/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5be84b9d42a10eb8d19cba5905b853af/1335536"
-    },
-    {
-       "artist":"Anathema",
-       "title":"Judgement",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/anathema/judgement/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b6faf79d3761e72a0ce106d363367073/2494906"
-    },
-    {
-       "artist":"Anathema",
-       "title":"A Natural Disaster",
-       "year":"2003",
-       "rymLink":"https://rateyourmusic.com/release/album/anathema/a-natural-disaster/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3fb6be244c81cc3a4b2ae36c265b0ef8/4873477"
-    },
-    {
-       "artist":"Anthrax",
-       "title":"Persistence of Time",
-       "year":"1990",
-       "rymLink":"https://rateyourmusic.com/release/album/anthrax/persistence-of-time/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5cd632a47645fd522ac912023f397d99/4959696"
-    },
-    {
-       "artist":"Asia",
-       "title":"Asia",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/asia/asia/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d0e9c1f3b8e91ba1e5728b65282fd4ac/1376864"
-    },
-    {
-       "artist":"Asia",
-       "title":"Silent Nation",
-       "year":"2004",
-       "rymLink":"https://rateyourmusic.com/release/album/asia/silent-nation/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c892003323110bdc11390b5bef9ea6ef/1285239"
-    },
-    {
-       "artist":"Audioslave",
-       "title":"Audioslave",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/audioslave/audioslave/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c666dd977ecdcdc9bf331221faa6d865/1324011"
-    },
-    {
-       "artist":"The Beatles",
-       "title":"Magical Mystery Tour",
-       "year":"1967",
-       "rymLink":"https://rateyourmusic.com/release/album/the-beatles/magical-mystery-tour/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/148cc6e7b186202d9c66d9086de978dd/5770162"
-    },
-    {
-       "artist":"Björk",
-       "title":"Debut",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/bjork/debut/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a242f639c43ce3c5888af0c59b02e0a4/3163896"
-    },
-    {
-       "artist":"Björk",
-       "title":"Vespertine",
-       "year":"2001",
-       "rymLink":"https://rateyourmusic.com/release/album/bjork/vespertine/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/af8e2fc80d406f818e7243e674965fab/2409674"
-    },
-    {
-       "artist":"Black Glass",
-       "title":"Holy Rain",
-       "year":"2011",
-       "rymLink":"https://rateyourmusic.com/release/album/black_glass/holy_rain/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/57df7b87be79274e3ebf77ebff705007/3895490"
-    },
-    {
-       "artist":"Blackmore's Night",
-       "title":"Shadow of the Moon",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/blackmores-night/shadow-of-the-moon/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fd4ec9efeda4d9504c542c86a349b89d/5916116"
-    },
-    {
-       "artist":"Ritchie Blackmore's Rainbow",
-       "title":"Ritchie Blackmore's Rainbow",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/ritchie-blackmores-rainbow/ritchie-blackmores-rainbow/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c432a1892be1c72d8a70214df2bc456b/1867499"
-    },
-    {
-       "artist":"Black Sabbath",
-       "title":"Heaven and Hell",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/black-sabbath/heaven-and-hell/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3384d9a40109c062be4ca0d58af3120d/3655494"
-    },
-    {
-       "artist":"Black Sabbath",
-       "title":"Dehumanizer",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/black-sabbath/dehumanizer/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9a4943b01f99751993e6e3f3ec77359d/2919080"
-    },
-    {
-       "artist":"Black Sabbath",
-       "title":"13",
-       "year":"2013",
-       "rymLink":"https://rateyourmusic.com/release/album/black-sabbath/13/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/146629fe42e5906464e7d35886e89122/4721557"
-    },
-    {
-       "artist":"David Bowie",
-       "title":"The Next Day",
-       "year":"2013",
-       "rymLink":"https://rateyourmusic.com/release/album/david-bowie/the-next-day/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/eebc2f20d6914369404a6dd073c85ce4/5110597"
-    },
-    {
-       "artist":"David Bowie",
-       "title":"★ [Blackstar]",
-       "year":"2016",
-       "rymLink":"https://rateyourmusic.com/release/album/david-bowie/%E2%98%85-blackstar/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a7340b0078f2f1c1417f387da5fb59a3/5978111"
-    },
-    {
-       "artist":"Budka Suflera",
-       "title":"Za ostatni grosz",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/budka-suflera/za-ostatni-grosz/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b32630b55ead4c65edf3a3100cf6a09c/1985938"
-    },
-    {
-       "artist":"Kate Bush",
-       "title":"The Kick Inside",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/kate-bush/the-kick-inside/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f0439dcefe2e6a417cea6082f895ae36/8014001"
-    },
-    {
-       "artist":"Kate Bush",
-       "title":"Lionheart",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/kate-bush/lionheart/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e9a5c6ff7b93965445b207157171625a/1281950"
-    },
-    {
-       "artist":"Kate Bush",
-       "title":"Never for Ever",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/kate-bush/never-for-ever/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6a28b78c706416054d9fc2de64a19970/8315821"
-    },
-    {
-       "artist":"Kate Bush",
-       "title":"The Dreaming",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/kate-bush/the-dreaming/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2d050515c9502b8f610f9a96b36f6600/2340663"
-    },
-    {
-       "artist":"Kate Bush",
-       "title":"The Sensual World",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/kate-bush/the-sensual-world/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2ac0d6991d649dc3e8c26164b4c41645/1329859"
-    },
-    {
-       "artist":"Kate Bush",
-       "title":"The Red Shoes",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/kate-bush/the-red-shoes/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d4daecde6bb1b20e270d50cb87ee796d/1734586"
-    },
-    {
-       "artist":"Camel",
-       "title":"Camel",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/camel/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6dfc811aed8e7254202edac8a3419128/1632704"
-    },
-    {
-       "artist":"Camel",
-       "title":"Mirage",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/mirage/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/734712ad037b87a2b650a9293d7a8773/4160723"
-    },
-    {
-       "artist":"Camel",
-       "title":"The Snow Goose",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/the-snow-goose/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/144e143ed6fedaedf9e60b8be48eeaac/6235559"
-    },
-    {
-       "artist":"Camel",
-       "title":"Moonmadness",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/moonmadness/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b69891c22269541241c4826da66ea6fd/1352884"
-    },
-    {
-       "artist":"Camel",
-       "title":"Rain Dances",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/rain_dances/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/30320b0615d440be0a14b5f36d731af8/1958472"
-    },
-    {
-       "artist":"Camel",
-       "title":"Breathless",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/breathless/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f578cea95a3c1be118a70e7287586324/2119974"
-    },
-    {
-       "artist":"Camel",
-       "title":"I Can See Your House From Here",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/i-can-see-your-house-from-here/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/97e6fc288945b1fb2e043e231da0b7eb/2103158"
-    },
-    {
-       "artist":"Camel",
-       "title":"Nude",
-       "year":"1981",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/nude/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b4cb21e29505ffd24634683ef375d5a4/5712565"
-    },
-    {
-       "artist":"Camel",
-       "title":"Stationary Traveller",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/camel/stationary_traveller/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9d01e4a5bc95a1414ebf3da2459aa714/1474362"
-    },
-    {
-       "artist":"Caravan",
-       "title":"In the Land of Grey and Pink",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/caravan/in-the-land-of-grey-and-pink/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b5e457f6f32e301e7917b1292ad65ddb/1934591"
-    },
-    {
-       "artist":"Collage",
-       "title":"Baśnie",
-       "year":"1990",
-       "rymLink":"https://rateyourmusic.com/release/album/collage/basnie/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0f08d86093e295564b141fddd4926ce9/1240689"
-    },
-    {
-       "artist":"Collage",
-       "title":"Moonshine",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/collage/moonshine/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e4e443cda7f6f2709c74e1bf56d398cf/1713475"
-    },
-    {
-       "artist":"Collage",
-       "title":"Changes",
-       "year":"1995",
-       "rymLink":"https://rateyourmusic.com/release/comp/collage/changes/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/aab536562d9b920f5a6fd103102399dd/2681199"
-    },
-    {
-       "artist":"Collage",
-       "title":"Safe",
-       "year":"1996",
-       "rymLink":"https://rateyourmusic.com/release/album/collage/safe/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/48d796221d63bcabb168ff293174166c/1239763"
-    },
-    {
-       "artist":"Ry Cooder",
-       "title":"Jazz",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/ry-cooder/jazz/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/7ad63311785a5d1765a472b11aa93178/1641902"
-    },
-    {
-       "artist":"Ry Cooder",
-       "title":"Crossroads",
-       "year":"1986",
-       "rymLink":"https://rateyourmusic.com/release/album/ry-cooder/crossroads/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/63ebf80eff493945274f7f27cde343bb/1213290"
-    },
-    {
-       "artist":"Elvis Costello",
-       "title":"This Year's Model",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/elvis-costello/this-years-model/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/62cab47eb8bbe4059bfa433d85fc2459/3823975"
-    },
-    {
-       "artist":"The Cranberries",
-       "title":"Everybody Else Is Doing It, So Why Can't We?",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/the-cranberries/everybody-else-is-doing-it-so-why-cant-we/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5909187aec8c2c3cb78632c984e892b5/8462681"
-    },
-    {
-       "artist":"Crowded House",
-       "title":"Together Alone",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/crowded-house/together-alone/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/398f132987ee88339ee4d9ca3bb326d6/1216125"
-    },
-    {
-       "artist":"The Cure",
-       "title":"Pornography",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/the-cure/pornography/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/7aa63e19d10f9c16f408c0dfe821219c/3014863"
-    },
-    {
-       "artist":"The Cure",
-       "title":"Kiss Me Kiss Me Kiss Me",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/the-cure/kiss-me-kiss-me-kiss-me/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/72fbfa5b9bfaed09ccbaf74f15bc3e48/2479394"
-    },
-    {
-       "artist":"The Cure",
-       "title":"Disintegration",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/the-cure/disintegration/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/be36d9e03978918ba83c354e1d76f980/7272164"
-    },
-    {
-       "artist":"The Cure",
-       "title":"Bloodflowers",
-       "year":"2000",
-       "rymLink":"https://rateyourmusic.com/release/album/the-cure/bloodflowers/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0f3df3dc65a30ceb76a2922eae82b961/1211605"
-    },
-    {
-       "artist":"Dare",
-       "title":"Out of the Silence",
-       "year":"1988",
-       "rymLink":"https://rateyourmusic.com/release/album/dare/out-of-the-silence/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a152a82c613eb77fd0b1fa99ca691561/7033915"
-    },
-    {
-       "artist":"Dead Can Dance",
-       "title":"Within the Realm of a Dying Sun",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/dead-can-dance/within-the-realm-of-a-dying-sun/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d4079af0e203f3aba52999fbe7095ce2/2369620"
-    },
-    {
-       "artist":"Dead Can Dance",
-       "title":"Toward the Within",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/dead_can_dance/toward_the_within/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/09944bde4786da7c6e8e7cf8a5cc6aea/2276834"
-    },
-    {
-       "artist":"Death",
-       "title":"Symbolic",
-       "year":"1995",
-       "rymLink":"https://rateyourmusic.com/release/album/death/symbolic/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cf9b77e47bf0619011bd3e72a4d2ff82/2656325"
-    },
-    {
-       "artist":"Chris De Burgh",
-       "title":"Spark to a Flame: The Very Best of Chris de Burgh",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/comp/chris-de-bu…spark-to-a-flame-the-very-best-of-chris-de-burgh/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/455c684044d616ff556c4f0cd0019c9e/2644143"
-    },
-    {
-       "artist":"Deep Purple",
-       "title":"Burn",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/deep-purple/burn/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/8a51ae8ac16cc8ee51da4a1545556db4/2700399"
-    },
-    {
-       "artist":"Deep Purple",
-       "title":"Perfect Strangers",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/deep-purple/perfect-strangers/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9c6b8ad2bcee896764bf263cf887d081/2729065"
-    },
-    {
-       "artist":"Deep Purple",
-       "title":"The Battle Rages On...",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/deep-purple/the-battle-rages-on/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c4795559b16a9245aba1022b1d874dd5/1224295"
-    },
-    {
-       "artist":"Deep Purple",
-       "title":"Infinite",
-       "year":"2017",
-       "rymLink":"https://rateyourmusic.com/release/album/deep-purple/infinite/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/484982d643d052658cd488a006883c21/6347249"
-    },
-    {
-       "artist":"Def Leppard",
-       "title":"Hysteria",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/def-leppard/hysteria/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/71c4e84afc95717ed138b7f3db68458d/1537955"
-    },
-    {
-       "artist":"Lana Del Rey",
-       "title":"Lust for Life",
-       "year":"2017",
-       "rymLink":"https://rateyourmusic.com/release/album/lana-del-rey/lust-for-life/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f5f50d4d7ee7aa8e43b2761058e3911d/6495820"
-    },
-    {
-       "artist":"Depeche Mode",
-       "title":"Ultra",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/depeche-mode/ultra/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/020684c1cec0e1a9c363b19d3c2a597a/1424345"
-    },
-    {
-       "artist":"Bruce Dickinson",
-       "title":"Tyranny of Souls",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/bruce-dickinson/tyranny-of-souls/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/09d29036a22c47a0ea7fef87acb442dd/5041030"
-    },
-    {
-       "artist":"Dio",
-       "title":"The Last in Line",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/dio/the-last-in-line/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a1fa33d312e7f858edf6703bc9706583/1214649"
-    },
-    {
-       "artist":"Dire Straits",
-       "title":"Making Movies",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/dire-straits/making-movies/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5880f5d9111b42ad10d05e5f15313717/5634437"
-    },
-    {
-       "artist":"The Doors",
-       "title":"The Doors",
-       "year":"1967",
-       "rymLink":"https://rateyourmusic.com/release/album/the_doors/the_doors/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9468ccd359d7d5e8b616de0ccfc1d281/2281803"
-    },
-    {
-       "artist":"The Doors",
-       "title":"Waiting for the Sun",
-       "year":"1968",
-       "rymLink":"https://rateyourmusic.com/release/album/the-doors/waiting-for-the-sun/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5562353c8fdba998b2560d8806adc1fc/4779144"
-    },
-    {
-       "artist":"Dream Theater",
-       "title":"When Dream and Day Unite",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/dream_theater/when_dream_and_day_unite/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/73d7f37aebfed89c28b0446fc238e8a0/1457783"
-    },
-    {
-       "artist":"Dream Theater",
-       "title":"Awake",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/dream-theater/awake/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a8e46def987256e502f095321cc1eb17/7683267"
-    },
-    {
-       "artist":"Dream Theater",
-       "title":"Falling Into Infinity",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/dream-theater/falling-into-infinity/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f352b15b6dc0eedc53f549d85d3e66e1/7818236"
-    },
-    {
-       "artist":"Dream Theater",
-       "title":"Metropolis Pt. 2: Scenes From a Memory",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/dream-theater/metropolis-pt-2-scenes-from-a-memory/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/05c38c0edca1602f30e171a8b5b3a7d6/1215276"
-    },
-    {
-       "artist":"Dream Theater",
-       "title":"Six Degrees of Inner Turbulence",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/dream_theater/six_degrees_of_inner_turbulence/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5d2927519f3b95f0a98d85c249006ff5/1245982"
-    },
-    {
-       "artist":"Dr Misio",
-       "title":"Młodzi",
-       "year":"2013",
-       "rymLink":"https://rateyourmusic.com/release/album/dr-misio/mlodzi/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/bd2c77f53839bfed5d8eedc6afae0665/4687321"
-    },
-    {
-       "artist":"Michael Dunford's Renaissance",
-       "title":"Ocean Gypsy",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/michael-dunfords-renaissance/ocean-gypsy/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/351072eae0ccc828af446f5e8fec2a54/7315420"
-    },
-    {
-       "artist":"Emerson, Lake & Palmer",
-       "title":"Emerson, Lake & Palmer",
-       "year":"1970",
-       "rymLink":"https://rateyourmusic.com/release/album/emerson-lake-and-palmer/emerson-lake-and-palmer/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/8b8fc9733401cb876232224d8166a122/3989716"
-    },
-    {
-       "artist":"Emerson, Lake & Palmer",
-       "title":"Tarkus",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/emerson__lake_and_palmer/tarkus/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3b328bf8638c5f6ef1dd7bf5792f815b/4781122"
-    },
-    {
-       "artist":"Emerson, Lake & Palmer",
-       "title":"Brain Salad Surgery",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/emerson-lake-and-palmer/brain-salad-surgery/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/80167af204257a61f8fc4dea93ab1b81/2264018"
-    },
-    {
-       "artist":"Emerson, Lake & Palmer",
-       "title":"Best of the Bootlegs",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/comp/emerson__lake_and_palmer/best_of_the_bootlegs/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0f8da150180e53474421f66ac89094e7/4749271"
-    },
-    {
-       "artist":"Eno",
-       "title":"Here Come the Warm Jets",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/eno/here-come-the-warm-jets/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fe21307e851b4326ce2b8cd13ddd6261/2002022"
-    },
-    {
-       "artist":"Eno",
-       "title":"Another Green World",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/eno/another-green-world/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/823559275156fee0f92b7248408a0ae5/2317304"
-    },
-    {
-       "artist":"Federacja",
-       "title":"Miłość mi wszystko wyjaśniła",
-       "year":"2000",
-       "rymLink":"https://rateyourmusic.com/release/album/federacja/milosc_mi_wszystko_wyjasnila/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/589a66b7bda648dace28a3d39c65f7fd/2376493"
-    },
-    {
-       "artist":"Bryan Ferry",
-       "title":"Bête noire",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/bryan-ferry/bete-noire/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2baedc2a7689274d056c102395189c33/2167590"
-    },
-    {
-       "artist":"Bryan Ferry",
-       "title":"Frantic",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/bryan-ferry/frantic/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6da65f9e5659c7919c341d73ea116d97/5917375"
-    },
-    {
-       "artist":"Final Conflict",
-       "title":"Stand Up",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/final-conflict/stand-up/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2178fb6169aae282aac766017607fcf0/1633259"
-    },
-    {
-       "artist":"Fish",
-       "title":"Suits",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/fish/suits/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/42a440149bed09413d4ac9eacc68c8b2/1242628"
-    },
-    {
-       "artist":"Fish",
-       "title":"Raingods With Zippos",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/fish/raingods_with_zippos/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/1ebd8726d45492a7eab069cc6ee6766e/1242638"
-    },
-    {
-       "artist":"Fish",
-       "title":"Field of Crows",
-       "year":"2003",
-       "rymLink":"https://rateyourmusic.com/release/album/fish/field_of_crows/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/de8ff3b13cc948f2cc077e678cd2afd1/1243484"
-    },
-    {
-       "artist":"Fleetwood Mac",
-       "title":"Rumours",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/fleetwood-mac/rumours/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3b6db3debc25c7cec01a72d58b8f51ba/5709996"
-    },
-    {
-       "artist":"Fleetwood Mac",
-       "title":"Tango in the Night",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/fleetwood-mac/tango-in-the-night/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cd885b5c87aa6ee04d20f29c5ed22e7e/7812375"
-    },
-    {
-       "artist":"Frankie Goes to Hollywood",
-       "title":"Welcome to the Pleasuredome",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/frankie-goes-to-hollywood/welcome-to-the-pleasuredome/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/992c8efcf5fc3cdc31ff002b03446d48/5611417"
-    },
-    {
-       "artist":"Rory Gallagher",
-       "title":"Against the Grain",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/rory-gallagher/against-the-grain/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/478faf9e91e44327a898d9b996b19b80/1398455"
-    },
-    {
-       "artist":"Genesis",
-       "title":"Selling England by the Pound",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/genesis/selling-england-by-the-pound/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b3b9aa4c2080aed5de1b5c51c5e6f78f/2716765"
-    },
-    {
-       "artist":"Gentle Giant",
-       "title":"Octopus",
-       "year":"1972",
-       "rymLink":"https://rateyourmusic.com/release/album/gentle-giant/octopus/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/90e1a1ea007d02dda3dcac7d481d5625/1769163"
-    },
-    {
-       "artist":"Marek Grechuta",
-       "title":"Droga za widnokres",
-       "year":"1972",
-       "rymLink":"https://rateyourmusic.com/release/album/marek-grechuta/droga-za-widnokres/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9c4fa0dc8ca1ddfbc86a11ed9c29d9a2/3135490"
-    },
-    {
-       "artist":"Peter Hammill",
-       "title":"Fool's Mate",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/peter-hammill/fools-mate/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/aa427b3d0237e4760d9c665cf786eea9/7068825"
-    },
-    {
-       "artist":"Peter Hammill",
-       "title":"Over",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/peter-hammill/over/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/edbf91aee3a0e20143fa15aacde237e3/1217019"
-    },
-    {
-       "artist":"Peter Hammill",
-       "title":"pH7",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/peter-hammill/ph7/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/34ac764a961c1ac492397b2482653711/2465006"
-    },
-    {
-       "artist":"The Jimi Hendrix Experience",
-       "title":"Axis: Bold as Love",
-       "year":"1967",
-       "rymLink":"https://rateyourmusic.com/release/album/the-jimi-hendrix-experience/axis-bold-as-love/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/74466af1fe69e0ae5675ad8545775261/4459926"
-    },
-    {
-       "artist":"Hooters",
-       "title":"Zig Zag",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/hooters/zig_zag/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2f2b6afbf5ee65db78e1a5ff2d22d49c/3201900"
-    },
-    {
-       "artist":"The Hooters",
-       "title":"Out of Body",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/the_hooters/out_of_body/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f15772789b3305054cfaf1858f5920cc/2067006"
-    },
-    {
-       "artist":"Glenn Hughes",
-       "title":"Soul Mover",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/glenn-hughes/soul-mover/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/27b3eb07493db36f646b2fc58baf0b30/2666559"
-    },
-    {
-       "artist":"Iggy and The Stooges",
-       "title":"Raw Power",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/iggy-and-the-stooges/raw-power/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/13e167b8c94869dbd726bb14d8a2320e/2220562"
-    },
-    {
-       "artist":"Jamiroquai",
-       "title":"The Return of the Space Cowboy",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/jamiroquai/the-return-of-the-space-cowboy/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9c4abe640a13c0c8e3a8a242c42c3279/1351779"
-    },
-    {
-       "artist":"Jamiroquai",
-       "title":"Synkronized",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/jamiroquai/synkronized/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6fc6fbdf4855df91d8ae26187016b5e3/1617188"
-    },
-    {
-       "artist":"Lech Janerka",
-       "title":"Historia podwodna",
-       "year":"1986",
-       "rymLink":"https://rateyourmusic.com/release/album/lech_janerka/historia_podwodna/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3ff4d52f302a24872bf6ea4fd6725ca3/1426446"
-    },
-    {
-       "artist":"Lech Janerka",
-       "title":"Co lepsze kawałki",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/comp/lech_janerka/co_lepsze_kawalki/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/4f0284ae72b36008db53666afdc5502b/2123503"
-    },
-    {
-       "artist":"Jethro Tull",
-       "title":"Thick as a Brick",
-       "year":"1972",
-       "rymLink":"https://rateyourmusic.com/release/album/jethro-tull/thick-as-a-brick/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6ae008102b88e577f0e63d74b15342fd/1988441"
-    },
-    {
-       "artist":"Jethro Tull",
-       "title":"A Passion Play",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/jethro-tull/a-passion-play/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d2791d8030fc138c1f4d8ec3a81d4f5d/1381629"
-    },
-    {
-       "artist":"Jethro Tull",
-       "title":"Minstrel in the Gallery",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/jethro-tull/minstrel-in-the-gallery/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/50e95cbb5ebfa4ce039ed00db77c92a2/1528406"
-    },
-    {
-       "artist":"Jethro Tull",
-       "title":"Heavy Horses",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/jethro-tull/heavy-horses/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/eea990247e1fe6416d9306ac4131673a/7373648"
-    },
-    {
-       "artist":"Grace Jones",
-       "title":"Nightclubbing",
-       "year":"1981",
-       "rymLink":"https://rateyourmusic.com/release/album/grace-jones/nightclubbing/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/898dd55febb747b3be4f5007e17af47a/8508548"
-    },
-    {
-       "artist":"Judas Priest",
-       "title":"Stained Class",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/judas-priest/stained-class/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ba99c577988b81b8e85e69127569cc69/2898552"
-    },
-    {
-       "artist":"Kansas",
-       "title":"Leftoverture",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/kansas/leftoverture/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ab1e4f0998a6e485ca8c4aa1e5a04d23/2278329"
-    },
-    {
-       "artist":"Kansas",
-       "title":"Point of Know Return",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/kansas/point-of-know-return/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cd4caf94474cb505b6cfc7f00e4036c4/4131198"
-    },
-    {
-       "artist":"Killing Joke",
-       "title":"Killing Joke",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/killing-joke/killing-joke/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0d5908b11968d568e528056b654a3542/2978324"
-    },
-    {
-       "artist":"Killing Joke",
-       "title":"Revelations",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/killing-joke/revelations/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/29c53311fca940e8a9a25705402b061c/7623889"
-    },
-    {
-       "artist":"King Crimson",
-       "title":"In the Wake of Poseidon",
-       "year":"1970",
-       "rymLink":"https://rateyourmusic.com/release/album/king-crimson/in-the-wake-of-poseidon/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cd06dee9876afaad211acd319933003d/2602900"
-    },
-    {
-       "artist":"Lenny Kravitz",
-       "title":"Are You Gonna Go My Way",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/lenny-kravitz/are-you-gonna-go-my-way/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/db20f10c14dac835276d4c40a62dc3e5/2439684"
-    },
-    {
-       "artist":"Led Zeppelin",
-       "title":"Led Zeppelin II",
-       "year":"1969",
-       "rymLink":"https://rateyourmusic.com/release/album/led-zeppelin/led-zeppelin-ii/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/4047718622272aca0324606688e23de2/2033534"
-    },
-    {
-       "artist":"Led Zeppelin",
-       "title":"Led Zeppelin [IV]",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/led-zeppelin/led-zeppelin-iv/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/20b151f9030303b182f819c203a3965b/5707164"
-    },
-    {
-       "artist":"Live",
-       "title":"Throwing Copper",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/live/throwing-copper/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/09f8c59adca53d68ca959b040b6020df/1451886"
-    },
-    {
-       "artist":"Lizard",
-       "title":"W Galerii Czasu",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/lizard_f1/w_galerii_czasu/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f70a312e9b5cea4af0b20c99ae50e4b5/2618042"
-    },
-    {
-       "artist":"Philip Lynott",
-       "title":"Solo in Soho",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/philip-lynott/solo-in-soho/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2afa2be3587b1c6b2b357a680267343c/1323523"
-    },
-    {
-       "artist":"Manic Street Preachers",
-       "title":"This Is My Truth Tell Me Yours",
-       "year":"1998",
-       "rymLink":"https://rateyourmusic.com/release/album/manic-street-preachers/this-is-my-truth-tell-me-yours/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e902b5b54a2b782ecf4a6a07ccc3c1c0/2341864"
-    },
-    {
-       "artist":"Marillion",
-       "title":"Script for a Jester's Tear",
-       "year":"1983",
-       "rymLink":"https://rateyourmusic.com/release/album/marillion/script_for_a_jesters_tear/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ad4c21bf32d59d65934857b022da8f68/2810309"
-    },
-    {
-       "artist":"Marillion",
-       "title":"Fugazi",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/marillion/fugazi/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2453a09e9017176356aa6ce3298a78c8/1405499"
-    },
-    {
-       "artist":"Marillion",
-       "title":"Misplaced Childhood",
-       "year":"1985",
-       "rymLink":"https://rateyourmusic.com/release/album/marillion/misplaced-childhood/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/816ad7e9b2857d18290c53fc613c410b/1511200"
-    },
-    {
-       "artist":"Marillion",
-       "title":"Clutching at Straws",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/marillion/clutching_at_straws/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/79d0803b49668053d98e75b489e08f48/3296576"
-    },
-    {
-       "artist":"Marillion",
-       "title":"Seasons End",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/marillion/seasons-end/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/bed4393844a5553be03851f6cc103a98/6626831"
-    },
-    {
-       "artist":"Marillion",
-       "title":"marillion.com",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/marillion/marillion_com/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/bec33c413dbc0307c6d1faad4efb919c/8423836"
-    },
-    {
-       "artist":"The Mars Volta",
-       "title":"De-Loused in the Comatorium",
-       "year":"2003",
-       "rymLink":"https://rateyourmusic.com/release/album/the-mars-volta/de-loused-in-the-comatorium/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/99b1aee9590e0ffcfdfafcd2b2aec87e/2751592"
-    },
-    {
-       "artist":"Paul McCartney",
-       "title":"Flaming Pie",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/paul-mccartney/flaming-pie/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/7c6316bbced396c3ea4c43c3e16246ae/1229829"
-    },
-    {
-       "artist":"Megadeth",
-       "title":"Peace Sells... But Who's Buying?",
-       "year":"1986",
-       "rymLink":"https://rateyourmusic.com/release/album/megadeth/peace-sells-but-whos-buying/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0f4b631aa27586bfef2a151f3fbeebc1/1215040"
-    },
-    {
-       "artist":"Megadeth",
-       "title":"Rust in Peace",
-       "year":"1990",
-       "rymLink":"https://rateyourmusic.com/release/album/megadeth/rust-in-peace/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3f11c6edf31e00ef71cf095820033700/5748025"
-    },
-    {
-       "artist":"Megadeth",
-       "title":"Countdown to Extinction",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/megadeth/countdown-to-extinction/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f2703b1123c4fc03e2fdc32ce87ffcc6/1919813"
-    },
-    {
-       "artist":"Megadeth",
-       "title":"Cryptic Writings",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/megadeth/cryptic-writings/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0f3eff3ab7e5a10d7c574eaa544eac85/2060276"
-    },
-    {
-       "artist":"Maciej Meller",
-       "title":"Zenith",
-       "year":"2020",
-       "rymLink":"https://rateyourmusic.com/release/album/maciej-meller/zenith/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/87660a07bd50a00a6f9f6e110f4648f0/8364109"
-    },
-    {
-       "artist":"The Moody Blues",
-       "title":"In Search of the Lost Chord",
-       "year":"1968",
-       "rymLink":"https://rateyourmusic.com/release/album/the-moody-blues/in-search-of-the-lost-chord/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5f2c834dc72df372a131446b0d7cd813/2294732"
-    },
-    {
-       "artist":"The Moody Blues",
-       "title":"On the Threshold of a Dream",
-       "year":"1969",
-       "rymLink":"https://rateyourmusic.com/release/album/the_moody_blues/on_the_threshold_of_a_dream/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0a6e0d95729ea2f82bfadb861778ed09/2179621"
-    },
-    {
-       "artist":"Gary Moore",
-       "title":"After the War",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/gary-moore/after-the-war/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cf43ddfb54d2842792c1e38c48977419/1254101"
-    },
-    {
-       "artist":"Morcheeba",
-       "title":"Big Calm",
-       "year":"1998",
-       "rymLink":"https://rateyourmusic.com/release/album/morcheeba/big-calm/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/014ad960bb3419effbb949aa2c1df20a/7607738"
-    },
-    {
-       "artist":"Morcheeba",
-       "title":"Charango",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/morcheeba/charango/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fcdb5b84b8180287bf1bb2250bc7671a/5100709"
-    },
-    {
-       "artist":"Leszek Możdżer",
-       "title":"Kaczmarek Played by Możdżer",
-       "year":"2010",
-       "rymLink":"https://rateyourmusic.com/release/album/leszek-mozdzer/kaczmarek-played-by-mozdzer/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0734205d40accfd2b987429afa52dab1/3597996"
-    },
-    {
-       "artist":"New Order",
-       "title":"Technique",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/new-order/technique/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a390c21e9f76dd9d93bea296972ebd26/2667856"
-    },
-    {
-       "artist":"Nightly Gale",
-       "title":"Illusion of Evil ",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/nightly_gale/illusion_of_evil/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/93f76ff8696b4c000c0f209522012a9d/1828620"
-    },
-    {
-       "artist":"Nirvana",
-       "title":"Nevermind",
-       "year":"1991",
-       "rymLink":"https://rateyourmusic.com/release/album/nirvana/nevermind/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/53872cb349d06c899895395ad73e0359/1628796"
-    },
-    {
-       "artist":"Obywatel G.C.",
-       "title":"Obywatel G.C.",
-       "year":"1986",
-       "rymLink":"https://rateyourmusic.com/release/album/obywatel-g_c/obywatel-g_c/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/50362c12fb56f3b4f5e608a097b1d6f3/1605567"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"Hergest Ridge",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/mike-oldfield/hergest-ridge/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/484893d9e7006641c32b0b28197330c5/3215857"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"Ommadawn",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/mike-oldfield/ommadawn/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/77751b7bdacad75bad4d2669e4207706/1553160"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"Incantations",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/mike_oldfield/incantations/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e710105dfc793f35160983bc99b29d88/1878321"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"Crises",
-       "year":"1983",
-       "rymLink":"https://rateyourmusic.com/release/album/mike-oldfield/crises/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3ae28684620150871d63ba8481300a4f/2769601"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"The Songs of Distant Earth",
-       "year":"1996",
-       "rymLink":"https://rateyourmusic.com/release/album/mike-oldfield/the-songs-of-distant-earth/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/50677cd41c81f8739dc40eda083d87da/1210315"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"Tubular Bells III",
-       "year":"1998",
-       "rymLink":"https://rateyourmusic.com/release/album/mike-oldfield/tubular-bells-iii/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/da33b8c28c43dd34d0598a272f03a401/2767885"
-    },
-    {
-       "artist":"Mike Oldfield",
-       "title":"Man on the Rocks",
-       "year":"2014",
-       "rymLink":"https://rateyourmusic.com/release/album/mike-oldfield/man-on-the-rocks/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2cf3c5cee5a2dda0af32f97bb31ed7db/4964915"
-    },
-    {
-       "artist":"O.N.A.",
-       "title":"Pieprz",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/o_n_a/pieprz/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6dda10a8447d9d6686b7c4dd7a63b1e0/1600249"
-    },
-    {
-       "artist":"O.N.A.",
-       "title":"Mrok",
-       "year":"2001",
-       "rymLink":"https://rateyourmusic.com/release/album/o_n_a/mrok/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2b60ab15e4e188860f238278af946370/1600251"
-    },
-    {
-       "artist":"Opeth",
-       "title":"Blackwater Park",
-       "year":"2001",
-       "rymLink":"https://rateyourmusic.com/release/album/opeth/blackwater-park/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e2721363a2529a889ddae0636fe992c6/1719095"
-    },
-    {
-       "artist":"Opeth",
-       "title":"Deliverance",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/opeth/deliverance/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c76e664f32c7f3aae420dc881685098d/8425265"
-    },
-    {
-       "artist":"Opeth",
-       "title":"Damnation",
-       "year":"2003",
-       "rymLink":"https://rateyourmusic.com/release/album/opeth/damnation/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fab129e37ef8c4bbedd1a6ec03937c6b/2675319"
-    },
-    {
-       "artist":"Opeth",
-       "title":"Pale Communion",
-       "year":"2014",
-       "rymLink":"https://rateyourmusic.com/release/album/opeth/pale-communion/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/45c4aecc70c933dd56ec23b3b3133aec/7071677"
-    },
-    {
-       "artist":"Osada Vida",
-       "title":"Particles",
-       "year":"2013",
-       "rymLink":"https://rateyourmusic.com/release/album/osada_vida/particles/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a5a75a503a43b98f8f254bc3194fc28d/4636290"
-    },
-    {
-       "artist":"Paradise Lost",
-       "title":"Shades of God",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/paradise-lost/shades-of-god/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/93496e074d0d7445a057515658c5ab27/2616260"
-    },
-    {
-       "artist":"Paradise Lost",
-       "title":"Icon",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/paradise-lost/icon/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/dd41f709e23a911cb60b0d226d1105db/1350305"
-    },
-    {
-       "artist":"Paradise Lost",
-       "title":"Believe in Nothing",
-       "year":"2001",
-       "rymLink":"https://rateyourmusic.com/release/album/paradise-lost/believe-in-nothing/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/334144c743495f7aee178a3aea34f051/8425979"
-    },
-    {
-       "artist":"The Alan Parsons Project",
-       "title":"Tales of Mystery and Imagination",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/the-alan-parsons-project/tales-of-mystery-and-imagination/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/8ac1f6cf51210487ff4ceea537155c35/2551967"
-    },
-    {
-       "artist":"The Alan Parsons Project",
-       "title":"Eye in the Sky",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/the-alan-parsons-project/eye-in-the-sky/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/620c9ba7d405c737b86cdf9c0533825a/2773203"
-    },
-    {
-       "artist":"The Alan Parsons Project",
-       "title":"Gaudi",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/the-alan-parsons-project/gaudi/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ff5593c0b488b9f7928ed49bd3a6db7a/1703426"
-    },
-    {
-       "artist":"Pearl Jam",
-       "title":"Ten",
-       "year":"1991",
-       "rymLink":"https://rateyourmusic.com/release/album/pearl-jam/ten/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/28964db6a5cffaf1e412ce8a7c166248/6451534"
-    },
-    {
-       "artist":"Pendragon",
-       "title":"Acoustically Challenged",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/pendragon/acoustically-challenged/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/991af9fdedc1c60c3bffc23919ceed9d/1420111"
-    },
-    {
-       "artist":"Pendragon",
-       "title":"Believe",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/pendragon/believe/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/92e3983fb116b9a19fd91bb348e19ee5/2681182"
-    },
-    {
-       "artist":"The Pineapple Thief",
-       "title":"Tightly Unwound",
-       "year":"2008",
-       "rymLink":"https://rateyourmusic.com/release/album/the-pineapple-thief/tightly-unwound/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/373aa36adb84371c5e489e02b515bf9b/2351596"
-    },
-    {
-       "artist":"Pink Floyd",
-       "title":"The Dark Side of the Moon",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/pink-floyd/the-dark-side-of-the-moon/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/7864e26c168c75828a5cac83ecf5d0d6/5395533"
-    },
-    {
-       "artist":"Robert Plant",
-       "title":"The Principle of Moments",
-       "year":"1983",
-       "rymLink":"https://rateyourmusic.com/release/album/robert-plant/the-principle-of-moments/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/95604884fe1d39dd7ee5eb7ae17c3c2c/5448388"
-    },
-    {
-       "artist":"Robert Plant",
-       "title":"Fate of Nations",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/robert-plant/fate-of-nations/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/22d790faf985406624431f21e84a54d3/1447786"
-    },
-    {
-       "artist":"Porcupine Tree",
-       "title":"Signify",
-       "year":"1996",
-       "rymLink":"https://rateyourmusic.com/release/album/porcupine_tree/signify/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/36a2b8fe998556ac1bcadb2e1651c057/1352919"
-    },
-    {
-       "artist":"Porcupine Tree",
-       "title":"Coma Divine: Recorded Live in Rome",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/porcupine_tree/coma_divine__recorded_live_in_rome/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/bb4882bd6703c11591c19964e20b8198/3190664"
-    },
-    {
-       "artist":"Porcupine Tree",
-       "title":"In absentia",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/porcupine-tree/in-absentia/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/449a9daeb7fabb0528cecd9bddedbd33/3494945"
-    },
-    {
-       "artist":"Porcupine Tree",
-       "title":"Deadwing",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/porcupine-tree/deadwing/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/336610ad3492bb034467841368049c36/2510148"
-    },
-    {
-       "artist":"Pulp",
-       "title":"Different Class",
-       "year":"1995",
-       "rymLink":"https://rateyourmusic.com/release/album/pulp/different-class/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d74654b2f95a65d089ca746ddb8ef520/2109326"
-    },
-    {
-       "artist":"Pulp",
-       "title":"This Is Hardcore",
-       "year":"1998",
-       "rymLink":"https://rateyourmusic.com/release/album/pulp/this-is-hardcore/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fcffb18ed7701568ddaf8856282ad4e5/5754243"
-    },
-    {
-       "artist":"Queen",
-       "title":"Sheer Heart Attack",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/queen/sheer-heart-attack/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e717283042ccd84a90a98f46f2aaf695/2700214"
-    },
-    {
-       "artist":"Queen",
-       "title":"A Kind of Magic",
-       "year":"1986",
-       "rymLink":"https://rateyourmusic.com/release/album/queen/a-kind-of-magic/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d501bd93ce1deb59542f03f10539657c/1719587"
-    },
-    {
-       "artist":"Queens of the Stone Age",
-       "title":"Songs for the Deaf",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/queens-of-the-stone-age/songs-for-the-deaf/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ae35f9ac0d1da938b2c8c59e7cd22ed4/8239729"
-    },
-    {
-       "artist":"Rage Against the Machine",
-       "title":"Rage Against the Machine",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/rage-against-the-machine/rage-against-the-machine/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2a054cae955c3daa055ece16d641bc85/1971515"
-    },
-    {
-       "artist":"Rage Against the Machine",
-       "title":"Evil Empire",
-       "year":"1996",
-       "rymLink":"https://rateyourmusic.com/release/album/rage-against-the-machine/evil-empire/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fa603a41f3c3a37f46fecd00f66e1f27/2150298"
-    },
-    {
-       "artist":"Rage Against the Machine",
-       "title":"The Battle of Los Angeles",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/rage-against-the-machine/the-battle-of-los-angeles/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/35a4145ba6b757f160eca41751fe41ce/2510489"
-    },
-    {
-       "artist":"Rainbow",
-       "title":"Difficult to Cure",
-       "year":"1981",
-       "rymLink":"https://rateyourmusic.com/release/album/rainbow/difficult-to-cure/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c383b1c9a5766aabc7e04c11c2d47151/2799783"
-    },
-    {
-       "artist":"Red Hot Chili Peppers",
-       "title":"Blood Sugar Sex Magik",
-       "year":"1991",
-       "rymLink":"https://rateyourmusic.com/release/album/red-hot-chili-peppers/blood-sugar-sex-magik/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/26338a6082379a32a3a96c3d789c12df/2173523"
-    },
-    {
-       "artist":"Red Hot Chili Peppers",
-       "title":"Californication",
-       "year":"1999",
-       "rymLink":"https://rateyourmusic.com/release/album/red-hot-chili-peppers/californication/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/08d791b65418549da446ada303f26ef6/2074981"
-    },
-    {
-       "artist":"Red Hot Chili Peppers",
-       "title":"By the Way",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/red-hot-chili-peppers/by-the-way/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/562f8a0c410c56ccbfc1ad94702651b7/6610101"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Reckoning",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m/reckoning/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d70a51ea0510afd8a0045bb5fc0abddc/3838863"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Document",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m/document/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d46bfef3ee9c5d827da2c216a7726f19/6798773"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Out of Time",
-       "year":"1991",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m/out-of-time/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d7e147b519e5f04d06260ca57fb7a774/6816900"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Automatic for the People",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m_/automatic_for_the_people/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/81793eae91861fff1ebdc7970b82e8fe/3772892"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Monster",
-       "year":"1994",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m/monster/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e6768003ad9d98ffa55e1f1f884f18e1/5792536"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Up",
-       "year":"1998",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m/up/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/96b9b266af21a64a9c4418d77573d486/2229738"
-    },
-    {
-       "artist":"R.E.M.",
-       "title":"Reveal",
-       "year":"2001",
-       "rymLink":"https://rateyourmusic.com/release/album/r_e_m/reveal/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6e40d51f909339ec6d855c48da4a9bbd/8050104"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Renaissance",
-       "year":"1969",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/renaissance/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/274b9e96b2722211a3b6309a401ccc6e/1211476"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Illusion",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/illusion/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c52fca4b2f6b1bd35f6c18938698e725/1566196"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Prologue",
-       "year":"1972",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/prologue/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f1e3a4e0d6c650abbe14a9efc22e98ec/1566180"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Ashes Are Burning",
-       "year":"1973",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/ashes-are-burning/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/062e48c57e541b2f1a48ddb707a8d5bb/2607920"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Turn of the Cards",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/turn-of-the-cards/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ba877686b8e16779f9a8360c0dacd5ab/2604535"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Scheherazade and Other Stories",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/scheherazade-and-other-stories/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e545c4420dbd84e3c9522ddcb06f795f/2236678"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Live at Carnegie Hall",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/live-at-carnegie-hall/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/987c1fb6a0bd7a9fcc32a76960573cdd/1211477"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Novella",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/novella/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/1de3b89c852f69e3ed2357eeda6d6586/1343005"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"A Song for All Seasons",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/a-song-for-all-seasons/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/af97b5550cca220e9512d83654e09a9b/8560330"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Azure d'Or",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/azure_dor/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/559e384fe3437fcc3ac2cefc147c84cd/1404192"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Camera Camera",
-       "year":"1981",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/camera_camera/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/040e7bfcd19c3b2b72c48e6318e4b26e/1320590"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Time-Line",
-       "year":"1983",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/time_line/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f07c03324e9d3b365c265964e6cddfa4/1641095"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"Tuscany",
-       "year":"2000",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/tuscany/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5656cec28d66223944be2e32db72a303/1723772"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"In the Land of the Rising Sun",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/in-the-land-of-the-rising-sun/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a40db0299af688e280d80d7f97badd84/2622499"
-    },
-    {
-       "artist":"Renaissance",
-       "title":"The Other Woman",
-       "year":"1995",
-       "rymLink":"https://rateyourmusic.com/release/album/renaissance/the_other_woman/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d5f41037a0fb41e08c8b6b4f25100413/3238178"
-    },
-    {
-       "artist":"Lou Rhodes",
-       "title":"Bloom",
-       "year":"2007",
-       "rymLink":"https://rateyourmusic.com/release/album/lou_rhodes/bloom/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ed62215bd211a56c21939c5c46b828ee/1999840"
-    },
-    {
-       "artist":"Roxy Music",
-       "title":"Avalon",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/roxy-music/avalon/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f7b6cac36de7e8e4b0ab73e40d5d1e81/1449729"
-    },
-    {
-       "artist":"Rush",
-       "title":"Rush",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/rush/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/832a3e426840841dacbd85e9640e13b3/3930457"
-    },
-    {
-       "artist":"Rush",
-       "title":"Fly by Night",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/fly-by-night/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/34a868af5fc66ca545556f4f64decdd2/5096081"
-    },
-    {
-       "artist":"Rush",
-       "title":"Caress of Steel",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/caress-of-steel/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a8585c6c013a83396454e7737633dd24/2616017"
-    },
-    {
-       "artist":"Rush",
-       "title":"2112",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/2112/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/4b2042c443794aafa9895761312cdce3/3192398"
-    },
-    {
-       "artist":"Rush",
-       "title":"A Farewell to Kings",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/a-farewell-to-kings/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/78411ad89036b5ce8ffaa88a6150e3f2/2898538"
-    },
-    {
-       "artist":"Rush",
-       "title":"Hemispheres",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/hemispheres/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/06213e82a705469dbe7a7338c8723c6a/2811498"
-    },
-    {
-       "artist":"Rush",
-       "title":"Permanent Waves",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/permanent-waves/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/4e09cfe3e767fa49c07a4b4a1d3072db/2798285"
-    },
-    {
-       "artist":"Rush",
-       "title":"Moving Pictures",
-       "year":"1981",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/moving-pictures/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ed143fb79e86240118af459cd2603fbd/2799730"
-    },
-    {
-       "artist":"Rush",
-       "title":"Signals",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/signals/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/8bf19b129ccd51248da95e3e42cc8262/8013248"
-    },
-    {
-       "artist":"Rush",
-       "title":"Grace Under Pressure",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/grace-under-pressure/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/43f5723961b57f1c90b1613c6ad86e95/5096090"
-    },
-    {
-       "artist":"Rush",
-       "title":"Power Windows",
-       "year":"1985",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/power-windows/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5007a276029503fa77f8d1310a69bdaa/1720179"
-    },
-    {
-       "artist":"Rush",
-       "title":"Hold Your Fire",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/hold-your-fire/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/50af86d830e783ab87611f062d9ea668/2603077"
-    },
-    {
-       "artist":"Rush",
-       "title":"Presto",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/presto/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/59f42599f53b54b1a6acb8036c90823a/1996942"
-    },
-    {
-       "artist":"Rush",
-       "title":"Roll the Bones",
-       "year":"1991",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/roll-the-bones/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/71889152619c831db204cf51132609e5/1996957"
-    },
-    {
-       "artist":"Rush",
-       "title":"Counterparts",
-       "year":"1993",
-       "rymLink":"https://rateyourmusic.com/release/album/rush/counterparts/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/8bbb00de70796ae60882dc23f5a491d7/2317453"
-    },
-    {
-       "artist":"Samaya",
-       "title":"Samaya",
-       "year":"2017",
-       "rymLink":"https://rateyourmusic.com/release/ep/samaya/samaya/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/240cdaf28627c7b4b785d9579712c8de/8131670"
-    },
-    {
-       "artist":"Santana",
-       "title":"Santana",
-       "year":"1969",
-       "rymLink":"https://rateyourmusic.com/release/album/santana/santana/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2548bb443e7b6da06040f8615293f061/1837556"
-    },
-    {
-       "artist":"Satellite",
-       "title":"A Street Between Sunrise and Sunset",
-       "year":"2003",
-       "rymLink":"https://rateyourmusic.com/release/album/satellite/a-street-between-sunrise-and-sunset/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/4c43c3c3d372e1398d4908e692cb0d4e/1706945"
-    },
-    {
-       "artist":"Satellite",
-       "title":"Evening Games",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/satellite/evening-games/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/79b269b7fbb818b65e048f3e3823c027/1295969"
-    },
-    {
-       "artist":"Satellite",
-       "title":"Into the Night",
-       "year":"2007",
-       "rymLink":"https://rateyourmusic.com/release/album/satellite/into-the-night/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ecff1af15361e1fa96bf42e879a28ace/2098657"
-    },
-    {
-       "artist":"Satellite",
-       "title":"Nostalgia",
-       "year":"2009",
-       "rymLink":"https://rateyourmusic.com/release/album/satellite/nostalgia/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/53df180231d5f6945f39d2332c77199e/5220661"
-    },
-    {
-       "artist":"SBB",
-       "title":"Ze słowem biegnę do ciebie",
-       "year":"1977",
-       "rymLink":"https://rateyourmusic.com/release/album/sbb/ze-slowem-biegne-do-ciebie/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/eb23224c15d8d012337d7ba096618ccb/1658081"
-    },
-    {
-       "artist":"SBB",
-       "title":"Nastroje",
-       "year":"2002",
-       "rymLink":"https://rateyourmusic.com/release/album/sbb/nastroje/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/7a78f8a04e8e363af8ff88d8c09162c4/5417440"
-    },
-    {
-       "artist":"Simon & Garfunkel",
-       "title":"Sounds of Silence",
-       "year":"1966",
-       "rymLink":"https://rateyourmusic.com/release/album/simon-and-garfunkel/sounds-of-silence/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3c8091e81d848ed713514424fe5d3c7b/4981818"
-    },
-    {
-       "artist":"Simple Minds",
-       "title":"Life in a Day",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/simple-minds/life-in-a-day/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/bfc92ce485f52a7d9260d41022c49b57/2454076"
-    },
-    {
-       "artist":"Simple Minds",
-       "title":"Empires and Dance",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/simple-minds/empires-and-dance/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2bea34b100e4d7ce7f6b6c31e61afecd/6134512"
-    },
-    {
-       "artist":"Simple Minds",
-       "title":"Sparkle in the Rain",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/simple-minds/sparkle-in-the-rain/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/519b5d56f07bc3945672a4d40c198a2d/6168540"
-    },
-    {
-       "artist":"Simple Minds",
-       "title":"Glittering Prize 81/92",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/comp/simple-minds/glittering-prize-81_92/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f368670893544bfc1a8bf5f55825eb2a/1365967"
-    },
-    {
-       "artist":"Simple Minds",
-       "title":"Graffiti Soul",
-       "year":"2009",
-       "rymLink":"https://rateyourmusic.com/release/album/simple-minds/graffiti-soul/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a2ed48b10a6753ef341aba066c9f352b/2573639"
-    },
-    {
-       "artist":"Patti Smith",
-       "title":"Peace and Noise",
-       "year":"1997",
-       "rymLink":"https://rateyourmusic.com/release/album/patti-smith/peace-and-noise/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b190eccaac0d55b7f2c6929b313dd788/1210418"
-    },
-    {
-       "artist":"Bruce Springsteen",
-       "title":"Born to Run",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/bruce-springsteen/born-to-run/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/615d589678c4f320cfdcabc5a4492dff/2666080"
-    },
-    {
-       "artist":"Suede",
-       "title":"Coming Up",
-       "year":"1996",
-       "rymLink":"https://rateyourmusic.com/release/album/suede/coming-up/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/1aeac850e6f81fde8b191bbd21d7f66f/1879129"
-    },
-    {
-       "artist":"Supertramp",
-       "title":"Crime of the Century",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/supertramp/crime-of-the-century/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/1c6d7fa882824fc6ef026f07cb21b6b2/3370822"
-    },
-    {
-       "artist":"David Sylvian",
-       "title":"Brilliant Trees",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/david-sylvian/brilliant-trees/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/807b9a78a34e79e77b6652569f01ff24/1984847"
-    },
-    {
-       "artist":"System of a Down",
-       "title":"Mezmerize",
-       "year":"2005",
-       "rymLink":"https://rateyourmusic.com/release/album/system-of-a-down/mezmerize/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/a5453cccdae5d30e727b5b7f259bf726/4170214"
-    },
-    {
-       "artist":"Talk Talk",
-       "title":"The Party's Over",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/talk-talk/the-partys-over/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/8d49feb5afbb4ba6ecb55f35ab4e06b3/1446965"
-    },
-    {
-       "artist":"Talk Talk",
-       "title":"It's My Life",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/talk-talk/its-my-life/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e0c29bf5f28bd11eb25111543ea6d1cb/3647241"
-    },
-    {
-       "artist":"Talk Talk",
-       "title":"The Colour of Spring",
-       "year":"1986",
-       "rymLink":"https://rateyourmusic.com/release/album/talk-talk/the-colour-of-spring/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/d334feef28c0ce4a7c382ed83b57a54a/1553033"
-    },
-    {
-       "artist":"Tangerine Dream",
-       "title":"Phaedra",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/tangerine-dream/phaedra/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2674b3f0c402eb496345b33bdb910a6e/1993698"
-    },
-    {
-       "artist":"Tangerine Dream",
-       "title":"Stratosfear",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/tangerine-dream/stratosfear/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fd08083cef964f37a1fea9a70363b468/7538882"
-    },
-    {
-       "artist":"Tangerine Dream",
-       "title":"Cyclone",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/tangerine-dream/cyclone/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/fa4414d6b8c66df27829d7aa76cc53d4/2512621"
-    },
-    {
-       "artist":"Tangerine Dream",
-       "title":"Force Majeure",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/tangerine-dream/force-majeure/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b190c3e7b2c1b6ea2b671301fedd091e/1888339"
-    },
-    {
-       "artist":"Tears for Fears",
-       "title":"Songs From the Big Chair",
-       "year":"1985",
-       "rymLink":"https://rateyourmusic.com/release/album/tears-for-fears/songs-from-the-big-chair/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/1a7375b46a0616569db51508e23de86d/2758916"
-    },
-    {
-       "artist":"Tears for Fears",
-       "title":"The Seeds of Love",
-       "year":"1989",
-       "rymLink":"https://rateyourmusic.com/release/album/tears-for-fears/the-seeds-of-love/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3ba78abf4927d938a1cb10f97bd35979/2522789"
-    },
-    {
-       "artist":"Thin Lizzy",
-       "title":"Jailbreak",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/thin-lizzy/jailbreak/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f6fe1244bb84ce550ea1db7d180cd299/1211553"
-    },
-    {
-       "artist":"Thin Lizzy",
-       "title":"Black Rose: A Rock Legend",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/thin-lizzy/black-rose-a-rock-legend/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ea2b986e0641e50837338b1c9c854586/2810191"
-    },
-    {
-       "artist":"Thin Lizzy",
-       "title":"Thunder and Lightning",
-       "year":"1983",
-       "rymLink":"https://rateyourmusic.com/release/album/thin-lizzy/thunder-and-lightning/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6e8059651d031a70fd880802bc671c4b/1323528"
-    },
-    {
-       "artist":"U2",
-       "title":"The Joshua Tree",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/u2/the-joshua-tree/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/aa830a57b6f51a79b4fc4845e05fe3f2/7628416"
-    },
-    {
-       "artist":"U2",
-       "title":"All That You Can't Leave Behind",
-       "year":"2000",
-       "rymLink":"https://rateyourmusic.com/release/album/u2/all-that-you-cant-leave-behind/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e6772386c7230d5e00e35d598fd3fdd9/2483082"
-    },
-    {
-       "artist":"Ultravox",
-       "title":"Vienna",
-       "year":"1980",
-       "rymLink":"https://rateyourmusic.com/release/album/ultravox/vienna/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f0edb1bb37903ea2a3ed3d4efd9ec4a9/5599829"
-    },
-    {
-       "artist":"Ultravox",
-       "title":"Rage in Eden",
-       "year":"1981",
-       "rymLink":"https://rateyourmusic.com/release/album/ultravox/rage-in-eden/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/e9634cef88aca8965ebfe78dd2c45cd5/2687046"
-    },
-    {
-       "artist":"Ultravox",
-       "title":"Quartet",
-       "year":"1982",
-       "rymLink":"https://rateyourmusic.com/release/album/ultravox/quartet/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c02b5e64fe3b172dc9c575e84119e819/6216143"
-    },
-    {
-       "artist":"Ultravox",
-       "title":"Lament",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/ultravox/lament/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/6f7c39292e1a6b13d04916a249e09d6a/1480211"
-    },
-    {
-       "artist":"Ultravox",
-       "title":"Brilliant",
-       "year":"2012",
-       "rymLink":"https://rateyourmusic.com/release/album/ultravox/brilliant/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/009fd939dff2a04d5de72fdfc48ad689/4180426"
-    },
-    {
-       "artist":"Uriah Heep",
-       "title":"...Very 'eavy...Very 'umble",
-       "year":"1970",
-       "rymLink":"https://rateyourmusic.com/release/album/uriah-heep/_very-eavy_very-umble/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/50846ae3b0110e4ea8a6859775616567/1768941"
-    },
-    {
-       "artist":"Uriah Heep",
-       "title":"Look at Yourself",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/uriah-heep/look-at-yourself/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/2042acb5ec4ead9eaf494bd552943b46/1277435"
-    },
-    {
-       "artist":"Van der Graaf Generator",
-       "title":"Pawn Hearts",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/van-der-graaf-generator/pawn-hearts/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/592847c66875109eb459a1830f1d6f12/7068832"
-    },
-    {
-       "artist":"Van der Graaf Generator",
-       "title":"Godbluff",
-       "year":"1975",
-       "rymLink":"https://rateyourmusic.com/release/album/van-der-graaf-generator/godbluff/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/b9f3fd46a3f213a714524747eb304e00/2712678"
-    },
-    {
-       "artist":"Van der Graaf Generator",
-       "title":"Still Life",
-       "year":"1976",
-       "rymLink":"https://rateyourmusic.com/release/album/van-der-graaf-generator/still-life/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/f7f1a3b46ac98ef1a6c4c02b2db99875/1559104"
-    },
-    {
-       "artist":"Vangelis",
-       "title":"China",
-       "year":"1979",
-       "rymLink":"https://rateyourmusic.com/release/album/vangelis/china/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/97ef6ba756068e4d602ce3d018cbad05/1570192"
-    },
-    {
-       "artist":"Van Halen",
-       "title":"1984",
-       "year":"1984",
-       "rymLink":"https://rateyourmusic.com/release/album/van-halen/1984/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/859e63918cd7fe05f020522beda4ec1b/1942515"
-    },
-    {
-       "artist":"Tom Waits",
-       "title":"Blue Valentine",
-       "year":"1978",
-       "rymLink":"https://rateyourmusic.com/release/album/tom-waits/blue-valentine/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3ebe249e3638be5f633f3018ba46162e/1209401"
-    },
-    {
-       "artist":"Tom Waits",
-       "title":"Swordfishtrombones",
-       "year":"1983",
-       "rymLink":"https://rateyourmusic.com/release/album/tom-waits/swordfishtrombones/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ddde2f5b0e93f89b424122da536b33be/2408048"
-    },
-    {
-       "artist":"Tom Waits",
-       "title":"Rain Dogs",
-       "year":"1985",
-       "rymLink":"https://rateyourmusic.com/release/album/tom-waits/rain-dogs/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/5d5b1fb63e111a41ffa8e7e6e189c091/1867327"
-    },
-    {
-       "artist":"Tom Waits",
-       "title":"Franks Wild Years",
-       "year":"1987",
-       "rymLink":"https://rateyourmusic.com/release/album/tom-waits/franks-wild-years/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/0f3307e06f2993c2f5780f9ad383b89e/1282365"
-    },
-    {
-       "artist":"Tom Waits",
-       "title":"Bone Machine",
-       "year":"1992",
-       "rymLink":"https://rateyourmusic.com/release/album/tom-waits/bone-machine/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/26e2cf25bff6151562e478a8d1786942/8276371"
-    },
-    {
-       "artist":"Steven Wilson",
-       "title":"To the Bone",
-       "year":"2017",
-       "rymLink":"https://rateyourmusic.com/release/album/steven-wilson/to-the-bone/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/365174b3c1fd1954ee46d81c4b7d5ca4/6562576"
-    },
-    {
-       "artist":"Wishbone Ash",
-       "title":"Wishbone Ash",
-       "year":"1970",
-       "rymLink":"https://rateyourmusic.com/release/album/wishbone-ash/wishbone-ash/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/ec8f228a92c1880d785faaaf8e848dad/1559791"
-    },
-    {
-       "artist":"The Wishing Tree",
-       "title":"Ostara",
-       "year":"2009",
-       "rymLink":"https://rateyourmusic.com/release/album/the_wishing_tree/ostara/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/3efdf67f7a89b988198003fd24c2611c/2602026"
-    },
-    {
-       "artist":"Yes",
-       "title":"Time and a Word",
-       "year":"1970",
-       "rymLink":"https://rateyourmusic.com/release/album/yes/time-and-a-word/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/300ba254d1d74d26f7caa9951f950cb9/1231137"
-    },
-    {
-       "artist":"Yes",
-       "title":"Fragile",
-       "year":"1971",
-       "rymLink":"https://rateyourmusic.com/release/album/yes/fragile/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/c62fee8a570816b47c645a54958bb3f7/6299409"
-    },
-    {
-       "artist":"Yes",
-       "title":"Close to the Edge",
-       "year":"1972",
-       "rymLink":"https://rateyourmusic.com/release/album/yes/close-to-the-edge/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/cec1763293b0b911ea9e56413dcf8ee9/1638254"
-    },
-    {
-       "artist":"Yes",
-       "title":"Relayer",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/yes/relayer/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/9d4933ebb71f042169448521f5a9f7f7/1636035"
-    },
-    {
-       "artist":"Neil Young",
-       "title":"On the Beach",
-       "year":"1974",
-       "rymLink":"https://rateyourmusic.com/release/album/neil-young/on-the-beach/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/49df2dc9ccc42d1504caa2ddcb595c4f/2663737"
-    },
-    {
-       "artist":"Hans Zimmer",
-       "title":"Gladiator: More Music From the Motion Picture",
-       "year":"2001",
-       "rymLink":"https://rateyourmusic.com/release/album/hans-zimme…ard/gladiator-more-music-from-the-motion-picture/",
-       "photoLinkSmall":"https://e.snmc.io/i/75/w/87b6834ce667e77dd829727895200321/2291114"
-    }
- ]
+  {
+    "title": "Rocks",
+    "artist": "Aerosmith",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/aerosmith/rocks/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ebb27ef713196c3fd7f6e3a8b8cf2249/1597908",
+    "photoLinkBig": "https://upload.wikimedia.org/wikipedia/en/8/87/Aerosmith_-_Rocks.JPG"
+  },
+  {
+    "title": "Permanent Vacation",
+    "artist": "Aerosmith",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/aerosmith/permanent-vacation/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/7193a628684dcc3bc319d27a1b104f9c/1213406",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Pump",
+    "artist": "Aerosmith",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/aerosmith/pump/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/aee077d6fd17bd67f2e91ea5656359e4/2524370",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Get a Grip",
+    "artist": "Aerosmith",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/aerosmith/get-a-grip/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/30ce9b795df199e69e7b5983bc6ab59a/7803345",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Nine Lives",
+    "artist": "Aerosmith",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/aerosmith/nine-lives/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/bd4cd27f698328a1a116e2513116e8f7/6546702",
+    "photoLinkBig": "https://ia800307.us.archive.org/15/items/mbid-9f8eca05-e9d2-41c6-a96b-c103bc404925/mbid-9f8eca05-e9d2-41c6-a96b-c103bc404925-26420899672_thumb250.jpg"
+  },
+  {
+    "title": "Lifeline",
+    "artist": "Afterload",
+    "year": "2019",
+    "rymLink": "https://rateyourmusic.com/release/album/afterload/lifeline/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/53dcd1bf7329f9d8989d2e7279a872ce/7375752",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/ce51a7435dd24837e6573375ff1e9aa7/7375752"
+  },
+  {
+    "title": "Facelift",
+    "artist": "Alice in Chains",
+    "year": "1990",
+    "rymLink": "https://rateyourmusic.com/release/album/alice-in-chains/facelift/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d0796e78726bb2947466bfff63c6963f/1891941",
+    "photoLinkBig": "https://ia800309.us.archive.org/7/items/mbid-c63ad92b-19d7-41d9-83e6-607202ceba07/mbid-c63ad92b-19d7-41d9-83e6-607202ceba07-1623379853_thumb250.jpg"
+  },
+  {
+    "title": "Little Earthquakes",
+    "artist": "Tori Amos",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/tori-amos/little-earthquakes/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fa638f8d0331c64175fbad878a25213b/8205286",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cb10018e-e795-3b62-b9d6-f143d188e496/front-250.jpg"
+  },
+  {
+    "title": "Boys for Pele",
+    "artist": "Tori Amos",
+    "year": "1996",
+    "rymLink": "https://rateyourmusic.com/release/album/tori-amos/boys-for-pele/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/24e531a3db3877d788eb192a81dff660/4404890",
+    "photoLinkBig": "https://coverartarchive.org/release-group/120da7c5-dd0f-38cd-abcd-3c3b8f0dcde9/front-250.jpg"
+  },
+  {
+    "title": "From the Choirgirl Hotel",
+    "artist": "Tori Amos",
+    "year": "1998",
+    "rymLink": "https://rateyourmusic.com/release/album/tori-amos/from-the-choirgirl-hotel/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cd681e6336e9dc495f289e725998ccb5/7768056",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8fe72194-46ee-4fac-beea-125705bea7b6/front-250.jpg"
+  },
+  {
+    "title": "The Beekeeper",
+    "artist": "Tori Amos",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/tori-amos/the-beekeeper/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5be84b9d42a10eb8d19cba5905b853af/1335536",
+    "photoLinkBig": "https://coverartarchive.org/release-group/1da8197a-b4e7-3531-9e56-abc17e78091b/front-250.jpg"
+  },
+  {
+    "title": "Judgement",
+    "artist": "Anathema",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/anathema/judgement/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b6faf79d3761e72a0ce106d363367073/2494906",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e1e0a4a1-4188-3c9b-bd7c-5e795200acd9/front-250.jpg"
+  },
+  {
+    "title": "A Natural Disaster",
+    "artist": "Anathema",
+    "year": "2003",
+    "rymLink": "https://rateyourmusic.com/release/album/anathema/a-natural-disaster/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3fb6be244c81cc3a4b2ae36c265b0ef8/4873477",
+    "photoLinkBig": "https://coverartarchive.org/release-group/f45499fb-ce0e-30cc-903e-130fa0fafdf9/front-250.jpg"
+  },
+  {
+    "title": "Persistence of Time",
+    "artist": "Anthrax",
+    "year": "1990",
+    "rymLink": "https://rateyourmusic.com/release/album/anthrax/persistence-of-time/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5cd632a47645fd522ac912023f397d99/4959696",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ea25c463-c8e7-3f2b-8ec9-d883ed227e25/front-250.jpg"
+  },
+  {
+    "title": "Asia",
+    "artist": "Asia",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/asia/asia/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d0e9c1f3b8e91ba1e5728b65282fd4ac/1376864",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Silent Nation",
+    "artist": "Asia",
+    "year": "2004",
+    "rymLink": "https://rateyourmusic.com/release/album/asia/silent-nation/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c892003323110bdc11390b5bef9ea6ef/1285239",
+    "photoLinkBig": "https://coverartarchive.org/release-group/2a8bd6f2-5af2-36f5-a314-2775dec28a08/front-250.jpg"
+  },
+  {
+    "title": "Audioslave",
+    "artist": "Audioslave",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/audioslave/audioslave/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c666dd977ecdcdc9bf331221faa6d865/1324011",
+    "photoLinkBig": "https://coverartarchive.org/release-group/38b34599-6352-389b-ad6a-02866357dabe/front-250.jpg"
+  },
+  {
+    "title": "Magical Mystery Tour",
+    "artist": "The Beatles",
+    "year": "1967",
+    "rymLink": "https://rateyourmusic.com/release/album/the-beatles/magical-mystery-tour/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/148cc6e7b186202d9c66d9086de978dd/5770162",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Debut",
+    "artist": "Björk",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/bjork/debut/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a242f639c43ce3c5888af0c59b02e0a4/3163896",
+    "photoLinkBig": "https://coverartarchive.org/release-group/6891a28c-5865-36e2-9e5f-c9fac1d3595f/front-250.jpg"
+  },
+  {
+    "title": "Vespertine",
+    "artist": "Björk",
+    "year": "2001",
+    "rymLink": "https://rateyourmusic.com/release/album/bjork/vespertine/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/af8e2fc80d406f818e7243e674965fab/2409674",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Holy Rain",
+    "artist": "Black Glass",
+    "year": "2011",
+    "rymLink": "https://rateyourmusic.com/release/album/black_glass/holy_rain/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/57df7b87be79274e3ebf77ebff705007/3895490",
+    "photoLinkBig": "https://img.discogs.com/7aKvgtJtHmXl5kh1MlI0syp6Ezo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2946510-1360778611-3141.jpeg.jpg"
+  },
+  {
+    "title": "Shadow of the Moon",
+    "artist": "Blackmore's Night",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/blackmores-night/shadow-of-the-moon/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fd4ec9efeda4d9504c542c86a349b89d/5916116",
+    "photoLinkBig": "https://coverartarchive.org/release-group/08ed622e-b47d-3f0b-99e0-d7a8749790c2/front-250.jpg"
+  },
+  {
+    "title": "Ritchie Blackmore's Rainbow",
+    "artist": "Ritchie Blackmore's Rainbow",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/ritchie-blackmores-rainbow/ritchie-blackmores-rainbow/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c432a1892be1c72d8a70214df2bc456b/1867499",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a5d145cc-3c7f-31b3-9133-2e9367a47332/front-250.jpg"
+  },
+  {
+    "title": "Heaven and Hell",
+    "artist": "Black Sabbath",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/heaven-and-hell/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3384d9a40109c062be4ca0d58af3120d/3655494",
+    "photoLinkBig": "https://coverartarchive.org/release-group/43ac82b5-eceb-3909-a153-3c00ea9c7b9a/front-250.jpg"
+  },
+  {
+    "title": "Dehumanizer",
+    "artist": "Black Sabbath",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/dehumanizer/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9a4943b01f99751993e6e3f3ec77359d/2919080",
+    "photoLinkBig": "https://coverartarchive.org/release-group/0db80cc3-becc-3ee7-8abe-de42d368ca54/front-250.jpg"
+  },
+  {
+    "title": "13",
+    "artist": "Black Sabbath",
+    "year": "2013",
+    "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/13/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/146629fe42e5906464e7d35886e89122/4721557",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "The Next Day",
+    "artist": "David Bowie",
+    "year": "2013",
+    "rymLink": "https://rateyourmusic.com/release/album/david-bowie/the-next-day/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/eebc2f20d6914369404a6dd073c85ce4/5110597",
+    "photoLinkBig": "https://coverartarchive.org/release-group/c20be759-d767-4a7c-96c5-7a870ebc3a30/front-250.jpg"
+  },
+  {
+    "title": "★ [Blackstar]",
+    "artist": "David Bowie",
+    "year": "2016",
+    "rymLink": "https://rateyourmusic.com/release/album/david-bowie/%E2%98%85-blackstar/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a7340b0078f2f1c1417f387da5fb59a3/5978111",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Za ostatni grosz",
+    "artist": "Budka Suflera",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/budka-suflera/za-ostatni-grosz/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b32630b55ead4c65edf3a3100cf6a09c/1985938",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/bee92c8b70127ff0472275d2831e4a08/1985938"
+  },
+  {
+    "title": "The Kick Inside",
+    "artist": "Kate Bush",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/kate-bush/the-kick-inside/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f0439dcefe2e6a417cea6082f895ae36/8014001",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e8f3a858-20f8-3798-80ac-65264afa4672/front-250.jpg"
+  },
+  {
+    "title": "Lionheart",
+    "artist": "Kate Bush",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/kate-bush/lionheart/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e9a5c6ff7b93965445b207157171625a/1281950",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ab47675f-548d-3703-8689-28e5b5150bac/front-250.jpg"
+  },
+  {
+    "title": "Never for Ever",
+    "artist": "Kate Bush",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/kate-bush/never-for-ever/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6a28b78c706416054d9fc2de64a19970/8315821",
+    "photoLinkBig": "https://coverartarchive.org/release-group/b3c5541a-e1d0-354f-b6c8-565c37dde332/front-250.jpg"
+  },
+  {
+    "title": "The Dreaming",
+    "artist": "Kate Bush",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/kate-bush/the-dreaming/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2d050515c9502b8f610f9a96b36f6600/2340663",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d28777fc-f135-3394-a033-eafb9ebcffb4/front-250.jpg"
+  },
+  {
+    "title": "The Sensual World",
+    "artist": "Kate Bush",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/kate-bush/the-sensual-world/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2ac0d6991d649dc3e8c26164b4c41645/1329859",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ad555095-b0a6-42c8-87aa-8ba035d20e12/front-250.jpg"
+  },
+  {
+    "title": "The Red Shoes",
+    "artist": "Kate Bush",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/kate-bush/the-red-shoes/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d4daecde6bb1b20e270d50cb87ee796d/1734586",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Camel",
+    "artist": "Camel",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/camel/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6dfc811aed8e7254202edac8a3419128/1632704",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e50c96ab-8822-3483-a111-336f47aa2c84/front-250.jpg"
+  },
+  {
+    "title": "Mirage",
+    "artist": "Camel",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/mirage/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/734712ad037b87a2b650a9293d7a8773/4160723",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e7f41fc7-d659-3d80-b605-205a54367f04/front-250.jpg"
+  },
+  {
+    "title": "The Snow Goose",
+    "artist": "Camel",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/the-snow-goose/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/144e143ed6fedaedf9e60b8be48eeaac/6235559",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a2fa8db6-17b4-34da-88f6-a8204be451e3/front-250.jpg"
+  },
+  {
+    "title": "Moonmadness",
+    "artist": "Camel",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/moonmadness/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b69891c22269541241c4826da66ea6fd/1352884",
+    "photoLinkBig": "https://coverartarchive.org/release-group/792fb12f-2f5a-31a8-ae32-a29700ffa09b/front-250.jpg"
+  },
+  {
+    "title": "Rain Dances",
+    "artist": "Camel",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/rain_dances/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/30320b0615d440be0a14b5f36d731af8/1958472",
+    "photoLinkBig": "https://coverartarchive.org/release-group/3fbe4b5e-2043-3e26-9a23-c3e03894d27c/front-250.jpg"
+  },
+  {
+    "title": "Breathless",
+    "artist": "Camel",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/breathless/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f578cea95a3c1be118a70e7287586324/2119974",
+    "photoLinkBig": "https://coverartarchive.org/release-group/1a65e3cd-075b-3d76-acb1-7a0b75669fa1/front-250.jpg"
+  },
+  {
+    "title": "I Can See Your House From Here",
+    "artist": "Camel",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/i-can-see-your-house-from-here/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/97e6fc288945b1fb2e043e231da0b7eb/2103158",
+    "photoLinkBig": "https://coverartarchive.org/release-group/da841df4-da67-382f-b48d-162c27109981/front-250.jpg"
+  },
+  {
+    "title": "Nude",
+    "artist": "Camel",
+    "year": "1981",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/nude/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b4cb21e29505ffd24634683ef375d5a4/5712565",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ef65c5e5-3cfc-4989-9a9e-e3a4187a6f51/front-250.jpg"
+  },
+  {
+    "title": "Stationary Traveller",
+    "artist": "Camel",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/camel/stationary_traveller/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9d01e4a5bc95a1414ebf3da2459aa714/1474362",
+    "photoLinkBig": "https://coverartarchive.org/release-group/f32476a6-ff0d-3b64-b5ee-babbcfaae364/front-250.jpg"
+  },
+  {
+    "title": "In the Land of Grey and Pink",
+    "artist": "Caravan",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/caravan/in-the-land-of-grey-and-pink/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b5e457f6f32e301e7917b1292ad65ddb/1934591",
+    "photoLinkBig": "https://coverartarchive.org/release-group/291c5ab1-5c4e-3898-993c-0416f9b38a65/front-250.jpg"
+  },
+  {
+    "title": "Baśnie",
+    "artist": "Collage",
+    "year": "1990",
+    "rymLink": "https://rateyourmusic.com/release/album/collage/basnie/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0f08d86093e295564b141fddd4926ce9/1240689",
+    "photoLinkBig": "https://coverartarchive.org/release-group/850a964c-75c5-36e3-83e1-44e4e725d61b/front-250.jpg"
+  },
+  {
+    "title": "Moonshine",
+    "artist": "Collage",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/collage/moonshine/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e4e443cda7f6f2709c74e1bf56d398cf/1713475",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a5ce5451-4d0d-3224-b7d2-3974b05101f8/front-250.jpg"
+  },
+  {
+    "title": "Changes",
+    "artist": "Collage",
+    "year": "1995",
+    "rymLink": "https://rateyourmusic.com/release/comp/collage/changes/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/aab536562d9b920f5a6fd103102399dd/2681199",
+    "photoLinkBig": "https://images-na.ssl-images-amazon.com/images/I/51UghFS0PzL.jpg"
+  },
+  {
+    "title": "Safe",
+    "artist": "Collage",
+    "year": "1996",
+    "rymLink": "https://rateyourmusic.com/release/album/collage/safe/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/48d796221d63bcabb168ff293174166c/1239763",
+    "photoLinkBig": "https://mlwz.pl/images/stories/collage%20-%20safe.jpg"
+  },
+  {
+    "title": "Jazz",
+    "artist": "Ry Cooder",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/ry-cooder/jazz/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/7ad63311785a5d1765a472b11aa93178/1641902",
+    "photoLinkBig": "https://coverartarchive.org/release-group/b29138a8-e9dd-305b-9455-664a630f5004/front-250.jpg"
+  },
+  {
+    "title": "Crossroads",
+    "artist": "Ry Cooder",
+    "year": "1986",
+    "rymLink": "https://rateyourmusic.com/release/album/ry-cooder/crossroads/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/63ebf80eff493945274f7f27cde343bb/1213290",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8fb7f828-1d76-32f3-a87c-186ab0475cb0/front-250.jpg"
+  },
+  {
+    "title": "This Year's Model",
+    "artist": "Elvis Costello",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/elvis-costello/this-years-model/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/62cab47eb8bbe4059bfa433d85fc2459/3823975",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5e8117f4-a87f-3732-be5f-313c7e5b308d/front-250.jpg"
+  },
+  {
+    "title": "Everybody Else Is Doing It, So Why Can't We?",
+    "artist": "The Cranberries",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/the-cranberries/everybody-else-is-doing-it-so-why-cant-we/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5909187aec8c2c3cb78632c984e892b5/8462681",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e6b486b3-68e7-331c-a078-94fd71d61877/front-250.jpg"
+  },
+  {
+    "title": "Together Alone",
+    "artist": "Crowded House",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/crowded-house/together-alone/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/398f132987ee88339ee4d9ca3bb326d6/1216125",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cd882a59-e4e6-380e-be75-b917a94b93c5/front-250.jpg"
+  },
+  {
+    "title": "Pornography",
+    "artist": "The Cure",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/the-cure/pornography/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/7aa63e19d10f9c16f408c0dfe821219c/3014863",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5d4f8f19-23cf-34cf-b225-8cd0339c37de/front-250.jpg"
+  },
+  {
+    "title": "Kiss Me Kiss Me Kiss Me",
+    "artist": "The Cure",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/the-cure/kiss-me-kiss-me-kiss-me/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/72fbfa5b9bfaed09ccbaf74f15bc3e48/2479394",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ab132c83-097a-33f0-b557-edd6b6ce1c7d/front-250.jpg"
+  },
+  {
+    "title": "Disintegration",
+    "artist": "The Cure",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/the-cure/disintegration/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/be36d9e03978918ba83c354e1d76f980/7272164",
+    "photoLinkBig": "https://coverartarchive.org/release-group/494bf606-d2f7-36d0-8340-eadad8601d2b/front-250.jpg"
+  },
+  {
+    "title": "Bloodflowers",
+    "artist": "The Cure",
+    "year": "2000",
+    "rymLink": "https://rateyourmusic.com/release/album/the-cure/bloodflowers/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0f3df3dc65a30ceb76a2922eae82b961/1211605",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ab646815-8c2b-3cd9-bf9c-98e6853c1be7/front-250.jpg"
+  },
+  {
+    "title": "Out of the Silence",
+    "artist": "Dare",
+    "year": "1988",
+    "rymLink": "https://rateyourmusic.com/release/album/dare/out-of-the-silence/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a152a82c613eb77fd0b1fa99ca691561/7033915",
+    "photoLinkBig": "https://coverartarchive.org/release-group/db40998f-d3ca-3718-90d4-3a6f9ff97697/front-250.jpg"
+  },
+  {
+    "title": "Within the Realm of a Dying Sun",
+    "artist": "Dead Can Dance",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/dead-can-dance/within-the-realm-of-a-dying-sun/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d4079af0e203f3aba52999fbe7095ce2/2369620",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e1d35c40-2649-3f92-b4da-ff8572d6daa2/front-250.jpg"
+  },
+  {
+    "title": "Toward the Within",
+    "artist": "Dead Can Dance",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/dead_can_dance/toward_the_within/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/09944bde4786da7c6e8e7cf8a5cc6aea/2276834",
+    "photoLinkBig": "https://coverartarchive.org/release-group/aa176d7c-8fdb-3d31-a5a5-f5cc3607d10c/front-250.jpg"
+  },
+  {
+    "title": "Symbolic",
+    "artist": "Death",
+    "year": "1995",
+    "rymLink": "https://rateyourmusic.com/release/album/death/symbolic/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cf9b77e47bf0619011bd3e72a4d2ff82/2656325",
+    "photoLinkBig": "https://coverartarchive.org/release-group/bd675025-abcb-3536-9e19-ba3204c0183d/front-250.jpg"
+  },
+  {
+    "title": "Spark to a Flame: The Very Best of Chris de Burgh",
+    "artist": "Chris De Burgh",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/comp/chris-de-bu…spark-to-a-flame-the-very-best-of-chris-de-burgh/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/455c684044d616ff556c4f0cd0019c9e/2644143",
+    "photoLinkBig": "https://coverartarchive.org/release-group/35d7060c-47c3-3a42-a2f4-af147c0cdcb3/front-250.jpg"
+  },
+  {
+    "title": "Burn",
+    "artist": "Deep Purple",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/deep-purple/burn/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/8a51ae8ac16cc8ee51da4a1545556db4/2700399",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e8459360-b0d1-331e-a1e7-9717c962d29f/front-250.jpg"
+  },
+  {
+    "title": "Perfect Strangers",
+    "artist": "Deep Purple",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/deep-purple/perfect-strangers/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9c6b8ad2bcee896764bf263cf887d081/2729065",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "The Battle Rages On...",
+    "artist": "Deep Purple",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/deep-purple/the-battle-rages-on/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c4795559b16a9245aba1022b1d874dd5/1224295",
+    "photoLinkBig": "https://coverartarchive.org/release/e131d96a-68f2-483b-ba2b-6d77da25b8bc/12581578601-250.jpg"
+  },
+  {
+    "title": "Infinite",
+    "artist": "Deep Purple",
+    "year": "2017",
+    "rymLink": "https://rateyourmusic.com/release/album/deep-purple/infinite/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/484982d643d052658cd488a006883c21/6347249",
+    "photoLinkBig": "https://coverartarchive.org/release-group/01f46d72-4a95-4dd8-b8f0-41b59b2a1939/front-250.jpg"
+  },
+  {
+    "title": "Hysteria",
+    "artist": "Def Leppard",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/def-leppard/hysteria/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/71c4e84afc95717ed138b7f3db68458d/1537955",
+    "photoLinkBig": "https://coverartarchive.org/release-group/12fa3845-7c62-36e5-a8da-8be137155a72/front-250.jpg"
+  },
+  {
+    "title": "Lust for Life",
+    "artist": "Lana Del Rey",
+    "year": "2017",
+    "rymLink": "https://rateyourmusic.com/release/album/lana-del-rey/lust-for-life/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f5f50d4d7ee7aa8e43b2761058e3911d/6495820",
+    "photoLinkBig": "https://coverartarchive.org/release-group/4f2ec6cd-b15f-4c53-af6e-f8848811b902/front-250.jpg"
+  },
+  {
+    "title": "Ultra",
+    "artist": "Depeche Mode",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/depeche-mode/ultra/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/020684c1cec0e1a9c363b19d3c2a597a/1424345",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a40c7843-979b-38a6-926a-efa31476c51c/front-250.jpg"
+  },
+  {
+    "title": "Tyranny of Souls",
+    "artist": "Bruce Dickinson",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/bruce-dickinson/tyranny-of-souls/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/09d29036a22c47a0ea7fef87acb442dd/5041030",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d9967b45-56d8-3146-998c-6bba94227b64/front-250.jpg"
+  },
+  {
+    "title": "The Last in Line",
+    "artist": "Dio",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/dio/the-last-in-line/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a1fa33d312e7f858edf6703bc9706583/1214649",
+    "photoLinkBig": "https://coverartarchive.org/release-group/798601d4-f28e-3835-b10c-1a00ecf773b8/front-250.jpg"
+  },
+  {
+    "title": "Making Movies",
+    "artist": "Dire Straits",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/dire-straits/making-movies/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5880f5d9111b42ad10d05e5f15313717/5634437",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5b0a15ce-8aa9-323b-8fb6-02b657756ba9/front-250.jpg"
+  },
+  {
+    "title": "The Doors",
+    "artist": "The Doors",
+    "year": "1967",
+    "rymLink": "https://rateyourmusic.com/release/album/the_doors/the_doors/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9468ccd359d7d5e8b616de0ccfc1d281/2281803",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8ebffd15-06c3-3b88-a761-ec18c5513287/front-250.jpg"
+  },
+  {
+    "title": "Waiting for the Sun",
+    "artist": "The Doors",
+    "year": "1968",
+    "rymLink": "https://rateyourmusic.com/release/album/the-doors/waiting-for-the-sun/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5562353c8fdba998b2560d8806adc1fc/4779144",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "When Dream and Day Unite",
+    "artist": "Dream Theater",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/dream_theater/when_dream_and_day_unite/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/73d7f37aebfed89c28b0446fc238e8a0/1457783",
+    "photoLinkBig": "https://coverartarchive.org/release-group/37302ce5-6ce0-336e-8b9d-9c73930a7bea/front-250.jpg"
+  },
+  {
+    "title": "Awake",
+    "artist": "Dream Theater",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/dream-theater/awake/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a8e46def987256e502f095321cc1eb17/7683267",
+    "photoLinkBig": "https://coverartarchive.org/release-group/676ab2e6-17e6-32e8-9060-191a931ea7b2/front-250.jpg"
+  },
+  {
+    "title": "Falling Into Infinity",
+    "artist": "Dream Theater",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/dream-theater/falling-into-infinity/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f352b15b6dc0eedc53f549d85d3e66e1/7818236",
+    "photoLinkBig": "https://coverartarchive.org/release-group/27c67830-6dc8-3af8-a970-7a1fb2fc6f1b/front-250.jpg"
+  },
+  {
+    "title": "Metropolis Pt. 2: Scenes From a Memory",
+    "artist": "Dream Theater",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/dream-theater/metropolis-pt-2-scenes-from-a-memory/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/05c38c0edca1602f30e171a8b5b3a7d6/1215276",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d8ae7015-d78b-307e-bcde-5b0dd1e61528/front-250.jpg"
+  },
+  {
+    "title": "Six Degrees of Inner Turbulence",
+    "artist": "Dream Theater",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/dream_theater/six_degrees_of_inner_turbulence/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5d2927519f3b95f0a98d85c249006ff5/1245982",
+    "photoLinkBig": "https://coverartarchive.org/release-group/74a4416f-1c7f-3f67-8208-b978c7b9379d/front-250.jpg"
+  },
+  {
+    "title": "Młodzi",
+    "artist": "Dr Misio",
+    "year": "2013",
+    "rymLink": "https://rateyourmusic.com/release/album/dr-misio/mlodzi/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/bd2c77f53839bfed5d8eedc6afae0665/4687321",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/ea84fe55923807c20fbde6bdc3154147/4687321"
+  },
+  {
+    "title": "Ocean Gypsy",
+    "artist": "Michael Dunford's Renaissance",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/michael-dunfords-renaissance/ocean-gypsy/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/351072eae0ccc828af446f5e8fec2a54/7315420",
+    "photoLinkBig": "https://img.discogs.com/Lg855tL0_vEF3LnxPCtaiKElKDg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4721710-1505592863-9722.jpeg.jpg"
+  },
+  {
+    "title": "Emerson, Lake & Palmer",
+    "artist": "Emerson, Lake & Palmer",
+    "year": "1970",
+    "rymLink": "https://rateyourmusic.com/release/album/emerson-lake-and-palmer/emerson-lake-and-palmer/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/8b8fc9733401cb876232224d8166a122/3989716",
+    "photoLinkBig": "https://coverartarchive.org/release-group/86e88318-dd1e-36e9-bb62-c5d0b8a8b4e5/front-250.jpg"
+  },
+  {
+    "title": "Tarkus",
+    "artist": "Emerson, Lake & Palmer",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/emerson__lake_and_palmer/tarkus/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3b328bf8638c5f6ef1dd7bf5792f815b/4781122",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e940f4e4-1b0a-3d83-9ccd-6ed712a55b3c/front-250.jpg"
+  },
+  {
+    "title": "Brain Salad Surgery",
+    "artist": "Emerson, Lake & Palmer",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/emerson-lake-and-palmer/brain-salad-surgery/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/80167af204257a61f8fc4dea93ab1b81/2264018",
+    "photoLinkBig": "https://coverartarchive.org/release-group/94e2aefb-d3f8-37bd-8412-130b158ab40b/front-250.jpg"
+  },
+  {
+    "title": "Best of the Bootlegs",
+    "artist": "Emerson, Lake & Palmer",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/comp/emerson__lake_and_palmer/best_of_the_bootlegs/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0f8da150180e53474421f66ac89094e7/4749271",
+    "photoLinkBig": "https://image.ceneostatic.pl/data/products/2732501/i-emerson-lake-palmer-best-of-the-bootlegs.jpg"
+  },
+  {
+    "title": "Here Come the Warm Jets",
+    "artist": "Eno",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/eno/here-come-the-warm-jets/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fe21307e851b4326ce2b8cd13ddd6261/2002022",
+    "photoLinkBig": "https://coverartarchive.org/release-group/90d9be4c-30be-3e28-949a-66ee22c3a63a/front-250.jpg"
+  },
+  {
+    "title": "Another Green World",
+    "artist": "Eno",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/eno/another-green-world/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/823559275156fee0f92b7248408a0ae5/2317304",
+    "photoLinkBig": "https://coverartarchive.org/release-group/7d5a684e-73a3-325c-a59c-34c9a941d8d6/front-250.jpg"
+  },
+  {
+    "title": "Miłość mi wszystko wyjaśniła",
+    "artist": "Federacja",
+    "year": "2000",
+    "rymLink": "https://rateyourmusic.com/release/album/federacja/milosc_mi_wszystko_wyjasnila/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/589a66b7bda648dace28a3d39c65f7fd/2376493",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/0bc2447e59f5bcad5e22085a4469fed2/2376493"
+  },
+  {
+    "title": "Bête noire",
+    "artist": "Bryan Ferry",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/bryan-ferry/bete-noire/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2baedc2a7689274d056c102395189c33/2167590",
+    "photoLinkBig": "https://coverartarchive.org/release-group/084f18a8-5242-3e84-8fdb-01a6905410f2/front-250.jpg"
+  },
+  {
+    "title": "Frantic",
+    "artist": "Bryan Ferry",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/bryan-ferry/frantic/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6da65f9e5659c7919c341d73ea116d97/5917375",
+    "photoLinkBig": "https://coverartarchive.org/release-group/be5c4f6a-34c1-3d10-8177-04b5974c3b19/front-250.jpg"
+  },
+  {
+    "title": "Stand Up",
+    "artist": "Final Conflict",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/final-conflict/stand-up/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2178fb6169aae282aac766017607fcf0/1633259",
+    "photoLinkBig": "https://images-na.ssl-images-amazon.com/images/I/41SH9CD3PWL.jpg"
+  },
+  {
+    "title": "Suits",
+    "artist": "Fish",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/fish/suits/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/42a440149bed09413d4ac9eacc68c8b2/1242628",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Raingods With Zippos",
+    "artist": "Fish",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/fish/raingods_with_zippos/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/1ebd8726d45492a7eab069cc6ee6766e/1242638",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Field of Crows",
+    "artist": "Fish",
+    "year": "2003",
+    "rymLink": "https://rateyourmusic.com/release/album/fish/field_of_crows/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/de8ff3b13cc948f2cc077e678cd2afd1/1243484",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Rumours",
+    "artist": "Fleetwood Mac",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/fleetwood-mac/rumours/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3b6db3debc25c7cec01a72d58b8f51ba/5709996",
+    "photoLinkBig": "https://coverartarchive.org/release-group/416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6/front-250.jpg"
+  },
+  {
+    "title": "Tango in the Night",
+    "artist": "Fleetwood Mac",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/fleetwood-mac/tango-in-the-night/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cd885b5c87aa6ee04d20f29c5ed22e7e/7812375",
+    "photoLinkBig": "https://coverartarchive.org/release-group/680b3cd8-426b-3112-bcf3-42cd66f75fa9/front-250.jpg"
+  },
+  {
+    "title": "Welcome to the Pleasuredome",
+    "artist": "Frankie Goes to Hollywood",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/frankie-goes-to-hollywood/welcome-to-the-pleasuredome/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/992c8efcf5fc3cdc31ff002b03446d48/5611417",
+    "photoLinkBig": "https://coverartarchive.org/release-group/c734406b-3c8a-3214-98cc-dd553f82f813/front-250.jpg"
+  },
+  {
+    "title": "Against the Grain",
+    "artist": "Rory Gallagher",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/rory-gallagher/against-the-grain/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/478faf9e91e44327a898d9b996b19b80/1398455",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/d9b5b5ab781f865fe65221af9ced3879/1398455"
+  },
+  {
+    "title": "Selling England by the Pound",
+    "artist": "Genesis",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/genesis/selling-england-by-the-pound/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b3b9aa4c2080aed5de1b5c51c5e6f78f/2716765",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/a4cb5c1f41e839c06c36a4a3e7200a5e/2716765"
+  },
+  {
+    "title": "Octopus",
+    "artist": "Gentle Giant",
+    "year": "1972",
+    "rymLink": "https://rateyourmusic.com/release/album/gentle-giant/octopus/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/90e1a1ea007d02dda3dcac7d481d5625/1769163",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/a30d134c2efc11d9d7974f0c005c1145/1769163"
+  },
+  {
+    "title": "Droga za widnokres",
+    "artist": "Marek Grechuta",
+    "year": "1972",
+    "rymLink": "https://rateyourmusic.com/release/album/marek-grechuta/droga-za-widnokres/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9c4fa0dc8ca1ddfbc86a11ed9c29d9a2/3135490",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/0000f41e1228e786652e8938291e8f5b/3135490"
+  },
+  {
+    "title": "Fool's Mate",
+    "artist": "Peter Hammill",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/peter-hammill/fools-mate/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/aa427b3d0237e4760d9c665cf786eea9/7068825",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5bfe3c8c-04a3-33a4-8a7f-cfe2a8fdf0a9/front-250.jpg"
+  },
+  {
+    "title": "Over",
+    "artist": "Peter Hammill",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/peter-hammill/over/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/edbf91aee3a0e20143fa15aacde237e3/1217019",
+    "photoLinkBig": "https://coverartarchive.org/release-group/03f0ba7a-ec13-3f8e-99cf-c88cad43612e/front-250.jpg"
+  },
+  {
+    "title": "pH7",
+    "artist": "Peter Hammill",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/peter-hammill/ph7/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/34ac764a961c1ac492397b2482653711/2465006",
+    "photoLinkBig": "https://coverartarchive.org/release-group/6ad711dd-e643-342b-ad0c-3ce6ea01db65/front-250.jpg"
+  },
+  {
+    "title": "Axis: Bold as Love",
+    "artist": "The Jimi Hendrix Experience",
+    "year": "1967",
+    "rymLink": "https://rateyourmusic.com/release/album/the-jimi-hendrix-experience/axis-bold-as-love/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/74466af1fe69e0ae5675ad8545775261/4459926",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Zig Zag",
+    "artist": "Hooters",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/hooters/zig_zag/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2f2b6afbf5ee65db78e1a5ff2d22d49c/3201900",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cad7617f-2cc5-3754-a3d5-695513b93560/front-250.jpg"
+  },
+  {
+    "title": "Out of Body",
+    "artist": "The Hooters",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/the_hooters/out_of_body/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f15772789b3305054cfaf1858f5920cc/2067006",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ed5fb0f4-8f76-3e81-a0da-b676af912758/front-250.jpg"
+  },
+  {
+    "title": "Soul Mover",
+    "artist": "Glenn Hughes",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/glenn-hughes/soul-mover/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/27b3eb07493db36f646b2fc58baf0b30/2666559",
+    "photoLinkBig": "https://images-na.ssl-images-amazon.com/images/I/51hY4WemWfL.jpg"
+  },
+  {
+    "title": "Raw Power",
+    "artist": "Iggy and The Stooges",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/iggy-and-the-stooges/raw-power/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/13e167b8c94869dbd726bb14d8a2320e/2220562",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/e8c388231347e32412e9678a2f3fdb57/2220562"
+  },
+  {
+    "title": "The Return of the Space Cowboy",
+    "artist": "Jamiroquai",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/jamiroquai/the-return-of-the-space-cowboy/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9c4abe640a13c0c8e3a8a242c42c3279/1351779",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ec79a9d4-6fa3-38b9-b976-bcd2c56cd477/front-250.jpg"
+  },
+  {
+    "title": "Synkronized",
+    "artist": "Jamiroquai",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/jamiroquai/synkronized/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6fc6fbdf4855df91d8ae26187016b5e3/1617188",
+    "photoLinkBig": "https://coverartarchive.org/release-group/f1049013-bcdc-337e-8506-c0e84afe1b0c/front-250.jpg"
+  },
+  {
+    "title": "Historia podwodna",
+    "artist": "Lech Janerka",
+    "year": "1986",
+    "rymLink": "https://rateyourmusic.com/release/album/lech_janerka/historia_podwodna/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3ff4d52f302a24872bf6ea4fd6725ca3/1426446",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/4cefb11e01f3fd0ed21b2eda7bff1763/1426446"
+  },
+  {
+    "title": "Co lepsze kawałki",
+    "artist": "Lech Janerka",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/comp/lech_janerka/co_lepsze_kawalki/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/4f0284ae72b36008db53666afdc5502b/2123503",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/a15c3b3e845e0bbe567665ad46739c70/2123503"
+  },
+  {
+    "title": "Thick as a Brick",
+    "artist": "Jethro Tull",
+    "year": "1972",
+    "rymLink": "https://rateyourmusic.com/release/album/jethro-tull/thick-as-a-brick/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6ae008102b88e577f0e63d74b15342fd/1988441",
+    "photoLinkBig": "https://coverartarchive.org/release-group/13081627-5418-300c-af24-f65875ab61b7/front-250.jpg"
+  },
+  {
+    "title": "A Passion Play",
+    "artist": "Jethro Tull",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/jethro-tull/a-passion-play/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d2791d8030fc138c1f4d8ec3a81d4f5d/1381629",
+    "photoLinkBig": "https://coverartarchive.org/release-group/b367f14c-b981-3de8-9da5-056edbf5bca3/front-250.jpg"
+  },
+  {
+    "title": "Minstrel in the Gallery",
+    "artist": "Jethro Tull",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/jethro-tull/minstrel-in-the-gallery/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/50e95cbb5ebfa4ce039ed00db77c92a2/1528406",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ff0907ed-aee7-39ad-966a-bf9eed868db1/front-250.jpg"
+  },
+  {
+    "title": "Heavy Horses",
+    "artist": "Jethro Tull",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/jethro-tull/heavy-horses/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/eea990247e1fe6416d9306ac4131673a/7373648",
+    "photoLinkBig": "https://coverartarchive.org/release-group/08dcf82b-d418-3800-9427-b4aabc6a64d3/front-250.jpg"
+  },
+  {
+    "title": "Nightclubbing",
+    "artist": "Grace Jones",
+    "year": "1981",
+    "rymLink": "https://rateyourmusic.com/release/album/grace-jones/nightclubbing/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/898dd55febb747b3be4f5007e17af47a/8508548",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/0c6d0c3dc5805ce288de353bc5d63c0c/2461555"
+  },
+  {
+    "title": "Stained Class",
+    "artist": "Judas Priest",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/judas-priest/stained-class/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ba99c577988b81b8e85e69127569cc69/2898552",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/874b5f05bc9f38d87d2358b256ea94b6/2898552"
+  },
+  {
+    "title": "Leftoverture",
+    "artist": "Kansas",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/kansas/leftoverture/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ab1e4f0998a6e485ca8c4aa1e5a04d23/2278329",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Point of Know Return",
+    "artist": "Kansas",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/kansas/point-of-know-return/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cd4caf94474cb505b6cfc7f00e4036c4/4131198",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Killing Joke",
+    "artist": "Killing Joke",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/killing-joke/killing-joke/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0d5908b11968d568e528056b654a3542/2978324",
+    "photoLinkBig": "https://coverartarchive.org/release-group/30a8c233-66ab-3ceb-87e2-bda76f4164ca/front-250.jpg"
+  },
+  {
+    "title": "Revelations",
+    "artist": "Killing Joke",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/killing-joke/revelations/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/29c53311fca940e8a9a25705402b061c/7623889",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cf57fef1-991a-32db-87aa-a8fab3b2fb93/front-250.jpg"
+  },
+  {
+    "title": "In the Wake of Poseidon",
+    "artist": "King Crimson",
+    "year": "1970",
+    "rymLink": "https://rateyourmusic.com/release/album/king-crimson/in-the-wake-of-poseidon/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cd06dee9876afaad211acd319933003d/2602900",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/5d89b5ee303f8bd0f0ad6499ae39fd24/2602900"
+  },
+  {
+    "title": "Are You Gonna Go My Way",
+    "artist": "Lenny Kravitz",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/lenny-kravitz/are-you-gonna-go-my-way/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/db20f10c14dac835276d4c40a62dc3e5/2439684",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/44ac1f7709c29fc6a3614c384c1eb1a1/2439684"
+  },
+  {
+    "title": "Led Zeppelin II",
+    "artist": "Led Zeppelin",
+    "year": "1969",
+    "rymLink": "https://rateyourmusic.com/release/album/led-zeppelin/led-zeppelin-ii/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/4047718622272aca0324606688e23de2/2033534",
+    "photoLinkBig": "https://coverartarchive.org/release-group/33b4653d-006e-3cc1-8afb-386b15a6cd6e/front-250.jpg"
+  },
+  {
+    "title": "Led Zeppelin [IV]",
+    "artist": "Led Zeppelin",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/led-zeppelin/led-zeppelin-iv/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/20b151f9030303b182f819c203a3965b/5707164",
+    "photoLinkBig": "https://coverartarchive.org/release-group/2e61da88-39e9-3473-81d2-c964cb394952/front-250.jpg"
+  },
+  {
+    "title": "Throwing Copper",
+    "artist": "Live",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/live/throwing-copper/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/09f8c59adca53d68ca959b040b6020df/1451886",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/5088d243cdfd4d8b5cc4a7daf8b3360e/1451886"
+  },
+  {
+    "title": "W Galerii Czasu",
+    "artist": "Lizard",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/lizard_f1/w_galerii_czasu/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f70a312e9b5cea4af0b20c99ae50e4b5/2618042",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Solo in Soho",
+    "artist": "Philip Lynott",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/philip-lynott/solo-in-soho/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2afa2be3587b1c6b2b357a680267343c/1323523",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/fcb600b659c4036caa7c7cffcc595eac/1323523"
+  },
+  {
+    "title": "This Is My Truth Tell Me Yours",
+    "artist": "Manic Street Preachers",
+    "year": "1998",
+    "rymLink": "https://rateyourmusic.com/release/album/manic-street-preachers/this-is-my-truth-tell-me-yours/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e902b5b54a2b782ecf4a6a07ccc3c1c0/2341864",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/d1ac5b3102bfda5ee2f22a9e82392233/2341864"
+  },
+  {
+    "title": "Script for a Jester's Tear",
+    "artist": "Marillion",
+    "year": "1983",
+    "rymLink": "https://rateyourmusic.com/release/album/marillion/script_for_a_jesters_tear/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ad4c21bf32d59d65934857b022da8f68/2810309",
+    "photoLinkBig": "https://coverartarchive.org/release-group/25f11061-2223-38c4-acf0-07536de51c09/front-250.jpg"
+  },
+  {
+    "title": "Fugazi",
+    "artist": "Marillion",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/marillion/fugazi/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2453a09e9017176356aa6ce3298a78c8/1405499",
+    "photoLinkBig": "https://coverartarchive.org/release-group/12536829-a40e-33b3-803e-2c3c4ac572ce/front-250.jpg"
+  },
+  {
+    "title": "Misplaced Childhood",
+    "artist": "Marillion",
+    "year": "1985",
+    "rymLink": "https://rateyourmusic.com/release/album/marillion/misplaced-childhood/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/816ad7e9b2857d18290c53fc613c410b/1511200",
+    "photoLinkBig": "https://coverartarchive.org/release-group/06896217-3aba-31d3-8b34-bd193c9e2b98/front-250.jpg"
+  },
+  {
+    "title": "Clutching at Straws",
+    "artist": "Marillion",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/marillion/clutching_at_straws/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/79d0803b49668053d98e75b489e08f48/3296576",
+    "photoLinkBig": "https://coverartarchive.org/release-group/7c7afb4c-565b-3057-958c-a78285d483f3/front-250.jpg"
+  },
+  {
+    "title": "Seasons End",
+    "artist": "Marillion",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/marillion/seasons-end/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/bed4393844a5553be03851f6cc103a98/6626831",
+    "photoLinkBig": "https://coverartarchive.org/release-group/be4c83af-14c9-3432-9da5-dac795972da9/front-250.jpg"
+  },
+  {
+    "title": "marillion.com",
+    "artist": "Marillion",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/marillion/marillion_com/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/bec33c413dbc0307c6d1faad4efb919c/8423836",
+    "photoLinkBig": "https://coverartarchive.org/release-group/9b9325c3-daa2-31be-9ed4-cb1061b32371/front-250.jpg"
+  },
+  {
+    "title": "De-Loused in the Comatorium",
+    "artist": "The Mars Volta",
+    "year": "2003",
+    "rymLink": "https://rateyourmusic.com/release/album/the-mars-volta/de-loused-in-the-comatorium/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/99b1aee9590e0ffcfdfafcd2b2aec87e/2751592",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/856f3c4fcc8477fe7cc0ff632c62075f/2751592"
+  },
+  {
+    "title": "Flaming Pie",
+    "artist": "Paul McCartney",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/paul-mccartney/flaming-pie/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/7c6316bbced396c3ea4c43c3e16246ae/1229829",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/4ac82201343e123b5738f49eeb58f97e/1229829"
+  },
+  {
+    "title": "Peace Sells... But Who's Buying?",
+    "artist": "Megadeth",
+    "year": "1986",
+    "rymLink": "https://rateyourmusic.com/release/album/megadeth/peace-sells-but-whos-buying/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0f4b631aa27586bfef2a151f3fbeebc1/1215040",
+    "photoLinkBig": "https://coverartarchive.org/release-group/4eea6bcc-3226-3c0d-a71d-af682a0a1dd8/front-250.jpg"
+  },
+  {
+    "title": "Rust in Peace",
+    "artist": "Megadeth",
+    "year": "1990",
+    "rymLink": "https://rateyourmusic.com/release/album/megadeth/rust-in-peace/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3f11c6edf31e00ef71cf095820033700/5748025",
+    "photoLinkBig": "https://coverartarchive.org/release-group/19e7c9f3-7c4c-3a56-ba50-4156b39f76ca/front-250.jpg"
+  },
+  {
+    "title": "Countdown to Extinction",
+    "artist": "Megadeth",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/megadeth/countdown-to-extinction/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f2703b1123c4fc03e2fdc32ce87ffcc6/1919813",
+    "photoLinkBig": "https://coverartarchive.org/release-group/04785b90-87cb-3d5d-a9a9-7f465e327bb4/front-250.jpg"
+  },
+  {
+    "title": "Cryptic Writings",
+    "artist": "Megadeth",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/megadeth/cryptic-writings/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0f3eff3ab7e5a10d7c574eaa544eac85/2060276",
+    "photoLinkBig": "https://coverartarchive.org/release/b2d4c16d-7b7a-4365-ad0e-9f24d32c8378/11827865699-250.jpg"
+  },
+  {
+    "title": "Zenith",
+    "artist": "Maciej Meller",
+    "year": "2020",
+    "rymLink": "https://rateyourmusic.com/release/album/maciej-meller/zenith/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/87660a07bd50a00a6f9f6e110f4648f0/8364109",
+    "photoLinkBig": "https://img.discogs.com/ur0gCZ4p3s2FN-omdy7kcN8lJnE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15876594-1599415661-7773.jpeg.jpg"
+  },
+  {
+    "title": "In Search of the Lost Chord",
+    "artist": "The Moody Blues",
+    "year": "1968",
+    "rymLink": "https://rateyourmusic.com/release/album/the-moody-blues/in-search-of-the-lost-chord/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5f2c834dc72df372a131446b0d7cd813/2294732",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e817037c-2c6b-34be-a860-b51957f7e82a/front-250.jpg"
+  },
+  {
+    "title": "On the Threshold of a Dream",
+    "artist": "The Moody Blues",
+    "year": "1969",
+    "rymLink": "https://rateyourmusic.com/release/album/the_moody_blues/on_the_threshold_of_a_dream/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0a6e0d95729ea2f82bfadb861778ed09/2179621",
+    "photoLinkBig": "https://coverartarchive.org/release-group/3957cdfb-3d3d-3821-8e19-7e9b49585311/front-250.jpg"
+  },
+  {
+    "title": "After the War",
+    "artist": "Gary Moore",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/gary-moore/after-the-war/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cf43ddfb54d2842792c1e38c48977419/1254101",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/fad1d7b289b082b8c1d95fb756b8b67f/1254101"
+  },
+  {
+    "title": "Big Calm",
+    "artist": "Morcheeba",
+    "year": "1998",
+    "rymLink": "https://rateyourmusic.com/release/album/morcheeba/big-calm/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/014ad960bb3419effbb949aa2c1df20a/7607738",
+    "photoLinkBig": "https://coverartarchive.org/release-group/033ad45d-fdf5-3a94-ba34-d50e3716cf95/front-250.jpg"
+  },
+  {
+    "title": "Charango",
+    "artist": "Morcheeba",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/morcheeba/charango/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fcdb5b84b8180287bf1bb2250bc7671a/5100709",
+    "photoLinkBig": "https://coverartarchive.org/release-group/80ce0c47-c0bb-3757-b170-6d64c65d30c2/front-250.jpg"
+  },
+  {
+    "title": "Kaczmarek Played by Możdżer",
+    "artist": "Leszek Możdżer",
+    "year": "2010",
+    "rymLink": "https://rateyourmusic.com/release/album/leszek-mozdzer/kaczmarek-played-by-mozdzer/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0734205d40accfd2b987429afa52dab1/3597996",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/56b118794a70e6716b805ccc68c9b695/3597996"
+  },
+  {
+    "title": "Technique",
+    "artist": "New Order",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/new-order/technique/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a390c21e9f76dd9d93bea296972ebd26/2667856",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a0902fc4-e3d9-3b2b-bc94-cd4d0e59db29/front-250.jpg"
+  },
+  {
+    "title": "Illusion of Evil ",
+    "artist": "Nightly Gale",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/nightly_gale/illusion_of_evil/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/93f76ff8696b4c000c0f209522012a9d/1828620",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/58033a70b235c830dfafce9920a7d120/1828620"
+  },
+  {
+    "title": "Nevermind",
+    "artist": "Nirvana",
+    "year": "1991",
+    "rymLink": "https://rateyourmusic.com/release/album/nirvana/nevermind/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/53872cb349d06c899895395ad73e0359/1628796",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Obywatel G.C.",
+    "artist": "Obywatel G.C.",
+    "year": "1986",
+    "rymLink": "https://rateyourmusic.com/release/album/obywatel-g_c/obywatel-g_c/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/50362c12fb56f3b4f5e608a097b1d6f3/1605567",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/7aa23880eedc1815929a6eecd565ecb0/1605567"
+  },
+  {
+    "title": "Hergest Ridge",
+    "artist": "Mike Oldfield",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/mike-oldfield/hergest-ridge/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/484893d9e7006641c32b0b28197330c5/3215857",
+    "photoLinkBig": "https://coverartarchive.org/release-group/2d1cf410-95f2-3562-a35d-4559bbacb452/front-250.jpg"
+  },
+  {
+    "title": "Ommadawn",
+    "artist": "Mike Oldfield",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/mike-oldfield/ommadawn/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/77751b7bdacad75bad4d2669e4207706/1553160",
+    "photoLinkBig": "https://coverartarchive.org/release-group/38ebbc75-c6e0-3576-bd42-802b2e4850c6/front-250.jpg"
+  },
+  {
+    "title": "Incantations",
+    "artist": "Mike Oldfield",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/mike_oldfield/incantations/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e710105dfc793f35160983bc99b29d88/1878321",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e91f2798-5e0c-35bb-b58f-309fec014e0d/front-250.jpg"
+  },
+  {
+    "title": "Crises",
+    "artist": "Mike Oldfield",
+    "year": "1983",
+    "rymLink": "https://rateyourmusic.com/release/album/mike-oldfield/crises/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3ae28684620150871d63ba8481300a4f/2769601",
+    "photoLinkBig": "https://coverartarchive.org/release-group/bfcd36b4-10b5-385a-8365-d8ca38e1fc83/front-250.jpg"
+  },
+  {
+    "title": "The Songs of Distant Earth",
+    "artist": "Mike Oldfield",
+    "year": "1996",
+    "rymLink": "https://rateyourmusic.com/release/album/mike-oldfield/the-songs-of-distant-earth/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/50677cd41c81f8739dc40eda083d87da/1210315",
+    "photoLinkBig": "https://coverartarchive.org/release/397dce0c-4cb6-3a14-bf04-06cc4776d1a1/17460087873-250.jpg"
+  },
+  {
+    "title": "Tubular Bells III",
+    "artist": "Mike Oldfield",
+    "year": "1998",
+    "rymLink": "https://rateyourmusic.com/release/album/mike-oldfield/tubular-bells-iii/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/da33b8c28c43dd34d0598a272f03a401/2767885",
+    "photoLinkBig": "https://coverartarchive.org/release-group/661b24d2-2da1-3042-9c0e-6008e069b637/front-250.jpg"
+  },
+  {
+    "title": "Man on the Rocks",
+    "artist": "Mike Oldfield",
+    "year": "2014",
+    "rymLink": "https://rateyourmusic.com/release/album/mike-oldfield/man-on-the-rocks/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2cf3c5cee5a2dda0af32f97bb31ed7db/4964915",
+    "photoLinkBig": "https://coverartarchive.org/release-group/2afc313d-b59f-4bee-adc2-462f7920f7ec/front-250.jpg"
+  },
+  {
+    "title": "Pieprz",
+    "artist": "O.N.A.",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/o_n_a/pieprz/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6dda10a8447d9d6686b7c4dd7a63b1e0/1600249",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/ef958f9a4ee6d3df50466ab1055afc82/1600249"
+  },
+  {
+    "title": "Mrok",
+    "artist": "O.N.A.",
+    "year": "2001",
+    "rymLink": "https://rateyourmusic.com/release/album/o_n_a/mrok/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2b60ab15e4e188860f238278af946370/1600251",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/5a905a2ae9a2a5367d5f585166229070/1600251"
+  },
+  {
+    "title": "Blackwater Park",
+    "artist": "Opeth",
+    "year": "2001",
+    "rymLink": "https://rateyourmusic.com/release/album/opeth/blackwater-park/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e2721363a2529a889ddae0636fe992c6/1719095",
+    "photoLinkBig": "https://coverartarchive.org/release-group/1f4a9f6f-9621-3e46-977d-8503e8386768/front-250.jpg"
+  },
+  {
+    "title": "Deliverance",
+    "artist": "Opeth",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/opeth/deliverance/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c76e664f32c7f3aae420dc881685098d/8425265",
+    "photoLinkBig": "https://coverartarchive.org/release-group/6e82a4c0-6939-308b-8f70-9f496ab43278/front-250.jpg"
+  },
+  {
+    "title": "Damnation",
+    "artist": "Opeth",
+    "year": "2003",
+    "rymLink": "https://rateyourmusic.com/release/album/opeth/damnation/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fab129e37ef8c4bbedd1a6ec03937c6b/2675319",
+    "photoLinkBig": "https://coverartarchive.org/release-group/2864ec02-5e6a-36d8-9960-ccd959b9a618/front-250.jpg"
+  },
+  {
+    "title": "Pale Communion",
+    "artist": "Opeth",
+    "year": "2014",
+    "rymLink": "https://rateyourmusic.com/release/album/opeth/pale-communion/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/45c4aecc70c933dd56ec23b3b3133aec/7071677",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d7605e9c-8a96-4a41-9cf6-f45f80de112f/front-250.jpg"
+  },
+  {
+    "title": "Particles",
+    "artist": "Osada Vida",
+    "year": "2013",
+    "rymLink": "https://rateyourmusic.com/release/album/osada_vida/particles/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a5a75a503a43b98f8f254bc3194fc28d/4636290",
+    "photoLinkBig": "https://magazyngitarzysta.pl/i/images/5/3/7/d2FjPTMwMHgwLjk5ODAwMzk5MjAxNTk3_src_75537-osada_vida_1.jpg"
+  },
+  {
+    "title": "Shades of God",
+    "artist": "Paradise Lost",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/paradise-lost/shades-of-god/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/93496e074d0d7445a057515658c5ab27/2616260",
+    "photoLinkBig": "https://coverartarchive.org/release-group/c13adb43-63c7-3b26-88fa-fe84631a1bef/front-250.jpg"
+  },
+  {
+    "title": "Icon",
+    "artist": "Paradise Lost",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/paradise-lost/icon/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/dd41f709e23a911cb60b0d226d1105db/1350305",
+    "photoLinkBig": "https://coverartarchive.org/release-group/549cb4dc-bccc-3576-9b04-cba691eb2c59/front-250.jpg"
+  },
+  {
+    "title": "Believe in Nothing",
+    "artist": "Paradise Lost",
+    "year": "2001",
+    "rymLink": "https://rateyourmusic.com/release/album/paradise-lost/believe-in-nothing/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/334144c743495f7aee178a3aea34f051/8425979",
+    "photoLinkBig": "https://coverartarchive.org/release-group/fedf0d76-66f3-3bcd-9b4d-1b0bbff7d0b1/front-250.jpg"
+  },
+  {
+    "title": "Tales of Mystery and Imagination",
+    "artist": "The Alan Parsons Project",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/the-alan-parsons-project/tales-of-mystery-and-imagination/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/8ac1f6cf51210487ff4ceea537155c35/2551967",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5d8f45de-ec81-36c7-88d1-a232193fbf15/front-250.jpg"
+  },
+  {
+    "title": "Eye in the Sky",
+    "artist": "The Alan Parsons Project",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/the-alan-parsons-project/eye-in-the-sky/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/620c9ba7d405c737b86cdf9c0533825a/2773203",
+    "photoLinkBig": "https://coverartarchive.org/release-group/c9137ca5-26bd-3374-bebc-a813fbfe9c4f/front-250.jpg"
+  },
+  {
+    "title": "Gaudi",
+    "artist": "The Alan Parsons Project",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/the-alan-parsons-project/gaudi/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ff5593c0b488b9f7928ed49bd3a6db7a/1703426",
+    "photoLinkBig": "https://coverartarchive.org/release-group/f8fa4938-7c2f-3f87-850c-7c807fe60400/front-250.jpg"
+  },
+  {
+    "title": "Ten",
+    "artist": "Pearl Jam",
+    "year": "1991",
+    "rymLink": "https://rateyourmusic.com/release/album/pearl-jam/ten/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/28964db6a5cffaf1e412ce8a7c166248/6451534",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cea5d18a-1924-3cda-bebc-38933834b25d/front-250.jpg"
+  },
+  {
+    "title": "Acoustically Challenged",
+    "artist": "Pendragon",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/pendragon/acoustically-challenged/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/991af9fdedc1c60c3bffc23919ceed9d/1420111",
+    "photoLinkBig": "https://coverartarchive.org/release-group/636efb05-1907-3d99-bd5b-4fa3312bd169/front-250.jpg"
+  },
+  {
+    "title": "Believe",
+    "artist": "Pendragon",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/pendragon/believe/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/92e3983fb116b9a19fd91bb348e19ee5/2681182",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d38c68ad-b066-3c1c-b753-ceec4d0c6900/front-250.jpg"
+  },
+  {
+    "title": "Tightly Unwound",
+    "artist": "The Pineapple Thief",
+    "year": "2008",
+    "rymLink": "https://rateyourmusic.com/release/album/the-pineapple-thief/tightly-unwound/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/373aa36adb84371c5e489e02b515bf9b/2351596",
+    "photoLinkBig": "https://coverartarchive.org/release-group/9f3611bf-9b18-31d8-8924-8e4f3daf1b57/front-250.jpg"
+  },
+  {
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/pink-floyd/the-dark-side-of-the-moon/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/7864e26c168c75828a5cac83ecf5d0d6/5395533",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "The Principle of Moments",
+    "artist": "Robert Plant",
+    "year": "1983",
+    "rymLink": "https://rateyourmusic.com/release/album/robert-plant/the-principle-of-moments/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/95604884fe1d39dd7ee5eb7ae17c3c2c/5448388",
+    "photoLinkBig": "https://coverartarchive.org/release-group/3344ffb8-2808-3563-96e4-4dd268c7fc33/front-250.jpg"
+  },
+  {
+    "title": "Fate of Nations",
+    "artist": "Robert Plant",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/robert-plant/fate-of-nations/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/22d790faf985406624431f21e84a54d3/1447786",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a7637407-3e12-3027-bb0b-2184191c1839/front-250.jpg"
+  },
+  {
+    "title": "Signify",
+    "artist": "Porcupine Tree",
+    "year": "1996",
+    "rymLink": "https://rateyourmusic.com/release/album/porcupine_tree/signify/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/36a2b8fe998556ac1bcadb2e1651c057/1352919",
+    "photoLinkBig": "https://coverartarchive.org/release-group/3546d687-0c3f-3fde-a290-f94681cab3f6/front-250.jpg"
+  },
+  {
+    "title": "Coma Divine: Recorded Live in Rome",
+    "artist": "Porcupine Tree",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/porcupine_tree/coma_divine__recorded_live_in_rome/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/bb4882bd6703c11591c19964e20b8198/3190664",
+    "photoLinkBig": "https://coverartarchive.org/release-group/0ee335ec-a6e3-3ab9-bb37-c26c409b886e/front-250.jpg"
+  },
+  {
+    "title": "In absentia",
+    "artist": "Porcupine Tree",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/porcupine-tree/in-absentia/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/449a9daeb7fabb0528cecd9bddedbd33/3494945",
+    "photoLinkBig": "https://coverartarchive.org/release-group/94cfdc4c-5eb5-3b62-9dbe-8e051528c6e5/front-250.jpg"
+  },
+  {
+    "title": "Deadwing",
+    "artist": "Porcupine Tree",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/porcupine-tree/deadwing/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/336610ad3492bb034467841368049c36/2510148",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cdebdda3-f478-367c-92d2-3d592323cd91/front-250.jpg"
+  },
+  {
+    "title": "Different Class",
+    "artist": "Pulp",
+    "year": "1995",
+    "rymLink": "https://rateyourmusic.com/release/album/pulp/different-class/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d74654b2f95a65d089ca746ddb8ef520/2109326",
+    "photoLinkBig": "https://coverartarchive.org/release-group/88f69eab-8f07-343b-847c-b944ad33dfcf/front-250.jpg"
+  },
+  {
+    "title": "This Is Hardcore",
+    "artist": "Pulp",
+    "year": "1998",
+    "rymLink": "https://rateyourmusic.com/release/album/pulp/this-is-hardcore/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fcffb18ed7701568ddaf8856282ad4e5/5754243",
+    "photoLinkBig": "https://coverartarchive.org/release-group/1ab343e8-490d-32a6-a6c8-1e56cf33c888/front-250.jpg"
+  },
+  {
+    "title": "Sheer Heart Attack",
+    "artist": "Queen",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/queen/sheer-heart-attack/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e717283042ccd84a90a98f46f2aaf695/2700214",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "A Kind of Magic",
+    "artist": "Queen",
+    "year": "1986",
+    "rymLink": "https://rateyourmusic.com/release/album/queen/a-kind-of-magic/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d501bd93ce1deb59542f03f10539657c/1719587",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Songs for the Deaf",
+    "artist": "Queens of the Stone Age",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/queens-of-the-stone-age/songs-for-the-deaf/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ae35f9ac0d1da938b2c8c59e7cd22ed4/8239729",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Rage Against the Machine",
+    "artist": "Rage Against the Machine",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/rage-against-the-machine/rage-against-the-machine/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2a054cae955c3daa055ece16d641bc85/1971515",
+    "photoLinkBig": "https://coverartarchive.org/release-group/1305859b-8937-397f-9c33-39f62eb672fb/front-250.jpg"
+  },
+  {
+    "title": "Evil Empire",
+    "artist": "Rage Against the Machine",
+    "year": "1996",
+    "rymLink": "https://rateyourmusic.com/release/album/rage-against-the-machine/evil-empire/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fa603a41f3c3a37f46fecd00f66e1f27/2150298",
+    "photoLinkBig": "https://coverartarchive.org/release-group/1b469da1-e542-346b-84e6-4d7fe45be181/front-250.jpg"
+  },
+  {
+    "title": "The Battle of Los Angeles",
+    "artist": "Rage Against the Machine",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/rage-against-the-machine/the-battle-of-los-angeles/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/35a4145ba6b757f160eca41751fe41ce/2510489",
+    "photoLinkBig": "https://coverartarchive.org/release-group/25e72bf4-09fc-3e66-9d31-9247d91b4819/front-250.jpg"
+  },
+  {
+    "title": "Difficult to Cure",
+    "artist": "Rainbow",
+    "year": "1981",
+    "rymLink": "https://rateyourmusic.com/release/album/rainbow/difficult-to-cure/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c383b1c9a5766aabc7e04c11c2d47151/2799783",
+    "photoLinkBig": "https://images-na.ssl-images-amazon.com/images/I/51k4WsMeZLL.jpg"
+  },
+  {
+    "title": "Blood Sugar Sex Magik",
+    "artist": "Red Hot Chili Peppers",
+    "year": "1991",
+    "rymLink": "https://rateyourmusic.com/release/album/red-hot-chili-peppers/blood-sugar-sex-magik/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/26338a6082379a32a3a96c3d789c12df/2173523",
+    "photoLinkBig": "https://coverartarchive.org/release-group/68bee70d-b425-3813-aca7-dd7b912c3d11/front-250.jpg"
+  },
+  {
+    "title": "Californication",
+    "artist": "Red Hot Chili Peppers",
+    "year": "1999",
+    "rymLink": "https://rateyourmusic.com/release/album/red-hot-chili-peppers/californication/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/08d791b65418549da446ada303f26ef6/2074981",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ca5dfcc3-83fb-3eee-9061-c27296b77b2c/front-250.jpg"
+  },
+  {
+    "title": "By the Way",
+    "artist": "Red Hot Chili Peppers",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/red-hot-chili-peppers/by-the-way/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/562f8a0c410c56ccbfc1ad94702651b7/6610101",
+    "photoLinkBig": "https://coverartarchive.org/release-group/bbf6eaa8-1340-35c8-9599-34056896ebab/front-250.jpg"
+  },
+  {
+    "title": "Reckoning",
+    "artist": "R.E.M.",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m/reckoning/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d70a51ea0510afd8a0045bb5fc0abddc/3838863",
+    "photoLinkBig": "https://coverartarchive.org/release-group/eec55734-1387-3aa3-af3d-ff0ae8083806/front-250.jpg"
+  },
+  {
+    "title": "Document",
+    "artist": "R.E.M.",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m/document/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d46bfef3ee9c5d827da2c216a7726f19/6798773",
+    "photoLinkBig": "https://coverartarchive.org/release-group/137385b2-b4cc-385e-9d59-781e7674f5bc/front-250.jpg"
+  },
+  {
+    "title": "Out of Time",
+    "artist": "R.E.M.",
+    "year": "1991",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m/out-of-time/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d7e147b519e5f04d06260ca57fb7a774/6816900",
+    "photoLinkBig": "https://coverartarchive.org/release-group/400a5fdd-e616-3598-a9bf-cd8275cb53d0/front-250.jpg"
+  },
+  {
+    "title": "Automatic for the People",
+    "artist": "R.E.M.",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m_/automatic_for_the_people/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/81793eae91861fff1ebdc7970b82e8fe/3772892",
+    "photoLinkBig": "https://coverartarchive.org/release-group/c86c6af9-d10e-3079-b34b-30b682a797eb/front-250.jpg"
+  },
+  {
+    "title": "Monster",
+    "artist": "R.E.M.",
+    "year": "1994",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m/monster/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e6768003ad9d98ffa55e1f1f884f18e1/5792536",
+    "photoLinkBig": "https://coverartarchive.org/release-group/2a71baeb-0c95-3d3a-aef9-8d5fe17a8038/front-250.jpg"
+  },
+  {
+    "title": "Up",
+    "artist": "R.E.M.",
+    "year": "1998",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m/up/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/96b9b266af21a64a9c4418d77573d486/2229738",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d867582f-3e0e-3e64-8418-aadddd53fde5/front-250.jpg"
+  },
+  {
+    "title": "Reveal",
+    "artist": "R.E.M.",
+    "year": "2001",
+    "rymLink": "https://rateyourmusic.com/release/album/r_e_m/reveal/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6e40d51f909339ec6d855c48da4a9bbd/8050104",
+    "photoLinkBig": "https://coverartarchive.org/release-group/6f285675-2ae8-3a6c-883a-0e29f8a6d1c6/front-250.jpg"
+  },
+  {
+    "title": "Renaissance",
+    "artist": "Renaissance",
+    "year": "1969",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/renaissance/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/274b9e96b2722211a3b6309a401ccc6e/1211476",
+    "photoLinkBig": "https://coverartarchive.org/release/1a816904-b611-4123-ba04-d2fccb9fb0e6/1012255364-250.jpg"
+  },
+  {
+    "title": "Illusion",
+    "artist": "Renaissance",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/illusion/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c52fca4b2f6b1bd35f6c18938698e725/1566196",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/00d6c70e6053c3fddd8862ba0b9a96f4/1566196"
+  },
+  {
+    "title": "Prologue",
+    "artist": "Renaissance",
+    "year": "1972",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/prologue/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f1e3a4e0d6c650abbe14a9efc22e98ec/1566180",
+    "photoLinkBig": "https://coverartarchive.org/release-group/80769ba5-6902-3914-982e-cb86e89929e5/front-250.jpg"
+  },
+  {
+    "title": "Ashes Are Burning",
+    "artist": "Renaissance",
+    "year": "1973",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/ashes-are-burning/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/062e48c57e541b2f1a48ddb707a8d5bb/2607920",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5a2ccc70-8aec-3119-80d7-7b1e8de4140e/front-250.jpg"
+  },
+  {
+    "title": "Turn of the Cards",
+    "artist": "Renaissance",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/turn-of-the-cards/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ba877686b8e16779f9a8360c0dacd5ab/2604535",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ca91fb54-335f-3e7b-a5fe-56f159818535/front-250.jpg"
+  },
+  {
+    "title": "Scheherazade and Other Stories",
+    "artist": "Renaissance",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/scheherazade-and-other-stories/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e545c4420dbd84e3c9522ddcb06f795f/2236678",
+    "photoLinkBig": "https://coverartarchive.org/release-group/380b099d-908c-3900-af72-81e97bebb024/front-250.jpg"
+  },
+  {
+    "title": "Live at Carnegie Hall",
+    "artist": "Renaissance",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/live-at-carnegie-hall/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/987c1fb6a0bd7a9fcc32a76960573cdd/1211477",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/fe437d86793b0d3bd3dbff993fcb940e/1211477"
+  },
+  {
+    "title": "Novella",
+    "artist": "Renaissance",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/novella/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/1de3b89c852f69e3ed2357eeda6d6586/1343005",
+    "photoLinkBig": "https://coverartarchive.org/release-group/dd355bab-8626-39a4-96f4-6bc635965656/front-250.jpg"
+  },
+  {
+    "title": "A Song for All Seasons",
+    "artist": "Renaissance",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/a-song-for-all-seasons/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/af97b5550cca220e9512d83654e09a9b/8560330",
+    "photoLinkBig": "https://coverartarchive.org/release-group/52ab5e81-a93a-3f6d-b29d-4613e544ceeb/front-250.jpg"
+  },
+  {
+    "title": "Azure d'Or",
+    "artist": "Renaissance",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/azure_dor/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/559e384fe3437fcc3ac2cefc147c84cd/1404192",
+    "photoLinkBig": "https://coverartarchive.org/release-group/f1c8b81b-07fe-32c6-adb1-cdf091686f71/front-250.jpg"
+  },
+  {
+    "title": "Camera Camera",
+    "artist": "Renaissance",
+    "year": "1981",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/camera_camera/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/040e7bfcd19c3b2b72c48e6318e4b26e/1320590",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8bcc01fb-6c05-3236-adfb-a8e4e95d6e80/front-250.jpg"
+  },
+  {
+    "title": "Time-Line",
+    "artist": "Renaissance",
+    "year": "1983",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/time_line/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f07c03324e9d3b365c265964e6cddfa4/1641095",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/c540e61bbd52f861a36c1e5ee977dc2b/1641095"
+  },
+  {
+    "title": "Tuscany",
+    "artist": "Renaissance",
+    "year": "2000",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/tuscany/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5656cec28d66223944be2e32db72a303/1723772",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e4409f1e-79c1-3109-8ad8-fe38bfeb6815/front-250.jpg"
+  },
+  {
+    "title": "In the Land of the Rising Sun",
+    "artist": "Renaissance",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/in-the-land-of-the-rising-sun/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a40db0299af688e280d80d7f97badd84/2622499",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/6097d8cfc3e965b73956903c09ce6fd7/2622499"
+  },
+  {
+    "title": "The Other Woman",
+    "artist": "Renaissance",
+    "year": "1995",
+    "rymLink": "https://rateyourmusic.com/release/album/renaissance/the_other_woman/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d5f41037a0fb41e08c8b6b4f25100413/3238178",
+    "photoLinkBig": "https://www.progarchives.com/progressive_rock_discography_covers/603/cover_2161422122007.jpg"
+  },
+  {
+    "title": "Bloom",
+    "artist": "Lou Rhodes",
+    "year": "2007",
+    "rymLink": "https://rateyourmusic.com/release/album/lou_rhodes/bloom/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ed62215bd211a56c21939c5c46b828ee/1999840",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/cf4dad9b4f99ffe6f6276f3d6f54a08b/1999840"
+  },
+  {
+    "title": "Avalon",
+    "artist": "Roxy Music",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/roxy-music/avalon/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f7b6cac36de7e8e4b0ab73e40d5d1e81/1449729",
+    "photoLinkBig": "https://coverartarchive.org/release-group/4b51d75c-ca0e-3ea7-9950-639eda1f7d1a/front-250.jpg"
+  },
+  {
+    "title": "Rush",
+    "artist": "Rush",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/rush/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/832a3e426840841dacbd85e9640e13b3/3930457",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ea47459b-a69e-3c15-8781-77227a78e1db/front-250.jpg"
+  },
+  {
+    "title": "Fly by Night",
+    "artist": "Rush",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/fly-by-night/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/34a868af5fc66ca545556f4f64decdd2/5096081",
+    "photoLinkBig": "https://coverartarchive.org/release-group/0c6e24c8-3cc8-3b35-93c5-1fdf6c5641b6/front-250.jpg"
+  },
+  {
+    "title": "Caress of Steel",
+    "artist": "Rush",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/caress-of-steel/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a8585c6c013a83396454e7737633dd24/2616017",
+    "photoLinkBig": "https://coverartarchive.org/release-group/a6044d81-743e-3a62-afdf-20bb943b2505/front-250.jpg"
+  },
+  {
+    "title": "2112",
+    "artist": "Rush",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/2112/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/4b2042c443794aafa9895761312cdce3/3192398",
+    "photoLinkBig": "https://coverartarchive.org/release-group/9243ac59-9390-37e1-abee-fcf31fb8035f/front-250.jpg"
+  },
+  {
+    "title": "A Farewell to Kings",
+    "artist": "Rush",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/a-farewell-to-kings/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/78411ad89036b5ce8ffaa88a6150e3f2/2898538",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5f27a05d-a12a-3611-a836-f720c9ab00a2/front-250.jpg"
+  },
+  {
+    "title": "Hemispheres",
+    "artist": "Rush",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/hemispheres/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/06213e82a705469dbe7a7338c8723c6a/2811498",
+    "photoLinkBig": "https://coverartarchive.org/release-group/484f8923-454e-3efa-8234-9d1b1f296cc8/front-250.jpg"
+  },
+  {
+    "title": "Permanent Waves",
+    "artist": "Rush",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/permanent-waves/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/4e09cfe3e767fa49c07a4b4a1d3072db/2798285",
+    "photoLinkBig": "https://coverartarchive.org/release-group/664ffb4c-8178-3f99-b0d3-0bab3a51f793/front-250.jpg"
+  },
+  {
+    "title": "Moving Pictures",
+    "artist": "Rush",
+    "year": "1981",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/moving-pictures/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ed143fb79e86240118af459cd2603fbd/2799730",
+    "photoLinkBig": "https://coverartarchive.org/release-group/40e30dc1-55ac-33e1-85d3-1f1508140bfc/front-250.jpg"
+  },
+  {
+    "title": "Signals",
+    "artist": "Rush",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/signals/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/8bf19b129ccd51248da95e3e42cc8262/8013248",
+    "photoLinkBig": "https://coverartarchive.org/release-group/63ebc338-a01b-398c-8520-fdb055fbcd7b/front-250.jpg"
+  },
+  {
+    "title": "Grace Under Pressure",
+    "artist": "Rush",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/grace-under-pressure/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/43f5723961b57f1c90b1613c6ad86e95/5096090",
+    "photoLinkBig": "https://coverartarchive.org/release-group/f9e8fa95-5c8f-31aa-8d5e-d9c849d88aba/front-250.jpg"
+  },
+  {
+    "title": "Power Windows",
+    "artist": "Rush",
+    "year": "1985",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/power-windows/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5007a276029503fa77f8d1310a69bdaa/1720179",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e8864dda-f0db-3a7c-a09c-b57314e4b910/front-250.jpg"
+  },
+  {
+    "title": "Hold Your Fire",
+    "artist": "Rush",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/hold-your-fire/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/50af86d830e783ab87611f062d9ea668/2603077",
+    "photoLinkBig": "https://coverartarchive.org/release-group/bd4abba9-8016-3d05-81e2-120cd051b436/front-250.jpg"
+  },
+  {
+    "title": "Presto",
+    "artist": "Rush",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/presto/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/59f42599f53b54b1a6acb8036c90823a/1996942",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d83a8fa7-6bd3-3fc9-bdb4-3122e78fd213/front-250.jpg"
+  },
+  {
+    "title": "Roll the Bones",
+    "artist": "Rush",
+    "year": "1991",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/roll-the-bones/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/71889152619c831db204cf51132609e5/1996957",
+    "photoLinkBig": "https://coverartarchive.org/release-group/e188de4e-6d15-3ca3-be49-fa13c67a03c0/front-250.jpg"
+  },
+  {
+    "title": "Counterparts",
+    "artist": "Rush",
+    "year": "1993",
+    "rymLink": "https://rateyourmusic.com/release/album/rush/counterparts/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/8bbb00de70796ae60882dc23f5a491d7/2317453",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8a203722-a642-381d-80b1-dc927a32238c/front-250.jpg"
+  },
+  {
+    "title": "Samaya",
+    "artist": "Samaya",
+    "year": "2017",
+    "rymLink": "https://rateyourmusic.com/release/ep/samaya/samaya/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/240cdaf28627c7b4b785d9579712c8de/8131670",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/23614853398060e2be00dbc6c0ae7eeb/8131670"
+  },
+  {
+    "title": "Santana",
+    "artist": "Santana",
+    "year": "1969",
+    "rymLink": "https://rateyourmusic.com/release/album/santana/santana/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2548bb443e7b6da06040f8615293f061/1837556",
+    "photoLinkBig": "https://coverartarchive.org/release-group/cbe55545-7a3e-3f8c-8c5f-33984a818e91/front-250.jpg"
+  },
+  {
+    "title": "A Street Between Sunrise and Sunset",
+    "artist": "Satellite",
+    "year": "2003",
+    "rymLink": "https://rateyourmusic.com/release/album/satellite/a-street-between-sunrise-and-sunset/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/4c43c3c3d372e1398d4908e692cb0d4e/1706945",
+    "photoLinkBig": "https://coverartarchive.org/release-group/975a02af-7fe0-326c-b816-db9f54696404/front-250.jpg"
+  },
+  {
+    "title": "Evening Games",
+    "artist": "Satellite",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/satellite/evening-games/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/79b269b7fbb818b65e048f3e3823c027/1295969",
+    "photoLinkBig": "https://coverartarchive.org/release-group/03fc8f57-0fa5-36f8-be79-d1b69d36dadf/front-250.jpg"
+  },
+  {
+    "title": "Into the Night",
+    "artist": "Satellite",
+    "year": "2007",
+    "rymLink": "https://rateyourmusic.com/release/album/satellite/into-the-night/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ecff1af15361e1fa96bf42e879a28ace/2098657",
+    "photoLinkBig": "https://images-na.ssl-images-amazon.com/images/I/51xIbknUhAL.jpg"
+  },
+  {
+    "title": "Nostalgia",
+    "artist": "Satellite",
+    "year": "2009",
+    "rymLink": "https://rateyourmusic.com/release/album/satellite/nostalgia/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/53df180231d5f6945f39d2332c77199e/5220661",
+    "photoLinkBig": "https://ecsmedia.pl/c/nostalgia-b-iext35626906.jpg"
+  },
+  {
+    "title": "Ze słowem biegnę do ciebie",
+    "artist": "SBB",
+    "year": "1977",
+    "rymLink": "https://rateyourmusic.com/release/album/sbb/ze-slowem-biegne-do-ciebie/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/eb23224c15d8d012337d7ba096618ccb/1658081",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/184cc977ec8d55dbdcde6b852ef56848/1658081"
+  },
+  {
+    "title": "Nastroje",
+    "artist": "SBB",
+    "year": "2002",
+    "rymLink": "https://rateyourmusic.com/release/album/sbb/nastroje/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/7a78f8a04e8e363af8ff88d8c09162c4/5417440",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/6b796785062414078e295df62a35de07/5417440"
+  },
+  {
+    "title": "Sounds of Silence",
+    "artist": "Simon & Garfunkel",
+    "year": "1966",
+    "rymLink": "https://rateyourmusic.com/release/album/simon-and-garfunkel/sounds-of-silence/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3c8091e81d848ed713514424fe5d3c7b/4981818",
+    "photoLinkBig": "https://coverartarchive.org/release-group/499a8142-b8a7-3ab1-a3db-641a41860afb/front-250.jpg"
+  },
+  {
+    "title": "Life in a Day",
+    "artist": "Simple Minds",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/simple-minds/life-in-a-day/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/bfc92ce485f52a7d9260d41022c49b57/2454076",
+    "photoLinkBig": "https://coverartarchive.org/release-group/9d431cc3-45c0-3b7d-9f4d-3b22f0bded6b/front-250.jpg"
+  },
+  {
+    "title": "Empires and Dance",
+    "artist": "Simple Minds",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/simple-minds/empires-and-dance/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2bea34b100e4d7ce7f6b6c31e61afecd/6134512",
+    "photoLinkBig": "https://coverartarchive.org/release-group/18a9bbd4-e9cd-3ece-aa3a-c3aa61af571b/front-250.jpg"
+  },
+  {
+    "title": "Sparkle in the Rain",
+    "artist": "Simple Minds",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/simple-minds/sparkle-in-the-rain/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/519b5d56f07bc3945672a4d40c198a2d/6168540",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d5a86bb9-c3c0-3b98-bfa3-54813ed30257/front-250.jpg"
+  },
+  {
+    "title": "Glittering Prize 81/92",
+    "artist": "Simple Minds",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/comp/simple-minds/glittering-prize-81_92/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f368670893544bfc1a8bf5f55825eb2a/1365967",
+    "photoLinkBig": "https://coverartarchive.org/release-group/68020ca0-88f2-39d6-a7ab-cd74fef67379/front-250.jpg"
+  },
+  {
+    "title": "Graffiti Soul",
+    "artist": "Simple Minds",
+    "year": "2009",
+    "rymLink": "https://rateyourmusic.com/release/album/simple-minds/graffiti-soul/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a2ed48b10a6753ef341aba066c9f352b/2573639",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5b94f777-ebfd-43af-840b-d5af00d34ba0/front-250.jpg"
+  },
+  {
+    "title": "Peace and Noise",
+    "artist": "Patti Smith",
+    "year": "1997",
+    "rymLink": "https://rateyourmusic.com/release/album/patti-smith/peace-and-noise/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b190eccaac0d55b7f2c6929b313dd788/1210418",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/63c4036dc8ee12560754887d8addb032/1210418"
+  },
+  {
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/bruce-springsteen/born-to-run/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/615d589678c4f320cfdcabc5a4492dff/2666080",
+    "photoLinkBig": "https://coverartarchive.org/release-group/39b22944-7503-3937-8bba-09b17281cc6a/front-250.jpg"
+  },
+  {
+    "title": "Coming Up",
+    "artist": "Suede",
+    "year": "1996",
+    "rymLink": "https://rateyourmusic.com/release/album/suede/coming-up/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/1aeac850e6f81fde8b191bbd21d7f66f/1879129",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/4ff259b9400a2a525c96e7024a2aa589/1879129"
+  },
+  {
+    "title": "Crime of the Century",
+    "artist": "Supertramp",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/supertramp/crime-of-the-century/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/1c6d7fa882824fc6ef026f07cb21b6b2/3370822",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/3d81d99880bc8cc5b18941b3bd4b9f5b/3370822"
+  },
+  {
+    "title": "Brilliant Trees",
+    "artist": "David Sylvian",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/david-sylvian/brilliant-trees/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/807b9a78a34e79e77b6652569f01ff24/1984847",
+    "photoLinkBig": "https://coverartarchive.org/release/97ffbd23-a992-49f7-8a1f-9610c4dc4bf5/2491016711-250.jpg"
+  },
+  {
+    "title": "Mezmerize",
+    "artist": "System of a Down",
+    "year": "2005",
+    "rymLink": "https://rateyourmusic.com/release/album/system-of-a-down/mezmerize/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/a5453cccdae5d30e727b5b7f259bf726/4170214",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8d18c070-adea-353f-a089-cbd2543342dd/front-250.jpg"
+  },
+  {
+    "title": "The Party's Over",
+    "artist": "Talk Talk",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/talk-talk/the-partys-over/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/8d49feb5afbb4ba6ecb55f35ab4e06b3/1446965",
+    "photoLinkBig": "https://coverartarchive.org/release-group/415388ec-5b96-3206-b55f-d8ccb3b9dfda/front-250.jpg"
+  },
+  {
+    "title": "It's My Life",
+    "artist": "Talk Talk",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/talk-talk/its-my-life/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e0c29bf5f28bd11eb25111543ea6d1cb/3647241",
+    "photoLinkBig": "https://coverartarchive.org/release-group/84cf35fd-adb5-3fdd-9eec-8535b134be13/front-250.jpg"
+  },
+  {
+    "title": "The Colour of Spring",
+    "artist": "Talk Talk",
+    "year": "1986",
+    "rymLink": "https://rateyourmusic.com/release/album/talk-talk/the-colour-of-spring/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/d334feef28c0ce4a7c382ed83b57a54a/1553033",
+    "photoLinkBig": "https://coverartarchive.org/release-group/072ec17c-aa60-3070-99ab-fce9e9009d97/front-250.jpg"
+  },
+  {
+    "title": "Phaedra",
+    "artist": "Tangerine Dream",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/tangerine-dream/phaedra/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2674b3f0c402eb496345b33bdb910a6e/1993698",
+    "photoLinkBig": "https://coverartarchive.org/release-group/866c88fa-a18b-3739-9814-2ad215e5e11a/front-250.jpg"
+  },
+  {
+    "title": "Stratosfear",
+    "artist": "Tangerine Dream",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/tangerine-dream/stratosfear/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fd08083cef964f37a1fea9a70363b468/7538882",
+    "photoLinkBig": "https://coverartarchive.org/release-group/542bb617-2848-33be-89bf-e8d3561f0fa4/front-250.jpg"
+  },
+  {
+    "title": "Cyclone",
+    "artist": "Tangerine Dream",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/tangerine-dream/cyclone/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/fa4414d6b8c66df27829d7aa76cc53d4/2512621",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ab4de2f1-dfb9-3e6b-8e7b-c023a661f788/front-250.jpg"
+  },
+  {
+    "title": "Force Majeure",
+    "artist": "Tangerine Dream",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/tangerine-dream/force-majeure/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b190c3e7b2c1b6ea2b671301fedd091e/1888339",
+    "photoLinkBig": "https://coverartarchive.org/release-group/0dd53ff5-9b08-321c-b6c7-485e9fd0e25c/front-250.jpg"
+  },
+  {
+    "title": "Songs From the Big Chair",
+    "artist": "Tears for Fears",
+    "year": "1985",
+    "rymLink": "https://rateyourmusic.com/release/album/tears-for-fears/songs-from-the-big-chair/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/1a7375b46a0616569db51508e23de86d/2758916",
+    "photoLinkBig": "https://coverartarchive.org/release-group/475946e9-4b00-3f7c-9bd7-c11f55740262/front-250.jpg"
+  },
+  {
+    "title": "The Seeds of Love",
+    "artist": "Tears for Fears",
+    "year": "1989",
+    "rymLink": "https://rateyourmusic.com/release/album/tears-for-fears/the-seeds-of-love/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3ba78abf4927d938a1cb10f97bd35979/2522789",
+    "photoLinkBig": "https://coverartarchive.org/release-group/006e43eb-257f-3a51-92a5-ee641b8b61d2/front-250.jpg"
+  },
+  {
+    "title": "Jailbreak",
+    "artist": "Thin Lizzy",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/thin-lizzy/jailbreak/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f6fe1244bb84ce550ea1db7d180cd299/1211553",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d55dae0d-835d-3756-8805-196e41bacc2f/front-250.jpg"
+  },
+  {
+    "title": "Black Rose: A Rock Legend",
+    "artist": "Thin Lizzy",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/thin-lizzy/black-rose-a-rock-legend/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ea2b986e0641e50837338b1c9c854586/2810191",
+    "photoLinkBig": "https://coverartarchive.org/release-group/0e50cfc6-0830-3e6b-a443-d39237b1d34c/front-250.jpg"
+  },
+  {
+    "title": "Thunder and Lightning",
+    "artist": "Thin Lizzy",
+    "year": "1983",
+    "rymLink": "https://rateyourmusic.com/release/album/thin-lizzy/thunder-and-lightning/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6e8059651d031a70fd880802bc671c4b/1323528",
+    "photoLinkBig": "https://coverartarchive.org/release-group/fe48fbb7-8462-3ff2-b50d-bf3ea6d7c2b4/front-250.jpg"
+  },
+  {
+    "title": "The Joshua Tree",
+    "artist": "U2",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/u2/the-joshua-tree/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/aa830a57b6f51a79b4fc4845e05fe3f2/7628416",
+    "photoLinkBig": "https://coverartarchive.org/release-group/6f3e9fa6-be7a-3de8-a2b2-2072ece8a54d/front-250.jpg"
+  },
+  {
+    "title": "All That You Can't Leave Behind",
+    "artist": "U2",
+    "year": "2000",
+    "rymLink": "https://rateyourmusic.com/release/album/u2/all-that-you-cant-leave-behind/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e6772386c7230d5e00e35d598fd3fdd9/2483082",
+    "photoLinkBig": "https://coverartarchive.org/release-group/88c59b55-200d-3ac1-beff-8eb99830807e/front-250.jpg"
+  },
+  {
+    "title": "Vienna",
+    "artist": "Ultravox",
+    "year": "1980",
+    "rymLink": "https://rateyourmusic.com/release/album/ultravox/vienna/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f0edb1bb37903ea2a3ed3d4efd9ec4a9/5599829",
+    "photoLinkBig": "https://coverartarchive.org/release-group/7793c026-9479-35b8-9f54-fc0bdd03e676/front-250.jpg"
+  },
+  {
+    "title": "Rage in Eden",
+    "artist": "Ultravox",
+    "year": "1981",
+    "rymLink": "https://rateyourmusic.com/release/album/ultravox/rage-in-eden/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/e9634cef88aca8965ebfe78dd2c45cd5/2687046",
+    "photoLinkBig": "https://coverartarchive.org/release/14654a58-70e5-3b92-9e07-528684f35ebf/22280118410-250.jpg"
+  },
+  {
+    "title": "Quartet",
+    "artist": "Ultravox",
+    "year": "1982",
+    "rymLink": "https://rateyourmusic.com/release/album/ultravox/quartet/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c02b5e64fe3b172dc9c575e84119e819/6216143",
+    "photoLinkBig": "https://coverartarchive.org/release-group/35082a69-2ef0-3854-984a-40a75d4e8707/front-250.jpg"
+  },
+  {
+    "title": "Lament",
+    "artist": "Ultravox",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/ultravox/lament/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/6f7c39292e1a6b13d04916a249e09d6a/1480211",
+    "photoLinkBig": "https://coverartarchive.org/release-group/56271b4c-ca60-3500-9a6e-56f92bf6fa24/front-250.jpg"
+  },
+  {
+    "title": "Brilliant",
+    "artist": "Ultravox",
+    "year": "2012",
+    "rymLink": "https://rateyourmusic.com/release/album/ultravox/brilliant/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/009fd939dff2a04d5de72fdfc48ad689/4180426",
+    "photoLinkBig": "https://coverartarchive.org/release-group/8a7a0c61-718e-4a5d-84b2-7891b26459d3/front-250.jpg"
+  },
+  {
+    "title": "...Very 'eavy...Very 'umble",
+    "artist": "Uriah Heep",
+    "year": "1970",
+    "rymLink": "https://rateyourmusic.com/release/album/uriah-heep/_very-eavy_very-umble/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/50846ae3b0110e4ea8a6859775616567/1768941",
+    "photoLinkBig": "https://coverartarchive.org/release-group/7486e67b-89f9-372b-8624-9cb11fd44773/front-250.jpg"
+  },
+  {
+    "title": "Look at Yourself",
+    "artist": "Uriah Heep",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/uriah-heep/look-at-yourself/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/2042acb5ec4ead9eaf494bd552943b46/1277435",
+    "photoLinkBig": "https://coverartarchive.org/release-group/99100318-0642-3138-9023-6e5d681a2b7e/front-250.jpg"
+  },
+  {
+    "title": "Pawn Hearts",
+    "artist": "Van der Graaf Generator",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/van-der-graaf-generator/pawn-hearts/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/592847c66875109eb459a1830f1d6f12/7068832",
+    "photoLinkBig": "https://coverartarchive.org/release-group/d5afa3d7-a3b6-3b95-a812-8416dd292b9b/front-250.jpg"
+  },
+  {
+    "title": "Godbluff",
+    "artist": "Van der Graaf Generator",
+    "year": "1975",
+    "rymLink": "https://rateyourmusic.com/release/album/van-der-graaf-generator/godbluff/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/b9f3fd46a3f213a714524747eb304e00/2712678",
+    "photoLinkBig": "https://coverartarchive.org/release-group/ba2d7560-534b-32f2-902b-27ca534df345/front-250.jpg"
+  },
+  {
+    "title": "Still Life",
+    "artist": "Van der Graaf Generator",
+    "year": "1976",
+    "rymLink": "https://rateyourmusic.com/release/album/van-der-graaf-generator/still-life/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/f7f1a3b46ac98ef1a6c4c02b2db99875/1559104",
+    "photoLinkBig": "https://coverartarchive.org/release-group/6f8fa63e-67e7-3b29-8242-db18704429cd/front-250.jpg"
+  },
+  {
+    "title": "China",
+    "artist": "Vangelis",
+    "year": "1979",
+    "rymLink": "https://rateyourmusic.com/release/album/vangelis/china/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/97ef6ba756068e4d602ce3d018cbad05/1570192",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/5fdd3dcefe5965dc5a2fbda5a457efc3/1570192"
+  },
+  {
+    "title": "1984",
+    "artist": "Van Halen",
+    "year": "1984",
+    "rymLink": "https://rateyourmusic.com/release/album/van-halen/1984/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/859e63918cd7fe05f020522beda4ec1b/1942515",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/5e7aa36854010e3d73cbf2db85264eb3/1942515"
+  },
+  {
+    "title": "Blue Valentine",
+    "artist": "Tom Waits",
+    "year": "1978",
+    "rymLink": "https://rateyourmusic.com/release/album/tom-waits/blue-valentine/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3ebe249e3638be5f633f3018ba46162e/1209401",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Swordfishtrombones",
+    "artist": "Tom Waits",
+    "year": "1983",
+    "rymLink": "https://rateyourmusic.com/release/album/tom-waits/swordfishtrombones/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ddde2f5b0e93f89b424122da536b33be/2408048",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Rain Dogs",
+    "artist": "Tom Waits",
+    "year": "1985",
+    "rymLink": "https://rateyourmusic.com/release/album/tom-waits/rain-dogs/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/5d5b1fb63e111a41ffa8e7e6e189c091/1867327",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Franks Wild Years",
+    "artist": "Tom Waits",
+    "year": "1987",
+    "rymLink": "https://rateyourmusic.com/release/album/tom-waits/franks-wild-years/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/0f3307e06f2993c2f5780f9ad383b89e/1282365",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "Bone Machine",
+    "artist": "Tom Waits",
+    "year": "1992",
+    "rymLink": "https://rateyourmusic.com/release/album/tom-waits/bone-machine/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/26e2cf25bff6151562e478a8d1786942/8276371",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "To the Bone",
+    "artist": "Steven Wilson",
+    "year": "2017",
+    "rymLink": "https://rateyourmusic.com/release/album/steven-wilson/to-the-bone/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/365174b3c1fd1954ee46d81c4b7d5ca4/6562576",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/cbc432f97da3990c46adb0222ea706ac/6562576"
+  },
+  {
+    "title": "Wishbone Ash",
+    "artist": "Wishbone Ash",
+    "year": "1970",
+    "rymLink": "https://rateyourmusic.com/release/album/wishbone-ash/wishbone-ash/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/ec8f228a92c1880d785faaaf8e848dad/1559791",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/0a7405abec80555968fb3f12d859e23f/1559791"
+  },
+  {
+    "title": "Ostara",
+    "artist": "The Wishing Tree",
+    "year": "2009",
+    "rymLink": "https://rateyourmusic.com/release/album/the_wishing_tree/ostara/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/3efdf67f7a89b988198003fd24c2611c/2602026",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/b4a44a067ad9de7f101f1825c2858580/2602026"
+  },
+  {
+    "title": "Time and a Word",
+    "artist": "Yes",
+    "year": "1970",
+    "rymLink": "https://rateyourmusic.com/release/album/yes/time-and-a-word/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/300ba254d1d74d26f7caa9951f950cb9/1231137",
+    "photoLinkBig": "https://coverartarchive.org/release-group/7ca63070-4b61-3569-9c1d-014a69f16f69/front-250.jpg"
+  },
+  {
+    "title": "Fragile",
+    "artist": "Yes",
+    "year": "1971",
+    "rymLink": "https://rateyourmusic.com/release/album/yes/fragile/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/c62fee8a570816b47c645a54958bb3f7/6299409",
+    "photoLinkBig": "https://coverartarchive.org/release-group/b1176e7b-fa2e-3b28-959a-d8f55b5b6ccf/front-250.jpg"
+  },
+  {
+    "title": "Close to the Edge",
+    "artist": "Yes",
+    "year": "1972",
+    "rymLink": "https://rateyourmusic.com/release/album/yes/close-to-the-edge/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/cec1763293b0b911ea9e56413dcf8ee9/1638254",
+    "photoLinkBig": "https://coverartarchive.org/release-group/5a59b948-1961-32ff-80d9-e970c7d4ebe9/front-250.jpg"
+  },
+  {
+    "title": "Relayer",
+    "artist": "Yes",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/yes/relayer/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/9d4933ebb71f042169448521f5a9f7f7/1636035",
+    "photoLinkBig": ""
+  },
+  {
+    "title": "On the Beach",
+    "artist": "Neil Young",
+    "year": "1974",
+    "rymLink": "https://rateyourmusic.com/release/album/neil-young/on-the-beach/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/49df2dc9ccc42d1504caa2ddcb595c4f/2663737",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/9dd811db8fd7501f8dfbced9e164f75c/2663737"
+  },
+  {
+    "title": "Gladiator: More Music From the Motion Picture",
+    "artist": "Hans Zimmer",
+    "year": "2001",
+    "rymLink": "https://rateyourmusic.com/release/album/hans-zimme…ard/gladiator-more-music-from-the-motion-picture/",
+    "photoLinkSmall": "https://e.snmc.io/i/75/w/87b6834ce667e77dd829727895200321/2291114",
+    "photoLinkBig": "https://e.snmc.io/i/fullres/w/e092fd41a95184d2a42b2720194de02c/2291114"
+  }
+]
