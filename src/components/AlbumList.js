@@ -37,7 +37,7 @@ export const AlbumList = ({ albums, time }) => {
     if (albumsSite > 1 && a === -1) {
       setAlbumsSite(albumsSite + a);
       window.scrollTo(window.scrollX, 920);
-    } else if (a === 1) {
+    } else if (albumsSite < albumSiteList.length && a === 1) {
       setAlbumsSite(albumsSite + a);
       window.scrollTo(window.scrollX, 920);
     }

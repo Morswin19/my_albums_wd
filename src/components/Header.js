@@ -76,7 +76,7 @@ const Header = props => {
           music
         </h1>
         <h2>albums from my jukebox</h2>
-        <form className='search info'>
+        <form className='search info' onSubmit={e => e.preventDefault()}>
           <input
             type='text'
             autoComplete='off'
