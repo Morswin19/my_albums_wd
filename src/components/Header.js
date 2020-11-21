@@ -77,13 +77,16 @@ const Header = props => {
         </h1>
         <h2>albums from my jukebox</h2>
         <form className='search info' onSubmit={e => e.preventDefault()}>
-          <input
-            type='text'
-            autoComplete='off'
-            name='search'
-            onChange={handleSearchChange}
-            placeholder='search: eg. title, band, year'
-          ></input>
+          <label for='search'>
+            <input
+              type='text'
+              autoComplete='off'
+              name='search'
+              id='search'
+              onChange={handleSearchChange}
+              placeholder='search: eg. title, band, year'
+            ></input>
+          </label>
           <div>
             <div>
               <div></div>
