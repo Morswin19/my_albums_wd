@@ -12,6 +12,7 @@ const Navigation = (props) => (
                 <li onClick={() => { window.scrollTo(window.scrollX, 920)}} ><NavLink to='/90s'>90s</NavLink></li>
                 <li onClick={() => { window.scrollTo(window.scrollX, 920)}} ><NavLink to='/00s'>00s</NavLink></li>
                 <li onClick={() => { window.scrollTo(window.scrollX, 920)}} ><NavLink to='/10s'>10s</NavLink></li>
+                <li onClick={() => { window.scrollTo(window.scrollX, 920)}} ><NavLink to='/20s'>20s</NavLink></li>
             </ul>
         </nav>
     </>

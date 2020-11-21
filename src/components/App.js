@@ -43,6 +43,9 @@ const App = () => {
               <Route path='/10s'>
                 <AlbumList albums={albums} time='2010' />
               </Route>
+              <Route path='/20s'>
+                <AlbumList albums={albums} time='2020' />
+              </Route>
               <Route path='/today'>
                 <AlbumList albums={albums} time='today' />
               </Route>
