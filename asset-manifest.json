@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my_albums_wd/static/css/main.8253a807.chunk.css",
-    "main.js": "/my_albums_wd/static/js/main.a108d853.chunk.js",
-    "main.js.map": "/my_albums_wd/static/js/main.a108d853.chunk.js.map",
-    "runtime-main.js": "/my_albums_wd/static/js/runtime-main.05e1dec4.js",
-    "runtime-main.js.map": "/my_albums_wd/static/js/runtime-main.05e1dec4.js.map",
-    "static/js/2.3759c3de.chunk.js": "/my_albums_wd/static/js/2.3759c3de.chunk.js",
-    "static/js/2.3759c3de.chunk.js.map": "/my_albums_wd/static/js/2.3759c3de.chunk.js.map",
+    "main.css": "/my_albums_wd/static/css/main.97d0601d.chunk.css",
+    "main.js": "/my_albums_wd/static/js/main.f9846bd4.chunk.js",
+    "main.js.map": "/my_albums_wd/static/js/main.f9846bd4.chunk.js.map",
+    "runtime-main.js": "/my_albums_wd/static/js/runtime-main.12b1402e.js",
+    "runtime-main.js.map": "/my_albums_wd/static/js/runtime-main.12b1402e.js.map",
+    "static/js/2.9efd5d5b.chunk.js": "/my_albums_wd/static/js/2.9efd5d5b.chunk.js",
+    "static/js/2.9efd5d5b.chunk.js.map": "/my_albums_wd/static/js/2.9efd5d5b.chunk.js.map",
     "index.html": "/my_albums_wd/index.html",
-    "precache-manifest.f6f153abf55e8de721fdd37a95a325ce.js": "/my_albums_wd/precache-manifest.f6f153abf55e8de721fdd37a95a325ce.js",
+    "precache-manifest.5c0ae6971f45c53946b0eabfa95abff7.js": "/my_albums_wd/precache-manifest.5c0ae6971f45c53946b0eabfa95abff7.js",
     "service-worker.js": "/my_albums_wd/service-worker.js",
-    "static/css/main.8253a807.chunk.css.map": "/my_albums_wd/static/css/main.8253a807.chunk.css.map",
-    "static/js/2.3759c3de.chunk.js.LICENSE.txt": "/my_albums_wd/static/js/2.3759c3de.chunk.js.LICENSE.txt",
+    "static/css/main.97d0601d.chunk.css.map": "/my_albums_wd/static/css/main.97d0601d.chunk.css.map",
+    "static/js/2.9efd5d5b.chunk.js.LICENSE.txt": "/my_albums_wd/static/js/2.9efd5d5b.chunk.js.LICENSE.txt",
     "static/media/Group 20.svg": "/my_albums_wd/static/media/Group 20.b59ac174.svg",
     "static/media/Group 30.svg": "/my_albums_wd/static/media/Group 30.92e3302d.svg",
     "static/media/Path 2.svg": "/my_albums_wd/static/media/Path 2.d93632bc.svg",
@@ -19,9 +19,9 @@
     "static/media/play.png": "/my_albums_wd/static/media/play.060efb9c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.05e1dec4.js",
-    "static/js/2.3759c3de.chunk.js",
-    "static/css/main.8253a807.chunk.css",
-    "static/js/main.a108d853.chunk.js"
+    "static/js/runtime-main.12b1402e.js",
+    "static/js/2.9efd5d5b.chunk.js",
+    "static/css/main.97d0601d.chunk.css",
+    "static/js/main.f9846bd4.chunk.js"
   ]
 }
