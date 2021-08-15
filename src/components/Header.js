@@ -30,7 +30,7 @@ const Header = props => {
 
   let Album = [];
   let amount;
-  const { albums } = props;
+  const { albums} = props;
   if (search !== '') {
     Album = albums
       .filter(

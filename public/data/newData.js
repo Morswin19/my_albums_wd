@@ -18,4 +18,18 @@ let seventeen = JSON.parse("[{\"title\":\"Fire Garden\",\"artist\":\"Steve Vai\"
 
 let allAlbumsArray = [...one, ...two, ...three, ...four, ...five, ...six, ...seven, ...eight, ...nine, ...ten, ...eleven, ...twelve, ...thirteen, ...fourteen, ...fifteen, ...sixteen, ...seventeen];
 
+allAlbumsArray.sort(function(a, b){
+    let x = a.artist.toLowerCase();
+    let y = b.artist.toLowerCase();
+    let v = a.year;
+    let z = b.year;
+    if (x < y) {return -1;}
+    if (x > y) {return 1;}
+    if (x === y){
+        if (v < z) {return -1;}
+        if (v > z) {return 1;}
+    }
+    return 0;
+  });
+
 let allAlbumsString = JSON.stringify(allAlbumsArray);

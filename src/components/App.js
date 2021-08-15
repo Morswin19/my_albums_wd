@@ -7,7 +7,6 @@ import '../styles/App.sass';
 
 const App = () => {
   const [albums, setAlbums] = useState([]);
-  const [recentCoverData, setRecentCoverData] = useState([]);
 
   // fetch data from json file which is on github server
   useEffect(() => {
@@ -16,14 +15,6 @@ const App = () => {
     )
       .then(response => response.json())
       .then(data => setAlbums(data));
-  }, []);
-
-  useEffect(() => {
-    fetch(
-      'https://raw.githubusercontent.com/Morswin19/my_albums_wd/master/public/data/data.json'
-    )
-      .then(response => response.json())
-      .then(data => setRecentCoverData(data));
   }, []);
 
   //function with routes
