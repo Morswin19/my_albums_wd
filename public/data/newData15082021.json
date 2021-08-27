@@ -39,7 +39,8 @@
         "artist": "Aerosmith",
         "year": "1976",
         "rymLink": "https://rateyourmusic.com/release/album/aerosmith/rocks/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/ebb27ef713196c3fd7f6e3a8b8cf2249/1597908"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/ebb27ef713196c3fd7f6e3a8b8cf2249/1597908",
+        "photoLinkBig": "https://upload.wikimedia.org/wikipedia/en/8/87/Aerosmith_-_Rocks.JPG"
     },
     {
         "title": "Permanent Vacation",
@@ -67,42 +68,48 @@
         "artist": "Aerosmith",
         "year": "1997",
         "rymLink": "https://rateyourmusic.com/release/album/aerosmith/nine-lives/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/bd4cd27f698328a1a116e2513116e8f7/6546702"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/bd4cd27f698328a1a116e2513116e8f7/6546702",
+        "photoLinkBig": "https://ia800307.us.archive.org/15/items/mbid-9f8eca05-e9d2-41c6-a96b-c103bc404925/mbid-9f8eca05-e9d2-41c6-a96b-c103bc404925-26420899672_thumb250.jpg"
     },
     {
         "title": "Lifeline",
         "artist": "Afterload",
         "year": "2019",
         "rymLink": "https://rateyourmusic.com/release/album/afterload/lifeline/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/53dcd1bf7329f9d8989d2e7279a872ce/7375752"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/53dcd1bf7329f9d8989d2e7279a872ce/7375752",
+        "photoLinkBig": "https://e.snmc.io/i/fullres/w/ce51a7435dd24837e6573375ff1e9aa7/7375752"
     },
     {
         "title": "Facelift",
         "artist": "Alice in Chains",
         "year": "1990",
         "rymLink": "https://rateyourmusic.com/release/album/alice-in-chains/facelift/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/d0796e78726bb2947466bfff63c6963f/1891941"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/d0796e78726bb2947466bfff63c6963f/1891941",
+        "photoLinkBig": "https://ia800309.us.archive.org/7/items/mbid-c63ad92b-19d7-41d9-83e6-607202ceba07/mbid-c63ad92b-19d7-41d9-83e6-607202ceba07-1623379853_thumb250.jpg"
     },
     {
         "title": "Judgement",
         "artist": "Anathema",
         "year": "1999",
         "rymLink": "https://rateyourmusic.com/release/album/anathema/judgement/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/b6faf79d3761e72a0ce106d363367073/2494906"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/b6faf79d3761e72a0ce106d363367073/2494906",
+        "photoLinkBig": "https://coverartarchive.org/release-group/e1e0a4a1-4188-3c9b-bd7c-5e795200acd9/front-250.jpg"
     },
     {
         "title": "A Natural Disaster",
         "artist": "Anathema",
         "year": "2003",
         "rymLink": "https://rateyourmusic.com/release/album/anathema/a-natural-disaster/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/3fb6be244c81cc3a4b2ae36c265b0ef8/4873477"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/3fb6be244c81cc3a4b2ae36c265b0ef8/4873477",
+        "photoLinkBig": "https://coverartarchive.org/release-group/f45499fb-ce0e-30cc-903e-130fa0fafdf9/front-250.jpg"
     },
     {
         "title": "Persistence of Time",
         "artist": "Anthrax",
         "year": "1990",
         "rymLink": "https://rateyourmusic.com/release/album/anthrax/persistence-of-time/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/5cd632a47645fd522ac912023f397d99/4959696"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/5cd632a47645fd522ac912023f397d99/4959696",
+        "photoLinkBig": "https://coverartarchive.org/release-group/ea25c463-c8e7-3f2b-8ec9-d883ed227e25/front-250.jpg"
     },
     {
         "title": "Cult",
@@ -137,14 +144,16 @@
         "artist": "Asia",
         "year": "2004",
         "rymLink": "https://rateyourmusic.com/release/album/asia/silent-nation/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/c892003323110bdc11390b5bef9ea6ef/1285239"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/c892003323110bdc11390b5bef9ea6ef/1285239",
+        "photoLinkBig": "https://coverartarchive.org/release-group/2a8bd6f2-5af2-36f5-a314-2775dec28a08/front-250.jpg"
     },
     {
         "title": "Audioslave",
         "artist": "Audioslave",
         "year": "2002",
         "rymLink": "https://rateyourmusic.com/release/album/audioslave/audioslave/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/c666dd977ecdcdc9bf331221faa6d865/1324011"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/c666dd977ecdcdc9bf331221faa6d865/1324011",
+        "photoLinkBig": "https://coverartarchive.org/release-group/38b34599-6352-389b-ad6a-02866357dabe/front-250.jpg"
     },
     {
         "title": "The Singles",
@@ -186,7 +195,8 @@
         "artist": "Björk",
         "year": "1993",
         "rymLink": "https://rateyourmusic.com/release/album/bjork/debut/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/a242f639c43ce3c5888af0c59b02e0a4/3163896"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/a242f639c43ce3c5888af0c59b02e0a4/3163896",
+        "photoLinkBig": "https://coverartarchive.org/release-group/6891a28c-5865-36e2-9e5f-c9fac1d3595f/front-250.jpg"
     },
     {
         "title": "Vespertine",
@@ -200,21 +210,24 @@
         "artist": "Black Glass",
         "year": "2011",
         "rymLink": "https://rateyourmusic.com/release/album/black_glass/holy_rain/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/57df7b87be79274e3ebf77ebff705007/3895490"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/57df7b87be79274e3ebf77ebff705007/3895490",
+        "photoLinkBig": "https://img.discogs.com/7aKvgtJtHmXl5kh1MlI0syp6Ezo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2946510-1360778611-3141.jpeg.jpg"
     },
     {
         "title": "Heaven and Hell",
         "artist": "Black Sabbath",
         "year": "1980",
         "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/heaven-and-hell/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/3384d9a40109c062be4ca0d58af3120d/3655494"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/3384d9a40109c062be4ca0d58af3120d/3655494",
+        "photoLinkBig": "https://coverartarchive.org/release-group/43ac82b5-eceb-3909-a153-3c00ea9c7b9a/front-250.jpg"
     },
     {
         "title": "Dehumanizer",
         "artist": "Black Sabbath",
         "year": "1992",
         "rymLink": "https://rateyourmusic.com/release/album/black-sabbath/dehumanizer/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/9a4943b01f99751993e6e3f3ec77359d/2919080"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/9a4943b01f99751993e6e3f3ec77359d/2919080",
+        "photoLinkBig": "https://coverartarchive.org/release-group/0db80cc3-becc-3ee7-8abe-de42d368ca54/front-250.jpg"
     },
     {
         "title": "13",
@@ -284,77 +297,88 @@
         "artist": "Budka Suflera",
         "year": "1982",
         "rymLink": "https://rateyourmusic.com/release/album/budka-suflera/za-ostatni-grosz/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/3078ff6764233b1c7ca16f4efddbd8eb/8592055"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/3078ff6764233b1c7ca16f4efddbd8eb/8592055",
+        "photoLinkBig": "https://e.snmc.io/i/fullres/w/bee92c8b70127ff0472275d2831e4a08/1985938"
     },
     {
         "title": "Camel",
         "artist": "Camel",
         "year": "1973",
         "rymLink": "https://rateyourmusic.com/release/album/camel/camel/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/6dfc811aed8e7254202edac8a3419128/1632704"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/6dfc811aed8e7254202edac8a3419128/1632704",
+        "photoLinkBig": "https://coverartarchive.org/release-group/e50c96ab-8822-3483-a111-336f47aa2c84/front-250.jpg"   
     },
     {
         "title": "Mirage",
         "artist": "Camel",
         "year": "1974",
         "rymLink": "https://rateyourmusic.com/release/album/camel/mirage/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/734712ad037b87a2b650a9293d7a8773/4160723"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/734712ad037b87a2b650a9293d7a8773/4160723",
+        "photoLinkBig": "https://coverartarchive.org/release-group/e7f41fc7-d659-3d80-b605-205a54367f04/front-250.jpg"
     },
     {
         "title": "The Snow Goose",
         "artist": "Camel",
         "year": "1975",
         "rymLink": "https://rateyourmusic.com/release/album/camel/the-snow-goose/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/144e143ed6fedaedf9e60b8be48eeaac/6235559"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/144e143ed6fedaedf9e60b8be48eeaac/6235559",
+        "photoLinkBig": "https://coverartarchive.org/release-group/a2fa8db6-17b4-34da-88f6-a8204be451e3/front-250.jpg"
     },
     {
         "title": "Moonmadness",
         "artist": "Camel",
         "year": "1976",
         "rymLink": "https://rateyourmusic.com/release/album/camel/moonmadness/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/b69891c22269541241c4826da66ea6fd/1352884"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/b69891c22269541241c4826da66ea6fd/1352884",
+        "photoLinkBig": "https://coverartarchive.org/release-group/792fb12f-2f5a-31a8-ae32-a29700ffa09b/front-250.jpg"
     },
     {
         "title": "Rain Dances",
         "artist": "Camel",
         "year": "1977",
         "rymLink": "https://rateyourmusic.com/release/album/camel/rain_dances/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/30320b0615d440be0a14b5f36d731af8/1958472"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/30320b0615d440be0a14b5f36d731af8/1958472",
+        "photoLinkBig": "https://coverartarchive.org/release-group/3fbe4b5e-2043-3e26-9a23-c3e03894d27c/front-250.jpg"
     },
     {
         "title": "Breathless",
         "artist": "Camel",
         "year": "1978",
         "rymLink": "https://rateyourmusic.com/release/album/camel/breathless/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/f578cea95a3c1be118a70e7287586324/2119974"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/f578cea95a3c1be118a70e7287586324/2119974",
+        "photoLinkBig": "https://coverartarchive.org/release-group/1a65e3cd-075b-3d76-acb1-7a0b75669fa1/front-250.jpg"
     },
     {
         "title": "I Can See Your House From Here",
         "artist": "Camel",
         "year": "1979",
         "rymLink": "https://rateyourmusic.com/release/album/camel/i-can-see-your-house-from-here/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/97e6fc288945b1fb2e043e231da0b7eb/2103158"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/97e6fc288945b1fb2e043e231da0b7eb/2103158",
+        "photoLinkBig": "https://coverartarchive.org/release-group/da841df4-da67-382f-b48d-162c27109981/front-250.jpg"
     },
     {
         "title": "Nude",
         "artist": "Camel",
         "year": "1981",
         "rymLink": "https://rateyourmusic.com/release/album/camel/nude/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/b4cb21e29505ffd24634683ef375d5a4/5712565"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/b4cb21e29505ffd24634683ef375d5a4/5712565",
+        "photoLinkBig": "https://coverartarchive.org/release-group/ef65c5e5-3cfc-4989-9a9e-e3a4187a6f51/front-250.jpg"
     },
     {
         "title": "Stationary Traveller",
         "artist": "Camel",
         "year": "1984",
         "rymLink": "https://rateyourmusic.com/release/album/camel/stationary_traveller/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/9d01e4a5bc95a1414ebf3da2459aa714/1474362"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/9d01e4a5bc95a1414ebf3da2459aa714/1474362",
+        "photoLinkBig": "https://coverartarchive.org/release-group/f32476a6-ff0d-3b64-b5ee-babbcfaae364/front-250.jpg"
     },
     {
         "title": "In the Land of Grey and Pink",
         "artist": "Caravan",
         "year": "1971",
         "rymLink": "https://rateyourmusic.com/release/album/caravan/in-the-land-of-grey-and-pink/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/b5e457f6f32e301e7917b1292ad65ddb/1934591"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/b5e457f6f32e301e7917b1292ad65ddb/1934591",
+        "photoLinkBig": "https://coverartarchive.org/release-group/291c5ab1-5c4e-3898-993c-0416f9b38a65/front-250.jpg"
     },
     {
         "title": "Teaser and the Firecat",
@@ -382,28 +406,32 @@
         "artist": "Collage",
         "year": "1990",
         "rymLink": "https://rateyourmusic.com/release/album/collage/basnie/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/0f08d86093e295564b141fddd4926ce9/1240689"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/0f08d86093e295564b141fddd4926ce9/1240689",
+        "photoLinkBig": "https://coverartarchive.org/release-group/850a964c-75c5-36e3-83e1-44e4e725d61b/front-250.jpg"
     },
     {
         "title": "Moonshine",
         "artist": "Collage",
         "year": "1994",
         "rymLink": "https://rateyourmusic.com/release/album/collage/moonshine/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/e4e443cda7f6f2709c74e1bf56d398cf/1713475"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/e4e443cda7f6f2709c74e1bf56d398cf/1713475",
+        "photoLinkBig": "https://coverartarchive.org/release-group/a5ce5451-4d0d-3224-b7d2-3974b05101f8/front-250.jpg"
     },
     {
         "title": "Changes",
         "artist": "Collage",
         "year": "1995",
         "rymLink": "https://rateyourmusic.com/release/comp/collage/changes/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/aab536562d9b920f5a6fd103102399dd/2681199"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/aab536562d9b920f5a6fd103102399dd/2681199",
+        "photoLinkBig": "https://images-na.ssl-images-amazon.com/images/I/51UghFS0PzL.jpg"
     },
     {
         "title": "Safe",
         "artist": "Collage",
         "year": "1996",
         "rymLink": "https://rateyourmusic.com/release/album/collage/safe/",
-        "photoLinkSmall": "https://e.snmc.io/i/75/w/48d796221d63bcabb168ff293174166c/1239763"
+        "photoLinkSmall": "https://e.snmc.io/i/75/w/48d796221d63bcabb168ff293174166c/1239763",
+        "photoLinkBig": "https://mlwz.pl/images/stories/collage%20-%20safe.jpg"
     },
     {
         "title": "Disraeli Gears",

@@ -25,4 +25,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#my tasks_file
+co_zrobic.txt
+
 # yarn.lock
