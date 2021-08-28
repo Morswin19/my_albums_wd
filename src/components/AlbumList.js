@@ -17,7 +17,7 @@ export const AlbumList = ({ albums, time }) => {
   let albumSiteList = []; //array of pagination <li>
 
   //array of decades for DecadeSlider component
-  const timeLine = ['60s', '70s', '80s', 'show all', '90s', '00s', '10s'];
+  const timeLine = ['60s', '70s', '80s', 'show all', '90s', '00s', '10s', '20s'];
 
   ////functions
   //function for choose random album to listen

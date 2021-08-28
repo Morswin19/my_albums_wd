@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import '../styles/DecadeSlider.sass'
 
+
 class DecadeSlider extends React.Component {
     state = {
         activeNumber: 3,
@@ -14,16 +15,12 @@ class DecadeSlider extends React.Component {
     }
 
     handleDecadeClick = (a) => {
-        if ((a === -1 && this.state.activeNumber > 0) || (a === 1 && this.state.activeNumber < 6)) {
+        if ((a === -1 && this.state.activeNumber > 0) || (a === 1 && this.state.activeNumber < 7)) {
             let activeNumber = this.state.activeNumber + a
-            const decadeLinks = ['60s', '70s', '80s', '', '90s', '00s', '10s']
-            if (activeNumber === 0) { this.setState({ decadeLeftLink: decadeLinks[0], decadeRightLink: decadeLinks[1] }) };
-            if (activeNumber === 1) { this.setState({ decadeLeftLink: decadeLinks[0], decadeRightLink: decadeLinks[2] }) };
-            if (activeNumber === 2) { this.setState({ decadeLeftLink: decadeLinks[1], decadeRightLink: decadeLinks[3] }) };
-            if (activeNumber === 3) { this.setState({ decadeLeftLink: decadeLinks[2], decadeRightLink: decadeLinks[4] }) };
-            if (activeNumber === 4) { this.setState({ decadeLeftLink: decadeLinks[3], decadeRightLink: decadeLinks[5] }) };
-            if (activeNumber === 5) { this.setState({ decadeLeftLink: decadeLinks[4], decadeRightLink: decadeLinks[6] }) };
-            if (activeNumber === 6) { this.setState({ decadeLeftLink: decadeLinks[5], decadeRightLink: decadeLinks[6] }) };
+            const { timeArray } = this.props
+            if (activeNumber) { this.setState({ decadeLeftLink: timeArray[0], decadeRightLink: timeArray[activeNumber + 1]}) }
+            if (activeNumber === timeArray.length - 1) { this.setState({ decadeLeftLink: timeArray[activeNumber - 1], decadeRightLink: timeArray[activeNumber]}) }
+            if (activeNumber !== 0 && activeNumber !== timeArray.length -1) {this.setState({ decadeLeftLink: timeArray[activeNumber - 1], decadeRightLink: timeArray[activeNumber + 1]})}
             this.setState({
                 activeNumber: this.state.activeNumber + a,
             })
@@ -37,7 +34,6 @@ class DecadeSlider extends React.Component {
     }
 
     handlePath = () => {
-        console.log('hello guinea Pig')
         const mainLocation = '#/my_albums_wd/'
         if (window.location.hash === mainLocation + '60s') {
             this.setState({ activeNumber: 0 })
@@ -56,7 +52,7 @@ class DecadeSlider extends React.Component {
         return (
             < div id="decadeSlider" >
                 <div id="decadeListContainer">
-                    <ul style={!resizeBool ? { transform: `translateX(${-1225 - (activeNumber - 3) * 350}px)` } : (window.innerWidth > 650 ? { transform: `translateX(${-875 - (activeNumber - 3) * 250}px)` } : { transform: `translateX(${- 630 - (activeNumber - 3) * 180}px)` })}>
+                    <ul style={!resizeBool ? { transform: `translateX(${-1225 - (activeNumber - 3) * 350}px)` } : (window.innerWidth > 650 ? { transform: `translateX(${-875 - (activeNumber - 3) * 250}px)` } : { transform: `translateX(${-630 - (activeNumber - 3) * 180}px)` })}>
                         {decadeList}
                     </ul>
                 </div>
@@ -64,8 +60,8 @@ class DecadeSlider extends React.Component {
                     <div></div>
                 </div>
                 <div id="decadeArrows">
-                    <span onClick={() => this.handleDecadeClick(-1)}><NavLink to={decadeLeftLink} exact={lexact}>{'<'}</NavLink></span>
-                    <span onClick={() => this.handleDecadeClick(1)}><NavLink to={decadeRightLink} exact={rexact}>{'>'}</NavLink></span>
+                    {activeNumber ? <span onClick={() => this.handleDecadeClick(-1)}><NavLink to={decadeLeftLink} exact={lexact}>{'<'}</NavLink></span> : <span></span>}
+                    {activeNumber < timeArray.length - 1 ? <span onClick={() => this.handleDecadeClick(1)}><NavLink to={decadeRightLink} exact={rexact}>{'>'}</NavLink></span> : <span></span>}
                 </div>
             </div >
         );
