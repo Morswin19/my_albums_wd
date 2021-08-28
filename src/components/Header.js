@@ -10,7 +10,7 @@ const Header = props => {
   const [sliderShift, setSliderShift] = useState(0);
   // const [albums, setAlbums] = useState([props]);
   const [search, setSearch] = useState('');
-  const [random] = useState(Math.floor(Math.random() * 270));
+  const [random] = useState(Math.floor(Math.random() * 360));
 
   const handleSearchChange = e => {
     let val = e.target.value;
@@ -31,7 +31,7 @@ const Header = props => {
   let Album = [];
   let amount;
   const { albums} = props;
-  if (search !== '') {
+  if (search) {
     Album = albums
       .filter(
         album =>
@@ -87,7 +87,7 @@ const Header = props => {
               placeholder='search: eg. title, band, year'
             ></input>
           </label>
-          <div>
+          <div id="search-icon">
             <div>
               <div></div>
             </div>

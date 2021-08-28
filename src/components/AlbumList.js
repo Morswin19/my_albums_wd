@@ -14,7 +14,8 @@ export const AlbumList = ({ albums, time }) => {
   //variables
   let album = []; //list of albums to show
   let filteredAlbumList = []; //amount of albums to show
-  let albumSiteList = []; //array of pagination <li>
+  let albumSiteList = []; //array of pagination
+  let visibleAlbumSiteList = []; //array of visible pagination <li>
 
   //array of decades for DecadeSlider component
   const timeLine = ['60s', '70s', '80s', 'show all', '90s', '00s', '10s', '20s'];
@@ -30,6 +31,7 @@ export const AlbumList = ({ albums, time }) => {
   const handlePaginationClick = e => {
     window.scrollTo(window.scrollX, 920);
     setAlbumsSite(parseInt(e.target.innerHTML));
+    drawPagination()
   };
 
   //function after arrow click in pagination, next site or earlier site
@@ -41,6 +43,7 @@ export const AlbumList = ({ albums, time }) => {
       setAlbumsSite(albumsSite + a);
       window.scrollTo(window.scrollX, 920);
     }
+    drawPagination();
   };
 
   //function for go to first site of albums list
@@ -87,18 +90,25 @@ export const AlbumList = ({ albums, time }) => {
 
   const albumsSiteListAmount = Math.ceil(filteredAlbumList / 25);
 
-  for (let i = 1; i <= albumsSiteListAmount; i++) {
-    albumSiteList.push(i);
-  }
-  albumSiteList = albumSiteList.map(item => (
-    <li
-      key={item}
-      className={item === albumsSite ? 'active' : ''}
-      onClick={handlePaginationClick}
-    >
-      {item}
-    </li>
-  ));
+  const drawPagination = () => {
+    for (let i = 1; i <= albumsSiteListAmount; i++) {
+      albumSiteList.push(i);
+    }
+
+    visibleAlbumSiteList = albumSiteList
+      .filter(item => (item > albumsSite - 4) && (item < albumsSite + 4))
+      .map(item => (
+        <li
+          key={item}
+          className={item === albumsSite ? 'active' : ''}
+          onClick={handlePaginationClick}
+        >
+          {item}
+        </li>
+      ));
+    }
+
+  drawPagination();
 
   useEffect(() => {
     resetPagination();
@@ -113,7 +123,7 @@ export const AlbumList = ({ albums, time }) => {
       </div>
       <div id='albumSites'>
         <span onClick={() => handlePaginationArrowClick(-1)}>{'<'}</span>
-        <ul>{albumSiteList}</ul>
+        <ul>{visibleAlbumSiteList}</ul>
         <span onClick={() => handlePaginationArrowClick(1)}>{'>'}</span>
       </div>
       <RandomSection btnClickFunc={handleRandomButtonClick} />
