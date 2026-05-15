@@ -8,67 +8,90 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
     // The iTunes API prefers '+' for spaces instead of standard '%20'
     const formatQuery = (str) => encodeURIComponent(str).replace(/%20/g, '+');
     
+    // Extract significant words to ensure we don't accidentally grab a "Greatest Hits" or "Live" album
+    const getSignificantWords = (title) => {
+      const words = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(w => w.length > 0);
+      const stopWords = ['the', 'a', 'an', 'of', 'and', 'in', 'on', 'to', 'for', 'with', 'is', 'at', 'by', 'from'];
+      const significant = words.filter(w => !stopWords.includes(w));
+      return significant.length > 0 ? significant : words;
+    };
+    const targetWords = getSignificantWords(cleanTitle);
+
+    // Normalize target artist for comparison
+    const targetArtistNormalized = artistName.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+    // Helper function to extract tracks from a list of iTunes results
+    const getTracksFromResults = async (results) => {
+      for (let i = 0; i < results.length; i++) {
+        const albumId = results[i].collectionId;
+        const collectionName = results[i].collectionName || 'Unknown Album';
+        const resultArtist = results[i].artistName || 'Unknown Artist';
+        
+        // Check if the artist matches
+        const fetchedArtistNormalized = resultArtist.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const hasArtistMatch = targetArtistNormalized === '' || 
+                               fetchedArtistNormalized === targetArtistNormalized ||
+                               (targetArtistNormalized.length > 3 && fetchedArtistNormalized.includes(targetArtistNormalized)) || 
+                               (fetchedArtistNormalized.length > 3 && targetArtistNormalized.includes(fetchedArtistNormalized));
+        
+        if (!hasArtistMatch) continue;
+
+        const resultWords = collectionName.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/);
+        const hasWordMatch = targetWords.length === 0 || targetWords.some(w => 
+            resultWords.some(rw => 
+                w === rw || 
+                (rw.length > 3 && w.includes(rw)) || 
+                (w.length > 3 && rw.includes(w))
+            )
+        );
+        
+        if (!hasWordMatch) continue;
+
+        const tracksUrl = `https://itunes.apple.com/lookup?id=${albumId}&entity=song`;
+        const tracksResponse = await fetch(tracksUrl);
+        const tracksData = await tracksResponse.json();
+        
+        const tracks = tracksData.results.filter(item => item.wrapperType === 'track');
+        if (tracks.length > 0) return tracks;
+      }
+      return null;
+    };
+
+    // 1. Initial Search
     let searchQuery = formatQuery(`${cleanTitle} ${artistName}`);
-    let searchUrl = `https://itunes.apple.com/search?term=${searchQuery}&entity=album&limit=5`;
-    
-    let searchResponse = await fetch(searchUrl);
+    let searchResponse = await fetch(`https://itunes.apple.com/search?term=${searchQuery}&entity=album&limit=25`);
     let searchData = await searchResponse.json();
+    let tracks = await getTracksFromResults(searchData.results);
     
-    // Fallback 1: Remove special characters (hyphens, quotes) that might break exact matching
-    if (searchData.resultCount === 0) {
+    // 2. Fallback 1: Remove special characters
+    if (!tracks) {
       const alphaTitle = cleanTitle.replace(/[^a-zA-Z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
       const alphaQuery = formatQuery(`${alphaTitle} ${artistName}`);
-      const fallback1Url = `https://itunes.apple.com/search?term=${alphaQuery}&entity=album&limit=5`;
-      searchResponse = await fetch(fallback1Url);
+      searchResponse = await fetch(`https://itunes.apple.com/search?term=${alphaQuery}&entity=album&limit=25`);
       searchData = await searchResponse.json();
+      tracks = await getTracksFromResults(searchData.results);
     }
     
-    // Fallback 2: Looser search using just the first word of the album title + artist
-    if (searchData.resultCount === 0) {
-      const firstWordOfTitle = cleanTitle.split(/[^a-zA-Z0-9]/)[0]; // Gets the very first actual word
-      if (firstWordOfTitle.length > 1) { // Only fallback if word is meaningful
+    // 3. Fallback 2: First word only
+    if (!tracks) {
+      const firstWordOfTitle = cleanTitle.split(/[^a-zA-Z0-9]/)[0];
+      if (firstWordOfTitle.length > 1) {
         const fallbackQuery = formatQuery(`${firstWordOfTitle} ${artistName}`);
-        const fallback2Url = `https://itunes.apple.com/search?term=${fallbackQuery}&entity=album&limit=10`;
-        searchResponse = await fetch(fallback2Url);
+        searchResponse = await fetch(`https://itunes.apple.com/search?term=${fallbackQuery}&entity=album&limit=25`);
         searchData = await searchResponse.json();
+        tracks = await getTracksFromResults(searchData.results);
       }
     }
     
-    // Fallback 3: iTunes album search is sometimes too strict. 
-    // Let's search for a single song matching the artist and album instead!
-    if (searchData.resultCount === 0) {
+    // 4. Fallback 3: Song Search
+    if (!tracks) {
       const songQuery = formatQuery(`${cleanTitle} ${artistName}`);
-      const fallback3Url = `https://itunes.apple.com/search?term=${songQuery}&entity=song&limit=1`;
-      searchResponse = await fetch(fallback3Url);
+      searchResponse = await fetch(`https://itunes.apple.com/search?term=${songQuery}&entity=song&limit=15`);
       searchData = await searchResponse.json();
+      tracks = await getTracksFromResults(searchData.results);
     }
     
-    if (searchData.resultCount === 0) {
-      return null; // Album not found on Apple Music
-    }
-    
-    let tracks = [];
-    
-    // 2. Iterate through found albums and get the tracks. 
-    // Some iTunes albums are empty/region-locked, so we check until we find one with tracks.
-    for (let i = 0; i < searchData.results.length; i++) {
-      const albumId = searchData.results[i].collectionId;
-      
-      const tracksUrl = `https://itunes.apple.com/lookup?id=${albumId}&entity=song`;
-      const tracksResponse = await fetch(tracksUrl);
-      const tracksData = await tracksResponse.json();
-      
-      // The lookup returns the album itself as the first result, so we filter only the actual tracks
-      tracks = tracksData.results.filter(item => item.wrapperType === 'track');
-      
-      if (tracks.length > 0) {
-        break; // Stop looking, we found the tracklist!
-      }
-    }
-    
-    if (tracks.length === 0) {
-      return null; // Triggers Discogs fallback
-    }
+    if (!tracks) return null;
     
     return tracks.map(track => ({
       title: track.trackName,

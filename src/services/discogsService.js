@@ -1,6 +1,5 @@
-// Note: In a real-world scenario, store the token in a .env file (e.g., process.env.REACT_APP_DISCOGS_TOKEN)
-const DISCOGS_TOKEN = 'YOUR_TOKEN';
-const API_URL = 'https://api.discogs.com/users/Morswin19/collection/folders/0/releases';
+const DISCOGS_TOKEN = process.env.REACT_APP_DISCOGS_TOKEN;
+const API_URL = process.env.REACT_APP_DISCOGS_API_URL
 const CACHE_KEY = 'discogs_collection_cache';
 const CACHE_EXPIRY = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 

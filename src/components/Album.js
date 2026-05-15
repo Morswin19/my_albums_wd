@@ -33,6 +33,7 @@ const Album = props => {
                     fetchITunesAlbumTracks(props.title, props.artist)
                 ]);
                 
+
                 let mergedSongs = [];
 
                 if (discogsSongs && discogsSongs.length > 0) {
@@ -40,16 +41,21 @@ const Album = props => {
                     mergedSongs = discogsSongs.map((dTrack, index) => {
                         let preview = null;
                         if (itunesSongs && itunesSongs.length > 0) {
-                            // 1. Try to find a matching track by name (ignoring case & special characters)
                             const normalize = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
                             const dTitle = normalize(dTrack.title);
                             
-                            let match = itunesSongs.find(iTrack => {
-                                const iTitle = normalize(iTrack.title);
-                                return iTitle === dTitle || iTitle.includes(dTitle) || dTitle.includes(iTitle);
-                            });
+                            // 1. Exact match first
+                            let match = itunesSongs.find(iTrack => normalize(iTrack.title) === dTitle);
                             
-                            // 2. Fallback to matching by track index if no name match was found
+                            // 2. Substring match (safeguarded against short strings like "I" matching accidentally)
+                            if (!match && dTitle.length > 3) {
+                                match = itunesSongs.find(iTrack => {
+                                    const iTitle = normalize(iTrack.title);
+                                    return iTitle.length > 3 && (iTitle.includes(dTitle) || dTitle.includes(iTitle));
+                                });
+                            }
+                            
+                            // 3. Fallback to matching by track index if no name match was found
                             if (!match && index < itunesSongs.length) {
                                 match = itunesSongs[index];
                             }
