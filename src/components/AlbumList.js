@@ -80,6 +80,7 @@ export const AlbumList = ({ albums, time }) => {
   album = album.map((album, index) => (
     <Album
       key={index}
+      id={album.id}
       artist={album.artist}
       title={album.title}
       year={album.year}

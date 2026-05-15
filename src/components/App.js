@@ -4,17 +4,18 @@ import Header from './Header';
 import AlbumList from './AlbumList';
 // import Footer from './Footer'
 import '../styles/App.sass';
+import { fetchDiscogsCollection } from '../services/discogsService';
 
 const App = () => {
   const [albums, setAlbums] = useState([]);
 
-  // fetch data from json file which is on github server
+  // fetch collection data from Discogs API
   useEffect(() => {
-    fetch(
-      'https://raw.githubusercontent.com/Morswin19/my_albums_wd/master/public/data/newData15082021.json'
-    )
-      .then(response => response.json())
-      .then(data => setAlbums(data));
+    const getAlbums = async () => {
+      const collection = await fetchDiscogsCollection();
+      setAlbums(collection);
+    };
+    getAlbums();
   }, []);
 
   //function with routes
