@@ -17,14 +17,33 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
     };
     const targetWords = getSignificantWords(cleanTitle);
 
+    // Normalize target artist for comparison
+    const targetArtistNormalized = artistName.toLowerCase().replace(/[^a-z0-9]/g, '');
+
     // Helper function to extract tracks from a list of iTunes results
     const getTracksFromResults = async (results) => {
       for (let i = 0; i < results.length; i++) {
         const albumId = results[i].collectionId;
         const collectionName = results[i].collectionName || 'Unknown Album';
+        const resultArtist = results[i].artistName || 'Unknown Artist';
         
+        // Check if the artist matches
+        const fetchedArtistNormalized = resultArtist.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const hasArtistMatch = targetArtistNormalized === '' || 
+                               fetchedArtistNormalized === targetArtistNormalized ||
+                               (targetArtistNormalized.length > 3 && fetchedArtistNormalized.includes(targetArtistNormalized)) || 
+                               (fetchedArtistNormalized.length > 3 && targetArtistNormalized.includes(fetchedArtistNormalized));
+        
+        if (!hasArtistMatch) continue;
+
         const resultWords = collectionName.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/);
-        const hasWordMatch = targetWords.length === 0 || targetWords.some(w => resultWords.some(rw => rw.includes(w) || w.includes(rw)));
+        const hasWordMatch = targetWords.length === 0 || targetWords.some(w => 
+            resultWords.some(rw => 
+                w === rw || 
+                (rw.length > 3 && w.includes(rw)) || 
+                (w.length > 3 && rw.includes(w))
+            )
+        );
         
         if (!hasWordMatch) continue;
 
