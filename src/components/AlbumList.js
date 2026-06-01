@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Album from './Album';
 import DecadeSlider from './DecadeSlider';
 import RandomSection from './RandomSection';
-import AlbumListAssets from '../imageAssets/AlbumListAssets';
 
 import '../styles/AlbumList.sass';
 
@@ -120,7 +119,6 @@ export const AlbumList = ({ albums, time }) => {
       <DecadeSlider timeArray={timeLine} />
       <div id='albumList' className='albumList'>
         {album}
-        <AlbumListAssets />
       </div>
       <div id='albumSites'>
         <span onClick={() => handlePaginationArrowClick(-1)}>{'<'}</span>

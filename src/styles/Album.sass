@@ -1,27 +1,82 @@
 @import "./sass-variables.sass"
 
+@keyframes spinVinyl
+    from
+        transform: rotate(0deg)
+    to
+        transform: rotate(360deg)
+
+.vinyl-record-spin
+    animation: spinVinyl 3s linear infinite
+
+.albumContainer
+    box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.08)
+    width: 100%
+    max-width: 1200px
+    margin-top: 45px
+    background-color: rgba($clight, 0.8)
+    @media(max-width: 650px)
+        margin-top: 25px
+    .albumDetails
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 20px
+        @media(min-width: 768px)
+            flex-direction: row
+            align-items: flex-start
+            justify-content: space-between
+        .recordPlayerWrapper
+            width: 220px
+            height: 200px
+            flex-shrink: 0
+            @media(min-width: 768px)
+                width: 440px
+                height: 400px
+    .tracklistContainer
+        ul
+            padding-left: 150px
+            padding-bottom: 40px
+            display: flex
+            flex-direction: column
+            gap: 8px
+            @media(max-width: 1100px)
+                padding-left: 10px
+            .song
+                width: 100%
+                max-width: 300px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                color: $cthird
+                button
+                    margin-left: 10px
+                    cursor: pointer
+                    background: transparent
+                    border: none
+                    font-size: 16px
+                    color: $clight
+                    background: $cthird
+                    height: 30px
+                    width: 30px
+
 div.album
     position: relative
     display: flex
     justify-content: space-between
     align-items: center
-    width: 100%
-    max-width: 1200px
     height: 170px
     margin: auto
-    margin-top: 45px
     padding: 10px
     padding-right: 0px
-    background-color: rgba($clight, 0.8)
     color: $csecond
     font-size: 20px
-    box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.08)
     transition: 0.1s
     z-index: 10
     cursor: pointer
     &:hover
         background-color: rgba($clight, 1)
-        box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.16)
+        // box-shadow: 5px 5px 10px 0px rgba($cshadow, 0.16)
         a
             background-color: rgba($cthird, 1)
             box-shadow: 5px 5px 10px 0px rgba($cshadow, 0)
@@ -92,7 +147,6 @@ div.album
 
 @media(max-width: 650px)
     div.album
-        margin-top: 25px
         .albumInfoContainer
             margin-left: 0px
             ul
