@@ -48,7 +48,6 @@ const RecordPlayerAsset = ({ cover, isPlaying }) => {
           <circle cx="215" cy="250" r="55" fill="#1E48B1" />
         )}
 
-        <circle cx="215" cy="215" r="5" fill="#FFFFFF" opacity="0.9" />
         <circle cx="215" cy="250" r="50" fill="none" stroke="#FFFFFF" strokeWidth="1" opacity="0.2" />
       </g>
 

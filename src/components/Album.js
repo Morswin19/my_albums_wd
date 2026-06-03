@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../styles/Album.sass";
 import { fetchAlbumTracklist } from "../services/discogsService";
 import { fetchITunesAlbumTracks } from "../services/itunesService";
@@ -89,6 +89,21 @@ const Album = (props) => {
     }
   };
 
+  // Listen for other albums starting playback to pause this one
+  useEffect(() => {
+    const handleGlobalPlay = (e) => {
+      if (playingIndex !== null && e.detail !== audioRef.current) {
+        if (audioRef.current) {
+          audioRef.current.pause();
+        }
+        setPlayingIndex(null);
+      }
+    };
+
+    window.addEventListener("audioPlayed", handleGlobalPlay);
+    return () => window.removeEventListener("audioPlayed", handleGlobalPlay);
+  }, [playingIndex]);
+
   const handlePlayClick = (index, url) => {
     if (!url) return;
 
@@ -96,9 +111,29 @@ const Album = (props) => {
       audioRef.current.pause();
       setPlayingIndex(null);
     } else {
+      window.dispatchEvent(new CustomEvent("audioPlayed", { detail: audioRef.current }));
       audioRef.current.src = url;
       audioRef.current.play();
       setPlayingIndex(index);
+    }
+  };
+
+  const handleTrackEnd = () => {
+    if (playingIndex === null) return;
+
+    // Find the next available song that has an audio preview
+    let nextIndex = playingIndex + 1;
+    while (nextIndex < songs.length && !songs[nextIndex].previewUrl) {
+      nextIndex++;
+    }
+
+    if (nextIndex < songs.length) {
+      window.dispatchEvent(new CustomEvent("audioPlayed", { detail: audioRef.current }));
+      audioRef.current.src = songs[nextIndex].previewUrl;
+      audioRef.current.play();
+      setPlayingIndex(nextIndex);
+    } else {
+      setPlayingIndex(null); // Stop playing if it was the last song
     }
   };
 
@@ -143,6 +178,7 @@ const Album = (props) => {
             handlePlayClick={handlePlayClick}
             audioRef={audioRef}
             setPlayingIndex={setPlayingIndex}
+            handleTrackEnd={handleTrackEnd}
           />
           <div className="recordPlayerWrapper">
             <RecordPlayerAsset cover={props.cover} isPlaying={playingIndex !== null} />

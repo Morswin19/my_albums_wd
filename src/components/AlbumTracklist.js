@@ -7,6 +7,7 @@ const AlbumTracklist = ({
   handlePlayClick,
   audioRef,
   setPlayingIndex,
+  handleTrackEnd,
 }) => {
   return (
     <div
@@ -33,7 +34,7 @@ const AlbumTracklist = ({
           ))}
         </ul>
       )}
-      <audio ref={audioRef} onEnded={() => setPlayingIndex(null)} />
+      <audio ref={audioRef} onEnded={handleTrackEnd} />
     </div>
   );
 };
