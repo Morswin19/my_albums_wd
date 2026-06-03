@@ -39,6 +39,7 @@ const AlbumSlider = ({ albums, search }) => {
       .map(album => (
         <AlbumSliderItem
           key={album.id || albums.indexOf(album)}
+          id={album.id || albums.indexOf(album)}
           artist={album.artist}
           title={album.title}
           year={album.year}
@@ -53,6 +54,7 @@ const AlbumSlider = ({ albums, search }) => {
       .map(album => (
         <AlbumSliderItem
           key={album.id || albums.indexOf(album)}
+          id={album.id || albums.indexOf(album)}
           artist={album.artist}
           title={album.title}
           year={album.year}

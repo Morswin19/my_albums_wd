@@ -3,8 +3,14 @@ import React from 'react';
 import '../styles/AlbumSliderItem.sass'
 
 const AlbumsSliderItem = (props) => {
+    const handleClick = (e) => {
+        if (e.target.closest('a')) return;
+        window.location.hash = `#/album/${props.id}`;
+        window.scrollTo(window.scrollX, 920);
+    };
+
     return (
-        <div className="albumSliderItem">
+        <div className="albumSliderItem" onClick={handleClick} style={{ cursor: 'pointer' }}>
             <div className='img'>
                 <img src={props.cover} alt="" />
             </div>

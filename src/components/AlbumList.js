@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import Album from './Album';
 import DecadeSlider from './DecadeSlider';
@@ -9,6 +10,7 @@ import '../styles/AlbumList.sass';
 export const AlbumList = ({ albums, time }) => {
   const [albumsSite, setAlbumsSite] = useState(1);
   const [randomAlbum, setRandomAlbum] = useState(134);
+  const location = useLocation();
 
   //variables
   let album = []; //list of albums to show
@@ -56,11 +58,18 @@ export const AlbumList = ({ albums, time }) => {
       //filter for each site in the pagination
       .filter(
         (album, index) =>
-          index >= albumsSite * 25 - 25 && index < albumsSite * 25
+          index >= albumsSite * 20 - 20 && index < albumsSite * 20
       );
     filteredAlbumList = albums.length;
   } else if (time === 'today') {
     album = [...albums].filter((album, index) => index === randomAlbum);
+    filteredAlbumList = 1;
+  } else if (time === 'album') {
+    const pathParts = location.pathname.split('/');
+    const albumId = pathParts[pathParts.length - 1];
+    album = [...albums].filter(
+      (a, index) => (a.id && a.id.toString() === albumId) || index.toString() === albumId
+    );
     filteredAlbumList = 1;
   } else {
     album = albums
@@ -69,7 +78,7 @@ export const AlbumList = ({ albums, time }) => {
       //filter for each site in the pagination
       .filter(
         (album, index) =>
-          index >= albumsSite * 25 - 25 && index < albumsSite * 25
+          index >= albumsSite * 20 - 20 && index < albumsSite * 20
       );
     filteredAlbumList = albums.filter(
       album => album.year >= time && album.year < parseInt(time) + 10
@@ -78,17 +87,18 @@ export const AlbumList = ({ albums, time }) => {
 
   album = album.map((album, index) => (
     <Album
-      key={index}
+      key={album.id || index}
       id={album.id}
       artist={album.artist}
       title={album.title}
       year={album.year}
       cover={album.photoLinkSmall}
       rymLink={album.rymLink}
+      autoOpen={time === 'today' || time === 'album'}
     />
   ));
 
-  const albumsSiteListAmount = Math.ceil(filteredAlbumList / 25);
+  const albumsSiteListAmount = Math.ceil(filteredAlbumList / 20);
 
   const drawPagination = () => {
     for (let i = 1; i <= albumsSiteListAmount; i++) {

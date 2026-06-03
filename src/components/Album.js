@@ -6,15 +6,84 @@ import RecordPlayerAsset from "../imageAssets/RecordPlayerAsset";
 import AlbumTracklist from "./AlbumTracklist";
 
 const Album = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(props.autoOpen || false);
   const [songs, setSongs] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [playingIndex, setPlayingIndex] = useState(null);
   const audioRef = useRef(null);
 
+  const loadTracks = async () => {
+    setIsLoading(true);
+    try {
+      // Fetch both Discogs (for exact tracklist) and iTunes (for audio previews) concurrently
+      const [discogsSongs, itunesSongs] = await Promise.all([
+        props.id ? fetchAlbumTracklist(props.id) : Promise.resolve([]),
+        fetchITunesAlbumTracks(props.title, props.artist),
+      ]);
+
+      let mergedSongs = [];
+
+      if (discogsSongs && discogsSongs.length > 0) {
+        // Use Discogs as the base tracklist to avoid deluxe/bonus tracks from iTunes
+        mergedSongs = discogsSongs.map((dTrack, index) => {
+          let preview = null;
+          if (itunesSongs && itunesSongs.length > 0) {
+            const normalize = (s) =>
+              s.toLowerCase().replace(/[^a-z0-9]/g, "");
+            const dTitle = normalize(dTrack.title);
+
+            // 1. Exact match first
+            let match = itunesSongs.find(
+              (iTrack) => normalize(iTrack.title) === dTitle,
+            );
+
+            // 2. Substring match (safeguarded against short strings like "I" matching accidentally)
+            if (!match && dTitle.length > 3) {
+              match = itunesSongs.find((iTrack) => {
+                const iTitle = normalize(iTrack.title);
+                return (
+                  iTitle.length > 3 &&
+                  (iTitle.includes(dTitle) || dTitle.includes(iTitle))
+                );
+              });
+            }
+
+            // 3. Fallback to matching by track index if no name match was found
+            if (!match && index < itunesSongs.length) {
+              match = itunesSongs[index];
+            }
+            preview = match ? match.previewUrl : null;
+          }
+          return { title: dTrack.title, previewUrl: preview };
+        });
+      } else if (itunesSongs && itunesSongs.length > 0) {
+        // Fallback: If Discogs has no tracklist at all, just display the iTunes tracks
+        mergedSongs = itunesSongs;
+      }
+
+      if (mergedSongs.length > 0) {
+        setSongs(mergedSongs);
+      } else {
+        setSongs([{ title: "No tracklist available" }]);
+      }
+    } catch (error) {
+      console.error("Failed to fetch songs:", error);
+      setSongs([{ title: "Failed to load tracklist" }]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (props.autoOpen && songs.length === 0) {
+      loadTracks();
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props.autoOpen]);
+
   const handleAlbumClick = async (e) => {
     // Prevent toggling the tracklist if the user clicks the external link
-    if (e.target.closest("a")) return;
+    if (e && e.target && e.target.closest("a")) return;
 
     const nextIsOpen = !isOpen;
     setIsOpen(nextIsOpen);
@@ -27,65 +96,7 @@ const Album = (props) => {
 
     // Fetch songs only when opening, and only if they haven't been fetched yet
     if (nextIsOpen && songs.length === 0) {
-      setIsLoading(true);
-      try {
-        // Fetch both Discogs (for exact tracklist) and iTunes (for audio previews) concurrently
-        const [discogsSongs, itunesSongs] = await Promise.all([
-          props.id ? fetchAlbumTracklist(props.id) : Promise.resolve([]),
-          fetchITunesAlbumTracks(props.title, props.artist),
-        ]);
-
-        let mergedSongs = [];
-
-        if (discogsSongs && discogsSongs.length > 0) {
-          // Use Discogs as the base tracklist to avoid deluxe/bonus tracks from iTunes
-          mergedSongs = discogsSongs.map((dTrack, index) => {
-            let preview = null;
-            if (itunesSongs && itunesSongs.length > 0) {
-              const normalize = (s) =>
-                s.toLowerCase().replace(/[^a-z0-9]/g, "");
-              const dTitle = normalize(dTrack.title);
-
-              // 1. Exact match first
-              let match = itunesSongs.find(
-                (iTrack) => normalize(iTrack.title) === dTitle,
-              );
-
-              // 2. Substring match (safeguarded against short strings like "I" matching accidentally)
-              if (!match && dTitle.length > 3) {
-                match = itunesSongs.find((iTrack) => {
-                  const iTitle = normalize(iTrack.title);
-                  return (
-                    iTitle.length > 3 &&
-                    (iTitle.includes(dTitle) || dTitle.includes(iTitle))
-                  );
-                });
-              }
-
-              // 3. Fallback to matching by track index if no name match was found
-              if (!match && index < itunesSongs.length) {
-                match = itunesSongs[index];
-              }
-              preview = match ? match.previewUrl : null;
-            }
-            return { title: dTrack.title, previewUrl: preview };
-          });
-        } else if (itunesSongs && itunesSongs.length > 0) {
-          // Fallback: If Discogs has no tracklist at all, just display the iTunes tracks
-          mergedSongs = itunesSongs;
-        }
-
-        if (mergedSongs.length > 0) {
-          setSongs(mergedSongs);
-        } else {
-          setSongs([{ title: "No tracklist available" }]);
-        }
-      } catch (error) {
-        console.error("Failed to fetch songs:", error);
-        setSongs([{ title: "Failed to load tracklist" }]);
-      } finally {
-        setIsLoading(false);
-      }
+      await loadTracks();
     }
   };
 

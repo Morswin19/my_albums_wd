@@ -50,6 +50,9 @@ const App = () => {
               <Route path='/today'>
                 <AlbumList albums={albums} time='today' />
               </Route>
+              <Route path='/album/:id'>
+                <AlbumList albums={albums} time='album' />
+              </Route>
               <Route path='/' exact>
                 <AlbumList albums={albums} time='all' />
               </Route>

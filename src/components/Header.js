@@ -43,7 +43,7 @@ const Header = props => {
             </div>
           </div>
         </form>
-            <AlbumSlider albums={albums} search={search} />
+        <AlbumSlider albums={albums} search={search} />
       </div>
     </div>
   );
