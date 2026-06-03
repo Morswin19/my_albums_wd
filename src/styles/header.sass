@@ -151,10 +151,12 @@
             #sliderArrows
                 position: absolute
                 top: 70px
-                left: -60px
+                left: -80px
                 display: flex
                 justify-content: space-between
-                width: 600px
+                width: 640px
+                @media(max-width: 650px)
+                    display: none
                 .sliderArrow
                     color: rgba($cfifth, 0.48)
                     font-size: 60px

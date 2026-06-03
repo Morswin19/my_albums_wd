@@ -27,38 +27,43 @@
             align-items: flex-start
             justify-content: space-between
         .recordPlayerWrapper
-            width: 220px
-            height: 200px
+            width: full
+            height: auto
+            aspect-ratio: 11/10
             flex-shrink: 0
+            flex-grow: 1
             @media(min-width: 768px)
                 width: 440px
                 height: 400px
-    .tracklistContainer
-        ul
-            padding-left: 150px
-            padding-bottom: 40px
-            display: flex
-            flex-direction: column
-            gap: 8px
-            @media(max-width: 1100px)
-                padding-left: 10px
-            .song
-                width: 100%
-                max-width: 300px
+            @media(min-width: 1100px)
+                width: 550px
+                height: 500px
+        .tracklistContainer
+            ul
+                padding-left: 150px
+                padding-bottom: 40px
                 display: flex
-                justify-content: space-between
-                align-items: center
-                color: $cthird
-                button
-                    margin-left: 10px
-                    cursor: pointer
-                    background: transparent
-                    border: none
-                    font-size: 16px
-                    color: $clight
-                    background: $cthird
-                    height: 30px
-                    width: 30px
+                flex-direction: column
+                gap: 8px
+                @media(max-width: 1100px)
+                    padding-left: 10px
+                .song
+                    width: 100%
+                    max-width: 300px
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    color: $cthird
+                    button
+                        margin-left: 10px
+                        cursor: pointer
+                        background: transparent
+                        border: none
+                        font-size: 16px
+                        color: $clight
+                        background: $cthird
+                        height: 30px
+                        width: 30px
 
 div.album
     position: relative
