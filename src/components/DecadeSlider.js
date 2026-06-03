@@ -66,12 +66,14 @@ const DecadeSlider = ({ timeArray }) => {
             <div id="activeContainer">
                 <div></div>
             </div>
-            <div id="decadeArrows">
+            <div id="decadeArrowLeft">
                 {activeNumber > 0 ? (
                     <span>
                         <NavLink to={decadeLeftLink} exact={decadeLeftLink === '/'}>{'<'}</NavLink>
                     </span>
                 ) : <span></span>}
+            </div>
+            <div id="decadeArrowRight">
                 {activeNumber < timeArray.length - 1 ? (
                     <span>
                         <NavLink to={decadeRightLink} exact={decadeRightLink === '/'}>{'>'}</NavLink>
