@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/AlbumSliderItem.sass'
+import '../styles/AlbumSliderItem.css'
 
 const AlbumsSliderItem = (props) => {
     const handleClick = (e) => {

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import AlbumSlider from './AlbumSlider';
 
-import '../styles/header.sass';
+import '../styles/header.css';
 import HeaderAssets from '../imageAssets/HeaderAssets';
 
 const Header = props => {

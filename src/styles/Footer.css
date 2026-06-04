@@ -1,0 +1,37 @@
+.follow {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color: #003399;
+    font-size: 15px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.follow div {
+    width: 300px;
+}
+.follow div img {
+    width: 50px;
+    margin-bottom: 10px;
+    opacity: 0.85;
+}
+.follow div img:hover {
+    opacity: 1;
+}
+
+@media (max-width: 700px) {
+    .follow {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        color: #003399;
+    }
+    .follow h3 {
+        font-size: 12px;
+    }
+    .follow img {
+        width: 30px;
+    }
+}

@@ -1,0 +1,23 @@
+:root {
+    /* Standard Hex Colors */
+    --cmain: #DFF0FF;
+    --csecond: #F35953;
+    --cthird: #1E48B1;
+    --clight: #FFFFFF;
+    --cfourth: #6BA8EC;
+    --cfifth: #F6F6F6;
+    --cshadow: #0435A7;
+    --csix: #6BB0EC;
+    --cborder: #ECD76B;
+    
+    /* RGB equivalents to support rgba(var(--name-rgb), alpha) transparency */
+    --cmain-rgb: 223, 240, 255;
+    --csecond-rgb: 243, 89, 83;
+    --cthird-rgb: 30, 72, 177;
+    --clight-rgb: 255, 255, 255;
+    --cfourth-rgb: 107, 168, 236;
+    --cfifth-rgb: 246, 246, 246;
+    --cshadow-rgb: 4, 53, 167;
+    --csix-rgb: 107, 176, 236;
+    --cborder-rgb: 236, 215, 107;
+}

@@ -1,0 +1,133 @@
+@import "./css-variables.css";
+
+.albumList {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    z-index: 2;
+}
+.albumList .blob, .albumList .wave, .albumList .wave2 {
+    position: absolute;
+}
+.albumList #blob5 {
+    top: 120px;
+    right: -500px;
+}
+.albumList #albumListWave1 {
+    top: -150px;
+    left: -200px;
+    z-index: -10;
+}
+.albumList #albumListWave2 {
+    top: 235px;
+    left: 70px;
+}
+.albumList #albumListWave3 {
+    top: 380px;
+    left: -280px;
+}
+.info {
+    color: #003399;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    min-width: 300px;
+    margin: 0 70px 20px 70px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+.info a.active {
+    color: #3399FF;
+}
+.search {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+}
+.search span {
+    border: 0;
+    background-color: white;
+    color: #003399;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.search span:hover {
+    color: #3399FF;
+}
+#albumSites {
+    position: relative;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 45px;
+    z-index: 5;
+}
+#albumSites span {
+    transform: translateY(-5px);
+    margin: 0 25px;
+    color: rgba(var(--cfifth-rgb), 0.48);
+    font-size: 60px;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cfourth);
+    cursor: pointer;
+}
+#albumSites span:hover {
+    color: var(--clight);
+}
+#albumSites ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#albumSites ul li {
+    margin: 0 25px;
+    color: rgba(var(--csix-rgb), 0.5);
+    font-size: 24px;
+    cursor: pointer;
+}
+#albumSites ul li:hover {
+    color: rgba(var(--csix-rgb), 1);
+}
+#albumSites ul .active {
+    cursor: default;
+    pointer-events: none;
+    color: rgba(var(--csix-rgb), 1);
+}
+
+@media(max-width: 1100px) {
+    #albumSites ul li {
+        margin: 0 15px;
+    }
+}
+@media(max-width: 650px) {
+    .albumList {
+        margin-top: 30px;
+    }
+    #albumSites {
+        justify-content: center;
+        width: 90%;
+        margin-left: 20px;
+    }
+    #albumSites span {
+        margin: 0 10px;
+        font-size: 40px;
+    }
+    #albumSites ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #albumSites ul li {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+}

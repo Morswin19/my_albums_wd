@@ -1,0 +1,9 @@
+@import "./css-variables.css";
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cmain);
+    overflow: hidden;
+}

@@ -5,7 +5,7 @@ import Album from './Album';
 import DecadeSlider from './DecadeSlider';
 import RandomSection from './RandomSection';
 
-import '../styles/AlbumList.sass';
+import '../styles/AlbumList.css';
 
 export const AlbumList = ({ albums, time }) => {
   const [albumsSite, setAlbumsSite] = useState(1);

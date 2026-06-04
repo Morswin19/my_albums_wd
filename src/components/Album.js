@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import "../styles/Album.sass";
+import "../styles/Album.css";
 import { fetchAlbumTracklist } from "../services/discogsService";
 import { fetchITunesAlbumTracks } from "../services/itunesService";
 import RecordPlayerAsset from "../imageAssets/RecordPlayerAsset";

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
-import '../styles/DecadeSlider.sass';
+import '../styles/DecadeSlider.css';
 
 const DecadeSlider = ({ timeArray }) => {
     const location = useLocation();

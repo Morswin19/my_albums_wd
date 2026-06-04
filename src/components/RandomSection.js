@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import RandomSectionAssets from '../imageAssets/RandomSectionAssets';
 
-import '../styles/RandomSection.sass';
+import '../styles/RandomSection.css';
 
 const RandomSection = props => {
   return (

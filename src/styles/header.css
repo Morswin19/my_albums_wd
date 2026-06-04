@@ -1,0 +1,258 @@
+@import "./css-variables.css";
+
+#header {
+    display: flex;
+}
+#header #headerImageContainer {
+    position: relative;
+    width: 50vw;
+}
+#header #headerImageContainer .blob {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    z-index: 1;
+}
+#header #headerImageContainer #play {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    z-index: 2;
+}
+#header #headerImageContainer .wave {
+    position: absolute;
+    z-index: 3;
+}
+#header #headerImageContainer #wave1 {
+    top: 230px;
+    right: 20px;
+}
+#header #headerImageContainer #wave2 {
+    top: 320px;
+    right: 110px;
+}
+#header #headerImageContainer #wave3 {
+    top: 40px;
+    right: -700px;
+}
+#header #headerImageContainer #wave4 {
+    top: 10px;
+    right: -830px;
+}
+
+#header #headerTextContainer {
+    width: 50vw;
+    z-index: 5;
+}
+#header #headerTextContainer .naviList {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0;
+}
+#header #headerTextContainer .naviList li {
+    margin-right: 30px;
+}
+#header #headerTextContainer .naviList li a {
+    color: rgba(var(--cfourth-rgb), 0.3);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cthird);
+}
+#header #headerTextContainer .naviList li a:hover {
+    color: var(--cthird);
+}
+#header #headerTextContainer .naviList li .active {
+    color: var(--cthird);
+}
+#header #headerTextContainer .naviList li:first-child {
+    min-width: 75px;
+    margin-right: 48px;
+}
+
+#header #headerTextContainer h1 {
+    margin: 0px;
+    margin-top: 50px;
+    color: var(--csecond);
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 78px;
+}
+#header #headerTextContainer h2 {
+    margin: 0px;
+    margin-top: 10px;
+    color: var(--cthird);
+    font-size: 28px;
+    font-weight: 300;
+}
+#header #headerTextContainer form {
+    position: relative;
+    width: 479px;
+    height: 39px;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    background: rgba(var(--clight-rgb), 0.21);
+    border: 1px solid rgba(var(--cfourth-rgb), 0.21);
+    border-radius: 0;
+    box-shadow: 5px 10px 10px rgba(var(--cshadow-rgb), 0.06);
+}
+#header #headerTextContainer form input {
+    width: 440px;
+    height: 39px;
+    padding-left: 20px;
+    border: none;
+    background: none;
+    color: var(--cthird);
+    outline: none;
+}
+#header #headerTextContainer form input:focus {
+    outline: none !important;
+    border: 1px solid var(--cthird);
+}
+#header #headerTextContainer form input::placeholder {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgba(var(--cfourth-rgb), 0.41);
+    font-size: 20px;
+    font-weight: 200;
+}
+#header #headerTextContainer form > div {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    background: var(--cthird);
+    box-shadow: 5px 10px 10px rgba(var(--cshadow-rgb), 0.06);
+}
+#header #headerTextContainer form > div > div {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    width: 17.59px;
+    height: 17.59px;
+    background-color: var(--clight);
+    border-radius: 50%;
+}
+#header #headerTextContainer form > div > div > div {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    transform: rotate(125deg);
+    width: 5.41px;
+    height: 12.18px;
+    background-color: var(--clight);
+}
+#header #headerTextContainer #albumSliderContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+#header #headerTextContainer #albumSliderContainer #albumSliderItemsContainer {
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 280px;
+    z-index: 10;
+}
+#header #headerTextContainer #albumSliderContainer #albumSliderItemsContainer #albumSliderItems {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    top: 10px;
+    left: -40px;
+    width: 550px;
+    height: 280px;
+}
+#header #headerTextContainer #albumSliderContainer #albumSliderItemsContainer #albumSliderItems #items {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+#header #headerTextContainer #albumSliderContainer #sliderArrows {
+    position: absolute;
+    top: 70px;
+    left: -80px;
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+}
+@media(max-width: 650px) {
+    #header #headerTextContainer #albumSliderContainer #sliderArrows {
+        display: none;
+    }
+}
+#header #headerTextContainer #albumSliderContainer #sliderArrows .sliderArrow {
+    color: rgba(var(--cfifth-rgb), 0.48);
+    font-size: 60px;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cfourth);
+    line-height: 87px;
+    cursor: pointer;
+}
+#header #headerTextContainer #albumSliderContainer #sliderArrows .sliderArrow:hover {
+    color: var(--clight);
+}
+
+@media(max-width: 1100px) {
+    #header {
+        justify-content: center;
+    }
+    #header #headerImageContainer {
+        width: 0vw;
+    }
+    #header #headerImageContainer #play {
+        top: -90px;
+        right: -750px;
+        transform: scale(0.3);
+    }
+    #header #headerTextContainer {
+        width: 550px;
+    }
+    #header #headerTextContainer form {
+        width: 95%;
+    }
+    #header #headerTextContainer form label {
+        width: calc(100% - 39px);
+    }
+    #header #headerTextContainer form label input {
+        width: calc(100%);
+    }
+    #header #headerTextContainer #albumSliderContainer {
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 650px) {
+    #header #headerImageContainer #play {
+        top: -120px;
+        right: -660px;
+        transform: scale(0.25);
+    }
+    #header #headerTextContainer {
+        width: 300px;
+    }
+    #header #headerTextContainer .naviList {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    #header #headerTextContainer h1 {
+        margin-top: 40px;
+        font-size: 70px;
+    }
+    #header #headerTextContainer h2 {
+        font-size: 24px;
+    }
+    #header #headerTextContainer #albumSliderContainer {
+        margin-top: 30px;
+    }
+    #header #headerTextContainer #albumSliderContainer #sliderArrows {
+        left: -40px;
+        width: 280px;
+    }
+}
