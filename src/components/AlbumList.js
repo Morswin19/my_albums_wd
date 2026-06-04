@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-import Album from './Album';
-import DecadeSlider from './DecadeSlider';
-import RandomSection from './RandomSection';
+import Album from "./Album";
+import DecadeSlider from "./DecadeSlider";
+import RandomSection from "./RandomSection";
 
-import '../styles/AlbumList.css';
+import "../styles/AlbumList.css";
+import { sortAlbumsByArtist } from "../utils/sortUtils";
 
 export const AlbumList = ({ albums, time }) => {
   const [albumsSite, setAlbumsSite] = useState(1);
@@ -13,13 +14,22 @@ export const AlbumList = ({ albums, time }) => {
   const location = useLocation();
 
   //variables
-  let album = []; //list of albums to show
+  let albumsArray = []; //list of albums to show
   let filteredAlbumList = []; //amount of albums to show
   let albumSiteList = []; //array of pagination
   let visibleAlbumSiteList = []; //array of visible pagination <li>
 
   //array of decades for DecadeSlider component
-  const timeLine = ['60s', '70s', '80s', 'show all', '90s', '00s', '10s', '20s'];
+  const timeLine = [
+    "60s",
+    "70s",
+    "80s",
+    "show all",
+    "90s",
+    "00s",
+    "10s",
+    "20s",
+  ];
 
   ////functions
   //function for choose random album to listen
@@ -29,14 +39,14 @@ export const AlbumList = ({ albums, time }) => {
   };
 
   //function to change site of pagination
-  const handlePaginationClick = e => {
+  const handlePaginationClick = (e) => {
     window.scrollTo(window.scrollX, 920);
     setAlbumsSite(parseInt(e.target.innerHTML));
-    drawPagination()
+    drawPagination();
   };
 
   //function after arrow click in pagination, next site or earlier site
-  const handlePaginationArrowClick = a => {
+  const handlePaginationArrowClick = (a) => {
     if (albumsSite > 1 && a === -1) {
       setAlbumsSite(albumsSite + a);
       window.scrollTo(window.scrollX, 920);
@@ -53,39 +63,40 @@ export const AlbumList = ({ albums, time }) => {
   };
 
   //if statement to choose albums to show based on time prop
-  if (time === 'all') {
-    album = [...albums]
+  if (time === "all") {
+    albumsArray = [...albums]
       //filter for each site in the pagination
       .filter(
         (album, index) =>
-          index >= albumsSite * 20 - 20 && index < albumsSite * 20
+          index >= albumsSite * 20 - 20 && index < albumsSite * 20,
       );
     filteredAlbumList = albums.length;
-  } else if (time === 'today') {
-    album = [...albums].filter((album, index) => index === randomAlbum);
+  } else if (time === "today") {
+    albumsArray = [...albums].filter((album, index) => index === randomAlbum);
     filteredAlbumList = 1;
-  } else if (time === 'album') {
-    const pathParts = location.pathname.split('/');
+  } else if (time === "album") {
+    const pathParts = location.pathname.split("/");
     const albumId = pathParts[pathParts.length - 1];
-    album = [...albums].filter(
-      (a, index) => (a.id && a.id.toString() === albumId) || index.toString() === albumId
+    albumsArray = [...albums].filter(
+      (a, index) =>
+        (a.id && a.id.toString() === albumId) || index.toString() === albumId,
     );
     filteredAlbumList = 1;
   } else {
-    album = albums
+    albumsArray = albums
       //filter for decade to show
-      .filter(album => album.year >= time && album.year < parseInt(time) + 10)
+      .filter((album) => album.year >= time && album.year < parseInt(time) + 10)
       //filter for each site in the pagination
       .filter(
         (album, index) =>
-          index >= albumsSite * 20 - 20 && index < albumsSite * 20
+          index >= albumsSite * 20 - 20 && index < albumsSite * 20,
       );
     filteredAlbumList = albums.filter(
-      album => album.year >= time && album.year < parseInt(time) + 10
+      (album) => album.year >= time && album.year < parseInt(time) + 10,
     ).length;
   }
 
-  album = album.map((album, index) => (
+  const albumsItems = sortAlbumsByArtist(albumsArray).map((album, index) => (
     <Album
       key={album.id || index}
       id={album.id}
@@ -94,7 +105,7 @@ export const AlbumList = ({ albums, time }) => {
       year={album.year}
       cover={album.photoLinkSmall}
       rymLink={album.rymLink}
-      autoOpen={time === 'today' || time === 'album'}
+      autoOpen={time === "today" || time === "album"}
     />
   ));
 
@@ -106,17 +117,17 @@ export const AlbumList = ({ albums, time }) => {
     }
 
     visibleAlbumSiteList = albumSiteList
-      .filter(item => (item > albumsSite - 4) && (item < albumsSite + 4))
-      .map(item => (
+      .filter((item) => item > albumsSite - 4 && item < albumsSite + 4)
+      .map((item) => (
         <li
           key={item}
-          className={item === albumsSite ? 'active' : ''}
+          className={item === albumsSite ? "active" : ""}
           onClick={handlePaginationClick}
         >
           {item}
         </li>
       ));
-    }
+  };
 
   drawPagination();
 
@@ -127,13 +138,13 @@ export const AlbumList = ({ albums, time }) => {
   return (
     <div>
       <DecadeSlider timeArray={timeLine} />
-      <div id='albumList' className='albumList'>
-        {album}
+      <div id="albumList" className="albumList">
+        {albumsItems}
       </div>
-      <div id='albumSites'>
-        <span onClick={() => handlePaginationArrowClick(-1)}>{'<'}</span>
+      <div id="albumSites">
+        <span onClick={() => handlePaginationArrowClick(-1)}>{"<"}</span>
         <ul>{visibleAlbumSiteList}</ul>
-        <span onClick={() => handlePaginationArrowClick(1)}>{'>'}</span>
+        <span onClick={() => handlePaginationArrowClick(1)}>{">"}</span>
       </div>
       <RandomSection btnClickFunc={handleRandomButtonClick} />
     </div>

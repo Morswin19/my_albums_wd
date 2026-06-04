@@ -1,16 +1,19 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import AlbumSliderItem from './AlbumSliderItem';
+import React, { useState, useEffect, useMemo } from "react";
+import AlbumSliderItem from "./AlbumSliderItem";
+import { sortAlbumsByArtist } from "../utils/sortUtils";
 
 const AlbumSlider = ({ albums, search }) => {
   const [sliderShift, setSliderShift] = useState(0);
   const [touchStartX, setTouchStartX] = useState(null);
   const [dragShift, setDragShift] = useState(0);
 
+  const sortedAlbums = sortAlbumsByArtist(albums);
+
   const random = useMemo(() => {
-    if (!albums || albums.length === 0) return 0;
-    const maxStartIndex = Math.max(0, albums.length - 2 );
+    if (!sortedAlbums || sortedAlbums.length === 0) return 0;
+    const maxStartIndex = Math.max(0, sortedAlbums.length - 2);
     return Math.floor(Math.random() * (maxStartIndex + 1));
-  }, [albums.length]);
+  }, [sortedAlbums.length]);
 
   // Set slider position to 0 during a search, otherwise jump to the random starting album
   useEffect(() => {
@@ -19,19 +22,20 @@ const AlbumSlider = ({ albums, search }) => {
 
   let albumsArray = [];
   let amount;
-  
+
   if (search) {
-    albumsArray = albums
+    albumsArray = sortedAlbums
+      .map((album, index) => ({ ...album, originalIndex: index }))
       .filter(
-        album =>
+        (album) =>
           album.artist.toLowerCase().includes(search.toLowerCase()) ||
           album.title.toLowerCase().includes(search.toLowerCase()) ||
-          album.year.toLowerCase().includes(search.toLowerCase())
+          album.year.toLowerCase().includes(search.toLowerCase()),
       )
-      .map(album => (
+      .map((album) => (
         <AlbumSliderItem
-          key={album.id || albums.indexOf(album)}
-          id={album.id || albums.indexOf(album)}
+          key={album.id || album.originalIndex}
+          id={album.id || album.originalIndex}
           artist={album.artist}
           title={album.title}
           year={album.year}
@@ -41,18 +45,17 @@ const AlbumSlider = ({ albums, search }) => {
       ));
     amount = albumsArray.length;
   } else {
-    albumsArray = albums
-      .map(album => (
-        <AlbumSliderItem
-          key={album.id || albums.indexOf(album)}
-          id={album.id || albums.indexOf(album)}
-          artist={album.artist}
-          title={album.title}
-          year={album.year}
-          cover={album.photoLinkBig ? album.photoLinkBig : album.photoLinkSmall}
-          rymLink={album.rymLink}
-        />
-      ));
+    albumsArray = sortedAlbums.map((album, index) => (
+      <AlbumSliderItem
+        key={album.id || index}
+        id={album.id || index}
+        artist={album.artist}
+        title={album.title}
+        year={album.year}
+        cover={album.photoLinkBig ? album.photoLinkBig : album.photoLinkSmall}
+        rymLink={album.rymLink}
+      />
+    ));
     amount = albumsArray.length;
   }
 
@@ -65,15 +68,15 @@ const AlbumSlider = ({ albums, search }) => {
     if (sliderShift > maxShift) setSliderShift(sliderShift - 285);
   };
 
-  const handleSliderArrowClick = e => {
-    e.target.innerText === '<' ? slideLeft() : slideRight();
+  const handleSliderArrowClick = (e) => {
+    e.target.innerText === "<" ? slideLeft() : slideRight();
   };
 
-  const handleTouchStart = e => {
+  const handleTouchStart = (e) => {
     setTouchStartX(e.touches[0].clientX);
   };
 
-  const handleTouchMove = e => {
+  const handleTouchMove = (e) => {
     if (touchStartX !== null) {
       setDragShift(e.touches[0].clientX - touchStartX);
     }
@@ -88,23 +91,39 @@ const AlbumSlider = ({ albums, search }) => {
   };
 
   return (
-    <div id='albumSliderContainer'>
-      <div 
-        id='albumSliderItemsContainer'
+    <div id="albumSliderContainer">
+      <div
+        id="albumSliderItemsContainer"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
-        style={{ touchAction: 'pan-y' }}
+        style={{ touchAction: "pan-y" }}
       >
-        <div id='albumSliderItems'>
-          <div id='items' style={{ transform: `translateX(${sliderShift + dragShift}px)`, transition: touchStartX !== null ? 'none' : '0.5s ease-in-out' }}>
+        <div id="albumSliderItems">
+          <div
+            id="items"
+            style={{
+              transform: `translateX(${sliderShift + dragShift}px)`,
+              transition: touchStartX !== null ? "none" : "0.5s ease-in-out",
+            }}
+          >
             {albumsArray}
           </div>
         </div>
       </div>
-      <div className={amount} id='sliderArrows'>
-        <span className='sliderArrow' onClick={e => handleSliderArrowClick(e)}>{'<'}</span>
-        <span className='sliderArrow' onClick={e => handleSliderArrowClick(e)}>{'>'}</span>
+      <div className={amount} id="sliderArrows">
+        <span
+          className="sliderArrow"
+          onClick={(e) => handleSliderArrowClick(e)}
+        >
+          {"<"}
+        </span>
+        <span
+          className="sliderArrow"
+          onClick={(e) => handleSliderArrowClick(e)}
+        >
+          {">"}
+        </span>
       </div>
     </div>
   );
