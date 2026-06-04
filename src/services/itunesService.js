@@ -1,4 +1,31 @@
 export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
+  const fetchWithProxy = async (url) => {
+    // Add a cache-busting parameter to prevent the iTunes CDN from serving 
+    // cached CORS headers tied to previous origins (like localhost:3000)
+    const separator = url.includes('?') ? '&' : '?';
+    const cacheBustedUrl = `${url}${separator}_=${Date.now()}`;
+
+    try {
+      const response = await fetch(cacheBustedUrl);
+      if (response.ok) return response;
+      throw new Error('Direct fetch failed');
+    } catch (error) {
+      try {
+        // allorigins.win frequently drops CORS headers on errors/rate-limits.
+        // corsproxy.io is a more reliable alternative and returns the direct response.
+        const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+        const proxyResponse = await fetch(proxyUrl);
+        if (proxyResponse.ok) return proxyResponse;
+      } catch (proxyError) {
+        console.warn('Proxy fetch also failed:', proxyError);
+      }
+      
+      // Return an empty structure if both direct and proxy fail, 
+      // so we don't break the album matching loop.
+      return { json: async () => ({ results: [] }) };
+    }
+  };
+
   try {
     // 1. Search for the album using title and artist
     // Discogs often adds "(Remastered)" or "[Bonus Tracks]" to titles, which breaks exact iTunes matches.
@@ -48,7 +75,7 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
         if (!hasWordMatch) continue;
 
         const tracksUrl = `https://itunes.apple.com/lookup?id=${albumId}&entity=song`;
-        const tracksResponse = await fetch(tracksUrl);
+        const tracksResponse = await fetchWithProxy(tracksUrl);
         const tracksData = await tracksResponse.json();
         
         const tracks = tracksData.results.filter(item => item.wrapperType === 'track');
@@ -59,7 +86,7 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
 
     // 1. Initial Search
     let searchQuery = formatQuery(`${cleanTitle} ${artistName}`);
-    let searchResponse = await fetch(`https://itunes.apple.com/search?term=${searchQuery}&entity=album&limit=25`);
+    let searchResponse = await fetchWithProxy(`https://itunes.apple.com/search?term=${searchQuery}&entity=album&limit=25`);
     let searchData = await searchResponse.json();
     let tracks = await getTracksFromResults(searchData.results);
     
@@ -67,7 +94,7 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
     if (!tracks) {
       const alphaTitle = cleanTitle.replace(/[^a-zA-Z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
       const alphaQuery = formatQuery(`${alphaTitle} ${artistName}`);
-      searchResponse = await fetch(`https://itunes.apple.com/search?term=${alphaQuery}&entity=album&limit=25`);
+      searchResponse = await fetchWithProxy(`https://itunes.apple.com/search?term=${alphaQuery}&entity=album&limit=25`);
       searchData = await searchResponse.json();
       tracks = await getTracksFromResults(searchData.results);
     }
@@ -77,7 +104,7 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
       const firstWordOfTitle = cleanTitle.split(/[^a-zA-Z0-9]/)[0];
       if (firstWordOfTitle.length > 1) {
         const fallbackQuery = formatQuery(`${firstWordOfTitle} ${artistName}`);
-        searchResponse = await fetch(`https://itunes.apple.com/search?term=${fallbackQuery}&entity=album&limit=25`);
+        searchResponse = await fetchWithProxy(`https://itunes.apple.com/search?term=${fallbackQuery}&entity=album&limit=25`);
         searchData = await searchResponse.json();
         tracks = await getTracksFromResults(searchData.results);
       }
@@ -86,7 +113,7 @@ export const fetchITunesAlbumTracks = async (albumTitle, artistName) => {
     // 4. Fallback 3: Song Search
     if (!tracks) {
       const songQuery = formatQuery(`${cleanTitle} ${artistName}`);
-      searchResponse = await fetch(`https://itunes.apple.com/search?term=${songQuery}&entity=song&limit=15`);
+      searchResponse = await fetchWithProxy(`https://itunes.apple.com/search?term=${songQuery}&entity=song&limit=15`);
       searchData = await searchResponse.json();
       tracks = await getTracksFromResults(searchData.results);
     }

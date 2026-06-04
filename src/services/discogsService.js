@@ -32,8 +32,6 @@ export const fetchDiscogsCollection = async () => {
 
     const data = await response.json();
 
-    console.log(data)
-    
     // Map the Discogs release array concurrently for faster loading.
     const mappedReleases = await Promise.all(
       data.releases.map(async (item) => {
