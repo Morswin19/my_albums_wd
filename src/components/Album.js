@@ -174,7 +174,7 @@ const Album = (props) => {
             </li>
           </ul>
         </div>
-        <a href={props.rymLink} target="_blank" rel="noopener noreferrer">
+        <a href={`https://www.discogs.com/release/${props.id}`} target="_blank" rel="noopener noreferrer">
           <div></div>
         </a>
 
